@@ -1,0 +1,209 @@
+.article-about {
+    position: relative;
+    background: url(../../public/media/Group\ 40.png);
+    background-size:400px;
+    background-attachment: fixed;
+    
+}
+
+.article-about::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+
+}
+
+.article-about::after {
+    content: "";
+    position: absolute;
+    top:50px;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(129, 8, 221, 0.712) 0%, rgb(197, 197, 197) 60%);
+    
+}
+
+.row-about{
+    width: auto;
+    height: 560px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.div-about{
+    backdrop-filter: blur(15px);
+    width: 500px;
+    height: 300px;
+    font-size: 20px;
+    color: rgb(222, 222, 222);
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-top: 150px;
+    transition: 1.4s;
+    transform: translateY(0);
+    z-index: 19434579;
+    
+  }
+html.is-animating .div-about{
+    opacity: 1;
+    transform: translateY(-40px);
+    
+}
+
+.text-about{
+    text-align: center;
+    line-height: 2em;
+    transform: translateY(0);
+    transition: 2s;
+    background-image: url(../../public/media/);
+     z-index: 19434579;
+     color: rgb(0, 0, 0);
+}
+
+html.is-animating .text-about{
+    opacity: 1;
+    transform: translateY(-40px);
+   
+}.contain-img{
+    background-image: url(../../public/media/Ellipse\ 15.png);
+    background-size: 470px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+    
+  }
+
+  .bn30, .bn32{
+    margin-left: 50px;
+    margin-top: 7px;
+
+    opacity: 1;
+    transition: 1.4s;
+  }
+
+  .btn30{
+    opacity: 1;
+    transition: 1.4s;
+  }
+
+  .btn32{
+    opacity: 1;
+    transition: 1s;
+  }
+
+  html.is-animating .bn30{
+    opacity: -10;
+    transform: translateX(100px);
+}
+
+  html.is-animating .bn32{
+    opacity: -10;
+    transform: translateX(190px);
+}
+
+
+  
+  .bn31, .bn33{
+    margin-right: 50px;
+    margin-top: 7px;
+    opacity: 1;
+    transition: 1.4s;
+  }
+
+  .btn31{
+    opacity: 1;
+    transition: 1.4s;
+  }
+
+  .btn33{
+    opacity: 1;
+    transition: 1s;
+  }
+
+  html.is-animating .bn31{
+    opacity: -10;
+    transform: translateX(-100px);
+}
+
+  html.is-animating .bn33{
+    opacity: -10;
+    transform: translateX(-190px);
+}
+
+
+  .bn30, .bn31, .bn32, .bn33  {
+    width: 250px;
+    height: 80px;
+    border: 8em;
+    cursor: pointer;
+    outline: none;
+    font-size: 26px;
+    font-weight: 100;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    background-image: linear-gradient(66deg, rgba(50, 3, 126, 0.97) 17%, rgb(73, 8, 158) 49%, rgb(94, 32, 155) 69%, rgb(101, 45, 157) 96%);
+    padding: 0.7em 1em;
+    border-radius: 65px;
+    color: white;
+    transition: 2s;
+  }
+  
+  .bn30 .text, .bn31 .text, .bn32 .text, .bn33 .text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(66deg, rgb(55, 47, 141) 17%, rgba(119,55,203,1) 49%, rgb(127, 39, 214) 69%, rgb(126, 66, 185) 96%);  
+    transition: 2s;
+  }
+  
+  .bn30:before , .bn31:before, .bn32:before, .bn33:before{
+    content: "";
+    border-radius: 50px;
+    position: absolute;
+    margin: 4px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-color: rgb(197, 197, 197);  
+    background: url(../../public/media/Group\ 38.png);
+
+  }
+  
+  .bn30:after, .bn31:after, .bn32:after, .bn33:after {
+    content: "";
+    border-radius: 50px;
+    position: absolute;
+    margin: 4px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: url(../../public/media/Group\ 40.png);
+    background-size:200px;
+
+  }
+  
+.bn30:hover, .bn31:hover, .bn32:hover, .bn33:hover {
+ background-image: linear-gradient(66deg, rgb(73, 59, 222) 17%, rgba(119,55,203,1) 49%, rgba(161,69,252,1) 69%, rgb(136, 42, 230) 96%);    box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
+  /* background: url(../../public/media/Frame\ 2.png); */
+   /*  background-size:800px; */
+   transition: 2s;
+  }
+  
+  

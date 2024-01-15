@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    background-color: rgb(197, 197, 197);
+  color: rgb(0, 0, 0);
+  font-family: 'Panchang'; 
+}
+
+.transition-fade{
+    
+    opacity: 12;
+    transition: 1s;
+    /* transform: translateY(0);
+    transform-origin: right;  */
+    
+}
+
+html.is-animating .transition-fade{
+    
+    opacity: 0;
+    /* transform: translateY(100%); */
+}
+ 

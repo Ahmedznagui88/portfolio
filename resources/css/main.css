@@ -1,0 +1,182 @@
+main{
+   /*  background-color: #EDD8BD; */
+    height: 85vh;
+}
+
+.div-par{
+    text-align: center;
+   /*  border-bottom: solid 0.4px; */
+}
+
+.expertise, .work, .about{
+    color: black;
+    color: whitesmoke;
+    border-radius: 70px;
+    font-size: 99px;   
+   /*  border-bottom: solid 0.4px; */
+    margin-top: 10px;
+    font-family: 'Panchang';    
+    font-weight: 200;
+    transition: 1s;
+    color: rgb(113, 46, 214);
+}
+
+.about{
+    opacity: 1;
+    transition: 1.4s;
+    transform: translateY(0);
+    transform-origin: bottom;
+    color: rgb(113, 46, 214);
+}
+
+
+html.is-animating .about{
+    opacity: 1;
+    transform: translateY(100px);
+}
+
+.expertise{
+    opacity: 1;
+    transition: 1.4s;
+    transform: translateY(0);
+    transform-origin: bottom;
+}
+
+html.is-animating .expertise{
+    opacity: 1;
+    transform: translateY(100px);
+}
+
+.work{
+    opacity: 1;
+    transition: 1.4s;
+    transform: translateY(0);
+    transform-origin: bottom;
+}
+
+html.is-animating .work{
+    opacity: 1;
+    transform: translateY(100px);
+}
+
+.contact{
+    border-radius: 77px;
+    transition: 1.5s;
+    transform: translateY(0);
+    transform-origin: bottom;
+    opacity: 1;
+    font-weight: 200;
+    font-size: 100px;
+  color: whitesmoke;
+    font-family: 'Panchang'!important;    
+    font-weight: 200;
+    color: rgb(113, 46, 214);
+}
+html.is-animating .contact{
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+
+.ref-1 {
+    text-decoration: none;
+
+}
+
+
+@keyframes infiniteHover {
+    0%, 100% {
+        background-image: linear-gradient(to right, #935b5b, #832ebf);
+
+    }
+    50% {
+        background-image: linear-gradient(to right , #ffffff, #606cc3);
+
+    }
+}
+.ref-1 :hover {
+    font-style: italic;
+    text-decoration: none;
+    animation:infinite ; /* Interrompe l'animazione al passaggio del mouse */
+    animation: infiniteHover 3s linear infinite, changeColor 1s linear infinite;
+    transform: scale(0.98);
+    
+}
+
+
+@keyframes changeColor {
+    0% {
+        background-image: url(../../public/media/Frame\ 1.png);
+        background-size: contain;
+    
+    }
+    25% {
+        background-image: linear-gradient(-30deg, #c9e7ea, #6f2ebf );
+        background-size: 300px;
+
+    }
+    55% {
+/*         background-image: linear-gradient(to left,   #2f7e55 15% , #053e2c 40% );*/        
+            background: linear-gradient(to -30deg, #353528, #6c848d, #ffc685, #44617b);
+            background-size: 900px;
+
+    }
+    75% {
+         background: linear-gradient(66deg, #60e6c7, #6b4df0, #7b4adb);
+         background-size: 300px;
+
+    }
+    100% {
+       
+        background-image: url(../../public/media/Frame\ 2.png);
+        background-size: cover;
+
+    }
+}
+.div-opera{
+    background-image: url(../../public/media/opera.png);
+    background-size: cover;
+    background-position: center;
+    
+    z-index: 1;
+}
+
+
+
+@media screen and (min-width: 200px) and (max-width: 765px) {
+
+    main{
+        background-image: url(../../public/media/opera.png);
+    background-size: cover;
+    background-position: bottom;
+    }
+    .expertise, .work, .about, .contact{
+        color: whitesmoke;
+        font-size: 50px;   
+        transition: 1s;
+        background-color: #0000009a;
+        border-radius: 50px;
+        margin-top: 44px;
+    }
+
+    .ref-1 :hover {
+        animation:none ; /* Interrompe l'animazione al passaggio del mouse */
+        animation: none;
+        
+    }
+    
+
+
+}
+
+
+
+
+
+    
+    @media screen and (min-width: 766px)  and (max-width: 999px){
+      
+    
+    
+        
+    }

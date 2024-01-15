@@ -1,0 +1,7 @@
+@import 'outline';
+@import 'bootstrap';
+@import 'navbar';
+@import 'body';
+@import 'main';
+@import 'about';
+@import '@fortawesome/fontawesome-free/css/all.css';

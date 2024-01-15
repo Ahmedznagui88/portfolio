@@ -1,0 +1,101 @@
+nav{
+
+    height: 100px;
+
+}
+
+.main-cont{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+.div-name{
+    width: auto;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+
+
+}
+.name-text{
+    font-size: 70px;
+    font-weight: 400;
+    font-family: 'Panchang';    
+    font-weight: normal;
+
+}
+
+.row-front{
+    display: flex;
+    
+    justify-content: center;
+    width: 540px;
+}
+
+.div-front{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+
+}
+.front-end{
+ font-weight: lighter;
+ font-size: 23px;
+ margin-top: 14px;
+    font-family: 'Panchang';
+}
+
+@media screen and (min-width: 200px) and (max-width: 765px) {
+    nav{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    
+    .main-cont{
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 200px;
+
+    
+    }
+    .div-name{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        
+    }
+    .name-text{
+        font-size: 35px;
+        
+    }
+    
+    .row-front{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .div-front{
+
+        width: 310px;
+        height: 55px;
+    }
+    .front-end{
+     font-weight: lighter;
+     font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 766px)  and (max-width: 999px){
+  
+
+
+    
+}
