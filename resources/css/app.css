@@ -4,4 +4,5 @@
 @import 'body';
 @import 'main';
 @import 'about';
+@import 'expertise';
 @import '@fortawesome/fontawesome-free/css/all.css';
