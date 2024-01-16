@@ -1,7 +1,7 @@
 .scroll-watcher{
  width: 2px;
   position: fixed;
-  top: 44px;
+  top: 154px;
   right: 180px;
   z-index: 1000;
   background-color:rgb(221, 139, 84);
@@ -15,4 +15,54 @@
 
 @keyframes scroll-watcher{
     to {scale: 1 1;}
+}
+
+.cont-expertise{
+  display: flex;
+  justify-content: end;
+  flex-direction: row-reverse;
+  margin-top: 140px;
+}
+
+.row-expertise{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: end;
+  width: 290px;
+}
+
+.div-expertise{
+  text-align: end;
+  margin-right: 44px;
+  margin-top: 77px;
+  color: rgb(221, 139, 84);
+}
+
+.row-expertise-2{
+
+  
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px; 
+
+}
+
+.div-expertise-2{
+  backdrop-filter: blur(15px);
+  border-radius: 30px;
+  background-color:  rgba(221, 139, 84, 0.519);
+  box-sizing: border-box;
+  margin: 10px;
+  width: 600px;
+  height: 200px;
+  z-index: 19434579;
+  color: aliceblue;
+}
+
+
+h5{
+  margin: 30px 30px 15px 16px; /* Aggiunge uno spazio alla destra di ciascuna parola */
+  display: inline-block;
+  font-size: 30px;
+  font-weight: lighter;
 }
