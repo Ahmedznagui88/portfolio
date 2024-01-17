@@ -11,7 +11,7 @@ main{
 .expertise, .work, .about{
     color: black;
     color: whitesmoke;
-    border-radius: 70px;
+    /* border-radius: 70px; */
     font-size: 99px;   
    /*  border-bottom: solid 0.4px; */
     margin-top: 10px;
@@ -38,7 +38,7 @@ html.is-animating .about{
 .expertise{
     color: black;
     color: white;
-    border-radius: 70px;
+    /* border-radius: 70px; */
     font-size: 99px;   
    /*  border-bottom: solid 0.4px; */
     margin-top: 10px;
@@ -69,7 +69,7 @@ html.is-animating .work{
 }
 
 .contact{
-    border-radius: 77px;
+    /* border-radius: 77px; */
     transition: 1.5s;
     transform: translateY(0);
     transform-origin: bottom;
@@ -106,8 +106,8 @@ html.is-animating .contact{
 .ref-1 :hover {
     font-style: italic;
     text-decoration: none;
-    animation:infinite ; /* Interrompe l'animazione al passaggio del mouse */
-    animation: infiniteHover 3s linear infinite, changeColor 1s linear infinite;
+    animation:infinite ;
+    animation: infiniteHover 3s linear infinite, changeColor 3s linear infinite;
     transform: scale(0.98);
     
 }
@@ -143,11 +143,15 @@ html.is-animating .contact{
     }
 }
 .div-opera{
-    background-image: url(../../public/media/opera.png);
+    background-image: url(../../public/img/me.jpg);
     background-size: cover;
-    background-position: center;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    box-shadow:  0 3px 3px 3px rgba(16, 16, 16, 0.502);
     
-    z-index: 1;
 }
 
 
@@ -169,7 +173,7 @@ html.is-animating .contact{
     }
 
     .ref-1 :hover {
-        animation:none ; /* Interrompe l'animazione al passaggio del mouse */
+        animation:none ;
         animation: none;
         
     }

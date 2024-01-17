@@ -46,11 +46,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 40px;
+   /*  border-radius: 40px; */
     margin-top: 150px;
     transition: 1.4s;
     transform: translateY(0);
     z-index: 19434579;
+    box-shadow:  0 1px 1px 1px rgba(16, 16, 16, 0.899);
     
   }
 html.is-animating .div-about{

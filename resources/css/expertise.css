@@ -4,7 +4,7 @@
   top: 70px;
   right: 199px;
   z-index: 1000;
-  background-color:rgba(255, 255, 255, 0.712);
+  background-color:rgba(165, 104, 35, 0.712);
   height: 430px;
   scale: 1 0;
   animation: scroll-watcher linear;
@@ -32,7 +32,7 @@
    top: 820px;
    left: 199px;
    z-index: 1000;
-   background-color:rgba(255, 255, 255, 0.712);
+   background-color:rgba(165, 104, 35, 0.712);
    height: 90%;
    scale: 1 0;
    animation: scroll-watcher-2 linear;
@@ -73,7 +73,7 @@
   color: rgb(255, 255, 255);
   font-weight: lighter;
   backdrop-filter: blur(10px);
-  border-radius: 21px;
+  /* border-radius: 21px; */
   display: flex;
   align-items: center;
   box-sizing: border-box;
@@ -93,7 +93,7 @@
 
 .div-expertise-2{
   backdrop-filter: blur(10px);
-  border-radius: 30px;
+  /* border-radius: 30px; */
   box-sizing: border-box;
   margin: 10px;
   width: 600px;
@@ -104,7 +104,25 @@
  background-image: url(../../public/media/Group\ 40.png);
     background-size:260px;
     background-attachment: fixed;
-  
+    box-shadow:  0 3px 3px 3px rgba(16, 16, 16, 0.502);
+}
+
+.div-expertise-3{
+  backdrop-filter: blur(10px);
+  /* border-radius: 30px; */
+  box-sizing: border-box;
+  margin: 10px;
+  width: 600px;
+  height: 200px;
+  z-index: 19434579;
+  color: rgb(228, 225, 225);
+ /*  background: radial-gradient(circle, rgba(129, 8, 221, 0.712) 0%, rgb(197, 197, 197) 60%); */
+ background-image: url(../../public/media/Group\ 40.png);
+    background-size:260px;
+    background-attachment: fixed;
+    box-shadow:  0 3px 3px 3px rgba(16, 16, 16, 0.502);
+    display: flex;
+    justify-content: center;
 }
 
 

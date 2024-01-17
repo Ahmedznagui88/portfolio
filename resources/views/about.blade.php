@@ -11,7 +11,7 @@
 
     <article class="container article-about">
         <div class="row row-about">
-            <div class="col-md-5 div-about shadow">
+            <div class="col-md-5 div-about">
                 <p class="text-about">As a creative junior front-end developer based in Italy, I am deeply passionate
                     about music and art. Exploring the fascinating world of coding has opened my eyes to the endless
                     possibilities it offers.</p>
