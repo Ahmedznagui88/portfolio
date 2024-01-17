@@ -1,7 +1,7 @@
 .scroll-watcher{
  width: 0.4px;
   position: fixed;
-  top: 0;
+  top: 70px;
   right: 180px;
   z-index: 1000;
   background-color:rgba(255, 255, 255, 0.712);
