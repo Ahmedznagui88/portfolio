@@ -5,7 +5,7 @@
   right: 180px;
   z-index: 1000;
   background-color:rgba(129, 8, 221, 0.712);
-  height: 100%;
+  height: 430px;
   scale: 1 0;
   animation: scroll-watcher linear;
   transform-origin: top;
@@ -13,26 +13,42 @@
   transition: 1s;
 }
 
-
-
-
 @keyframes scroll-watcher{
-    to {scale: 1 1; border-radius: top 400px 400px 0 0 / 50% 50% 0 0;}
+    50% {scale: 1 1;}
+
+    100% {transform-origin: top 160px;}
 }
 
-/* @keyframes scroll-watcher {
-  to {
-    transform: scaleY(1);
-    border-radius: 400px 400px 0 0 / 50% 50% 0 0;
-  }
-}
- */
+
+.scroll-watcher-2{
+  width: 2px;
+   position: absolute;
+   top: 730px;
+   left: 180px;
+   z-index: 1000;
+   background-color:rgba(129, 8, 221, 0.712);
+   height: 100%;
+   scale: 1 0;
+   animation: scroll-watcher-2 linear;
+   transform-origin: top;
+   animation-timeline: scroll(); 
+   transition: 1s;
+ }
+ 
+ @keyframes scroll-watcher-2{
+  100% {scale: 1 1;}
+ 
+ }
+
+
+
 
 .cont-expertise{
   display: flex;
   justify-content: end;
   flex-direction: row-reverse;
   margin-top: 140px;
+  
 }
 
 
@@ -47,7 +63,9 @@
 .div-expertise{
   text-align: end;
   margin-top: 77px;
-  color: rgb(129, 26, 207);
+  color: rgb(0, 0, 0);
+  font-weight: lighter;
+  
 }
 
 .row-expertise-2{
@@ -59,19 +77,18 @@
 
 }
 
-.div-expertise-2 {
+.div-expertise-2{
+  backdrop-filter: blur(10px);
   border-radius: 30px;
-  background-color: rgba(161, 135, 194, 0.359);
+  background-color: rgba(161, 135, 194, 0);
   box-sizing: border-box;
   margin: 10px;
   width: 600px;
   height: 200px;
   z-index: 19434579;
-  color: rgb(129, 26, 207);
-
-  /* Aggiungi l'effetto vetro con backdrop-filter */
-  backdrop-filter: blur(15px) brightness(80%) saturate(120%);
-  /* Nota: Puoi regolare i valori di brightness e saturate a tuo piacimento */
+  color: rgb(0, 0, 0);
+  background: radial-gradient(circle, rgba(129, 8, 221, 0.712) 0%, rgb(197, 197, 197) 60%);
+  
 }
 
 
