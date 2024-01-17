@@ -46,4 +46,7 @@
         </div>
       </div>
 
+      <div class="min-vh-100">
+
+      </div>
 </x-layout>

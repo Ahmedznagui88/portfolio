@@ -1,10 +1,10 @@
 .scroll-watcher{
  width: 2px;
   position: fixed;
-  top: 154px;
+  top: 0;
   right: 180px;
   z-index: 1000;
-  background-color:rgb(221, 139, 84);
+  background-color:rgba(129, 8, 221, 0.712);
   height: 100%;
   scale: 1 0;
   animation: scroll-watcher linear;
@@ -13,9 +13,20 @@
   transition: 1s;
 }
 
+
+
+
 @keyframes scroll-watcher{
-    to {scale: 1 1;}
+    to {scale: 1 1; border-radius: top 400px 400px 0 0 / 50% 50% 0 0;}
 }
+
+/* @keyframes scroll-watcher {
+  to {
+    transform: scaleY(1);
+    border-radius: 400px 400px 0 0 / 50% 50% 0 0;
+  }
+}
+ */
 
 .cont-expertise{
   display: flex;
@@ -23,6 +34,8 @@
   flex-direction: row-reverse;
   margin-top: 140px;
 }
+
+
 
 .row-expertise{
   display: flex;
@@ -33,9 +46,8 @@
 
 .div-expertise{
   text-align: end;
-  margin-right: 44px;
   margin-top: 77px;
-  color: rgb(221, 139, 84);
+  color: rgb(129, 26, 207);
 }
 
 .row-expertise-2{
@@ -47,16 +59,19 @@
 
 }
 
-.div-expertise-2{
-  backdrop-filter: blur(15px);
+.div-expertise-2 {
   border-radius: 30px;
-  background-color:  rgba(221, 139, 84, 0.519);
+  background-color: rgba(161, 135, 194, 0.359);
   box-sizing: border-box;
   margin: 10px;
   width: 600px;
   height: 200px;
   z-index: 19434579;
-  color: aliceblue;
+  color: rgb(129, 26, 207);
+
+  /* Aggiungi l'effetto vetro con backdrop-filter */
+  backdrop-filter: blur(15px) brightness(80%) saturate(120%);
+  /* Nota: Puoi regolare i valori di brightness e saturate a tuo piacimento */
 }
 
 
