@@ -1,7 +1,7 @@
 <main class="container">
     <article class="article-sec container-fluid">
         <div class="row">
-            <div class="col-md-7 div-par">
+            <div class="col-md-12 div-par">
                 <a href="{{ route('about') }}" class="ref-1">
     
                     <p class="about">about me</p>
@@ -19,8 +19,8 @@
                 </a>
     
             </div>
-            <div id="divOpera" class="col-md-5 div-opera">
-            </div>
+            {{-- <div id="divOpera" class="col-md-5 div-opera">
+            </div> --}}
         </div>
     </article>
 </main>

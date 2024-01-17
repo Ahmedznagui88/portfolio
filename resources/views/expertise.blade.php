@@ -19,8 +19,8 @@
             </div>
         </div>
 
-        <div class="row row-expertise-2">
-            <div class="col-md-6 div-expertise-2 text-center">
+        <div class="row row-expertise-2 ">
+            <div class="col-md-6 div-expertise-2 text-center shadow ">
                 <h5>html</h5>
                 <h5>css</h5>
                 <h5>bootstrap</h5>
@@ -38,7 +38,7 @@
         </div>
 
         <div class="row row-expertise-2">
-            <div class="col-md-6 div-expertise-2 text-center d-flex align-items-center">
+            <div class="col-md-6 div-expertise-2 text-center d-flex align-items-center shadow">
                 <h5>php</h5>
                 <h5>laravel</h5>
                 <h5>mySql</h5>

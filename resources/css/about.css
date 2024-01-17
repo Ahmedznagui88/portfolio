@@ -23,7 +23,7 @@
     right: 0;
     width: 50%;
     height: 100%;
-    background: radial-gradient(circle, rgba(129, 8, 221, 0.712) 0%, rgb(0, 0, 0) 60%);
+    /* background: radial-gradient(circle, rgba(129, 8, 221, 0.712) 0%,rgb(21, 20, 20) 60%); */
     
 }
 
@@ -162,9 +162,7 @@ html.is-animating .text-about{
   background-position: center;
 
 }
- .bn33 {
 
- }
 
 
   .bn30, .bn31, .bn32, .bn33  {
