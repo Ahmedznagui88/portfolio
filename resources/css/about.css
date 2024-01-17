@@ -23,7 +23,7 @@
     right: 0;
     width: 50%;
     height: 100%;
-    background: radial-gradient(circle, rgba(129, 8, 221, 0.712) 0%, rgb(197, 197, 197) 60%);
+    background: radial-gradient(circle, rgba(129, 8, 221, 0.712) 0%, rgb(0, 0, 0) 60%);
     
 }
 
@@ -66,7 +66,7 @@ html.is-animating .div-about{
     transition: 2s;
     background-image: url(../../public/media/);
      z-index: 19434579;
-     color: rgb(0, 0, 0);
+     color: rgb(195, 190, 190);
 }
 
 html.is-animating .text-about{

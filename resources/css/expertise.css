@@ -1,10 +1,10 @@
 .scroll-watcher{
- width: 2px;
+ width: 0.4px;
   position: fixed;
   top: 0;
   right: 180px;
   z-index: 1000;
-  background-color:rgba(129, 8, 221, 0.712);
+  background-color:rgba(255, 255, 255, 0.712);
   height: 430px;
   scale: 1 0;
   animation: scroll-watcher linear;
@@ -16,18 +16,24 @@
 @keyframes scroll-watcher{
     50% {scale: 1 1;}
 
-    100% {transform-origin: top 160px;}
+    100% {transform-origin: center 20px;}
+}
+
+@-webkit-keyframes scroll-watcher{
+  50% {scale: 1 1;}
+
+  100% {transform-origin: center 20px;}
 }
 
 
 .scroll-watcher-2{
-  width: 2px;
+  width: 0.4px;
    position: absolute;
-   top: 730px;
+   top: 820px;
    left: 180px;
    z-index: 1000;
-   background-color:rgba(129, 8, 221, 0.712);
-   height: 100%;
+   background-color:rgba(255, 255, 255, 0.712);
+   height: 90%;
    scale: 1 0;
    animation: scroll-watcher-2 linear;
    transform-origin: top;
@@ -63,7 +69,7 @@
 .div-expertise{
   text-align: end;
   margin-top: 77px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-weight: lighter;
   
 }
@@ -80,14 +86,17 @@
 .div-expertise-2{
   backdrop-filter: blur(10px);
   border-radius: 30px;
-  background-color: rgba(161, 135, 194, 0);
+  background-color: rgba(101, 79, 130, 0.223);
   box-sizing: border-box;
   margin: 10px;
   width: 600px;
   height: 200px;
   z-index: 19434579;
-  color: rgb(0, 0, 0);
-  background: radial-gradient(circle, rgba(129, 8, 221, 0.712) 0%, rgb(197, 197, 197) 60%);
+  color: rgb(228, 225, 225);
+ /*  background: radial-gradient(circle, rgba(129, 8, 221, 0.712) 0%, rgb(197, 197, 197) 60%); */
+ background-image: url(../../public/media/Group\ 40.png);
+    background-size:260px;
+    background-attachment: fixed;
   
 }
 

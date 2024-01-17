@@ -18,7 +18,7 @@ main{
     font-family: 'Panchang';    
     font-weight: 200;
     transition: 1s;
-    color: rgb(113, 46, 214);
+    color: white;
 }
 
 .about{
@@ -26,7 +26,7 @@ main{
     transition: 1.4s;
     transform: translateY(0);
     transform-origin: bottom;
-    color: rgb(113, 46, 214);
+    color: white;
 }
 
 
@@ -37,7 +37,7 @@ html.is-animating .about{
 
 .expertise{
     color: black;
-    color: rgb(113, 46, 214);
+    color: white;
     border-radius: 70px;
     font-size: 99px;   
    /*  border-bottom: solid 0.4px; */
@@ -79,7 +79,7 @@ html.is-animating .work{
   color: whitesmoke;
     font-family: 'Panchang'!important;    
     font-weight: 200;
-    color: rgb(113, 46, 214);
+    color: white;
 }
 html.is-animating .contact{
     opacity: 0;
