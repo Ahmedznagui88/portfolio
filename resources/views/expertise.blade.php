@@ -19,10 +19,14 @@
             </div>
         </div>
 
-        <div class="row align-items-center">
-            <div class="col-md-6 div-figma">
-                <h5>figma</h5>
+        <div class="row row-figma">
+            <div class="col-md-6 div-figma-2">
+                <p>The first step, is to study and define how the website will look, through the design and creation of a mock-up to get an idea of the visual, studying all aspects of UI and UX based on the client's needs.</p>
             </div>
+
+            <div class="col-md-6 div-figma">
+              <h5>figma</h5>
+          </div> 
         </div>
     </div>
 
@@ -65,7 +69,5 @@
 
     </div>
 
-    <div class="min-vh-100">
-
-    </div>
+    
 </x-layout>
