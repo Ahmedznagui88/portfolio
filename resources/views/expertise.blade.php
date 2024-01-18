@@ -1,18 +1,32 @@
 <x-layout>
 
-    <div id="cardCont" class="container">        
-        <div  class="row d-flex justify-content-start">           
-          <div class="div-cont col-sm-5 border-none d-flex justify-content-start align-items-start ">
-            <h2 class="expertise">expertise</h2>
-          </div>
+    <div id="cardCont" class="container">
+        <div class="row d-flex justify-content-start">
+            <div class="div-cont col-sm-5 border-none d-flex justify-content-start align-items-start ">
+                <h2 class="expertise">expertise</h2>
+            </div>
         </div>
-      </div> 
+    </div>
 
-      <div class="scroll-watcher">
+    <div class="scroll-watcher">
 
-      </div>
+    </div>
 
-      <div class="container cont-expertise">
+    <div class="container cont-figma">
+        <div class="row row-prot">
+            <div class="col-md-6 div-prot">
+                <h6 class="">prototyping</h6>
+            </div>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col-md-6 div-figma">
+                <h5>figma</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="container cont-expertise">
         <div class="row row-expertise">
             <div class="col-md-6 div-expertise">
                 <h6>front-end</h6>
@@ -29,9 +43,9 @@
                 <h5>react</h5>
             </div>
         </div>
-      </div>
+    </div>
 
-      <div class="container cont-expertise ">
+    <div class="container cont-expertise ">
         <div class="row row-expertise">
             <div class="col-md-6 div-expertise">
                 <h6>back-end</h6>
@@ -45,13 +59,13 @@
                 <h5>mySql</h5>
             </div>
         </div>
-      </div>
+    </div>
 
-      <div class="scroll-watcher-2">
+    <div class="scroll-watcher-2">
 
-      </div>
+    </div>
 
-      <div class="min-vh-100">
+    <div class="min-vh-100">
 
-      </div>
+    </div>
 </x-layout>
