@@ -25,7 +25,7 @@
             </div>
 
             <div class="col-md-6 div-figma">
-              <h5>figma</h5>
+              <p>figma</p>
           </div> 
         </div>
     </div>
@@ -33,7 +33,7 @@
     <div class="container cont-expertise">
         <div class="row row-expertise">
             <div class="col-md-12 div-expertise">
-                <h6>front-end</h6>
+                <p class="stack">front-end</p>
             </div>
         </div>
 
@@ -56,7 +56,7 @@
     <div class="container cont-expertise ">
         <div class="row row-expertise">
             <div class="col-md-6 div-expertise">
-                <h6>back-end</h6>
+                <p class="stack">back-end</p>
             </div>
         </div>
 
