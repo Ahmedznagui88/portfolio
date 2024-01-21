@@ -20,7 +20,7 @@
     
             </div>
              <div id="divOpera" class="col-md-5 div-opera ">
-                <p>creative websites, visual experiences, and composing unique melodies.</p>
+                <p class="text-header">creative websites, visual experiences, and composing unique melodies.</p>
             </div> 
         </div>
     </article>
