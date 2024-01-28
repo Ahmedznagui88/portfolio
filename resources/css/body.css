@@ -1,8 +1,9 @@
 body{
     margin: 0;
-    background-color: rgb(20, 20, 21);
+    background-color: #A2A2A2;
   color: rgb(255, 255, 255);
   font-family: 'Panchang'; 
+  
   
 }
 
@@ -21,3 +22,8 @@ html.is-animating .transition-fade{
     /* transform: translateY(100%); */
 }
  
+
+
+.trigger {
+    height: 100vh;
+  } 

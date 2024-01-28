@@ -16,7 +16,7 @@ main{
    /*  border-bottom: solid 0.4px; */
     margin-top: 10px;
     font-family: 'Panchang';    
-    font-weight: 200;
+    font-weight: 90;
     transition: 1s;
     color: white;
 }
@@ -78,7 +78,7 @@ html.is-animating .work{
     font-size: 100px;
   color: whitesmoke;
     font-family: 'Panchang'!important;    
-    font-weight: 200;
+    font-weight: 10;
     color: white;
 }
 html.is-animating .contact{
