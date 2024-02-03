@@ -15,8 +15,8 @@ main{
     font-size: 99px;   
    /*  border-bottom: solid 0.4px; */
     margin-top: 10px;
-    font-family: 'Panchang';    
-    font-weight: 90;
+ font-family: 'Panchang';
+    font-weight: 20;
     transition: 1s;
     color: white;
 }
@@ -42,7 +42,7 @@ html.is-animating .about{
     font-size: 99px;   
    /*  border-bottom: solid 0.4px; */
     margin-top: 10px;
-    font-family: 'Panchang';    
+ font-family: 'Panchang';
     font-weight: 200;
     transition: 1s;
     opacity: 1;
