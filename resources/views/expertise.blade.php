@@ -21,14 +21,36 @@
 
         <div class="row row-figma">
             <div class="col-md-6 div-figma-2">
-                <p class="text-figma text-dark">The first step, is to study and define how the website will look, through the design and creation of a mock-up to get an idea of the visual, studying all aspects of UI and UX based on the client's needs.</p>
+                <p class="text-figma">The first step, is to study and define how the website will look, through the design and creation of a mock-up to get an idea of the visual, studying all aspects of UI and UX based on the client's needs.</p>
             </div>
 
             <div class="col-md-6 div-figma">
               <p>figma</p>
           </div> 
         </div>
+        
     </div>
+    
+            <div class="container containee">
+    
+                <div class="row row-cont">
+                    <div class="col-md-3">
+                        <img src="./media/Esercizio di stile 3.png" class="w-75" alt="">   
+                    </div> 
+                    
+                    <div class="col-md-3">
+                        <img src="./media/Esercizio di stile 4.png" class="w-75" alt="">   
+                    </div> 
+
+                    <div class="col-md-3">
+                        <img src="./media/Esercizio di stile 5.png" class="w-75" alt="">   
+                    </div> 
+
+                    <div class="col-md-3">
+                        <img src="./media/MacBook Pro 14_ - 1.png" class="w-75" alt="">   
+                    </div> 
+                </div>
+            </div>
 
     <div class="container cont-expertise">
         <div class="row row-expertise">
@@ -36,6 +58,7 @@
                 <p class="stack">front-end</p>
             </div>
         </div>
+        
 
         <div class="row row-expertise-2">
             <div class="col-md-6 div-expertise-2 text-center">
@@ -88,7 +111,7 @@
         
             
         <div class="min-vh-100 bg-white">
-
+        
         </div> 
     
 </x-layout>

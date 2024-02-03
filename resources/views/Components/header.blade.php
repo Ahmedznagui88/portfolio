@@ -23,6 +23,8 @@
                 <p class="text-header">creative websites, visual experiences, and composing unique melodies.</p>
             </div> 
         </div>
+
+        
     </article>
 </main>
 

@@ -99,7 +99,7 @@
   display: flex;
   justify-content: start;
   flex-direction: row;
-  margin-top: 140px;
+
   
 }
 
@@ -191,4 +191,13 @@ h5{
 
 }.stack{
   font-size: 12px;
+}
+
+.containee{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+height: 300px;  
+
 }
