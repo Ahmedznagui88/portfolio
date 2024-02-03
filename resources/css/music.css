@@ -1,0 +1,44 @@
+.main-music{
+    background-color: #3B2C2C;
+}
+
+.text-music{
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+    font-size: 120px;
+    background: linear-gradient(50deg, rgba(203,241,72,1) 11%, rgba(228,212,87,1) 22%, rgba(214,101,132,1) 41%, rgba(118,103,196,1) 66%, rgba(214,92,90,1) 84%);
+  background-clip: text;
+  -webkit-background-clip: text; 
+  color: transparent;
+  animation: changeColors 2s infinite alternate; 
+}
+
+@keyframes changeColors {
+    0%, 100% {
+      filter: hue-rotate(0deg);
+    }
+    25% {
+      filter: hue-rotate(45deg);
+    }
+    50% {
+      filter: hue-rotate(90deg);
+    }
+    75% {
+      filter: hue-rotate(135deg);
+    }
+  }
+
+
+  .p-music{
+ 
+    background: rgba(233, 218, 218, 0.57);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+        color: rgb(19, 18, 19);
+    text-align: center;
+   
+
+
+  }

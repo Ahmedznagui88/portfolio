@@ -94,19 +94,24 @@
     </div>
 
 
-{{-- 
-    <svg width="1425" height="150" viewBox="0 0 1728 151" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <ellipse cx="864" cy="320.5" rx="1260" ry="320.5" fill="url(#paint0_linear_999_30)"/>
+
+
+   
+
+
+
+    <svg class="" width="1425" height="150" viewBox="0 0 1728 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="864" cy="400.5" rx="1260" ry="320.5" fill="url(#paint0_linear_999_30)"/>ewrewr
         <defs>
         <linearGradient id="paint0_linear_999_30" x1="864" y1="0" x2="864" y2="150" gradientUnits="userSpaceOnUse">
-        <stop stop-color="white"/>
-        <stop offset="1" stop-color="white"/>
+        <stop stop-color="#3B2C2C"/>
+      {{--  --}}
         </linearGradient>
         </defs>
         </svg>
         
-            
-        <x-music /> --}}
+        <x-music />
+        
 
 
     
