@@ -15,7 +15,7 @@ main{
     font-size: 99px;   
    /*  border-bottom: solid 0.4px; */
     margin-top: 10px;
- font-family: 'Panchang';
+    letter-spacing: 7px;    
     font-weight: 20;
     transition: 1s;
     color: white;
@@ -42,7 +42,7 @@ html.is-animating .about{
     font-size: 99px;   
    /*  border-bottom: solid 0.4px; */
     margin-top: 10px;
- font-family: 'Panchang';
+    letter-spacing: 7px;    
     font-weight: 200;
     transition: 1s;
     opacity: 1;
@@ -61,6 +61,7 @@ html.is-animating .expertise{
     transition: 1.4s;
     transform: translateY(0);
     transform-origin: bottom;
+    
 }
 
 html.is-animating .work{
@@ -74,10 +75,10 @@ html.is-animating .work{
     transform: translateY(0);
     transform-origin: bottom;
     opacity: 1;
-    font-weight: 200;
+    font-weight: 100;
     font-size: 100px;
   color: whitesmoke;
-    font-family: 'Panchang'!important;    
+    letter-spacing: 7px;    
     font-weight: 10;
     color: white;
 }
@@ -150,8 +151,7 @@ html.is-animating .contact{
     font-size: 35px;
     text-align: center;
     backdrop-filter: blur(10px);
-    box-shadow:  0 3px 3px 3px rgba(16, 16, 16, 0.502);
-    
+    border-radius: 20px;
 }
 
 

@@ -17,7 +17,7 @@
             <div class="col-md-6 div-prot">
                 <h6 class="">prototyping</h6>
             </div>
-        </div>
+        </div> 
 
         <div class="row row-figma">
             <div class="col-md-6 div-figma-2">
@@ -74,13 +74,22 @@
         </div>
     </div>
 
-    <div class="scroll-watcher-2">
 
-    </div>
 
-    <div class="min-vh-100">
+    <svg width="1425" height="150" viewBox="0 0 1728 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="864" cy="320.5" rx="1260" ry="320.5" fill="url(#paint0_linear_999_30)"/>
+        <defs>
+        <linearGradient id="paint0_linear_999_30" x1="864" y1="0" x2="864" y2="150" gradientUnits="userSpaceOnUse">
+        <stop stop-color="white"/>
+        <stop offset="1" stop-color="white"/>
+        </linearGradient>
+        </defs>
+        </svg>
+        
+            
+        <div class="min-vh-100 bg-white">
 
-    </div>
-
+        </div> 
     
 </x-layout>
+{{-- width="1425" height="150" --}}

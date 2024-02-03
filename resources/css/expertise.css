@@ -1,31 +1,4 @@
-/* .scroll-watcher{
- width: 0.4px;
-  position: fixed;
-  top: 10px;
-  right: 199px;
-
-  background-color:rgba(165, 104, 35, 0.712);
-  height: 140px;
-  scale: 1 0;
-  animation: scroll-watcher linear;
-  transform-origin: top;
-  animation-timeline: scroll(); 
-  transition: 1s;
-}
-
-@keyframes scroll-watcher{
-    75% {scale: 1 1;}
-
-    100% {transform-origin: top 20;}
-} */
 /* 
-@-webkit-keyframes scroll-watcher{
-  50% {scale: 1 1;}
-
-  100% {transform-origin: center 20px;}
-} */
-
-
 .scroll-watcher-2{
   width: 0.4px;
    position: absolute;
@@ -45,7 +18,7 @@
   100% {scale: 1 1;}
  
  }
-
+ */
  .cont-figma{
   display: flex;
   justify-content: end;
@@ -57,7 +30,7 @@
 
 .row-figma{
   display: flex;
-  align-items: center;
+
 
   justify-content: space-between;
   width: 1000px;
@@ -67,8 +40,18 @@
 
 .div-figma-2{
   background-color: rgb(233, 143, 40);
-  color: rgb(0, 0, 0);
+  display: flex;
 
+  justify-content: center;
+  border-radius: 20px;
+
+}
+
+.text-figma{
+  color: rgb(0, 0, 0);
+ letter-spacing: 1px;
+ font-weight: 100;
+ margin-top: 10px;
 }
 
 .row-prot{
@@ -82,30 +65,32 @@
   height: 70px;
   display: flex;
   justify-content: center;
-  color: rgb(255, 255, 255);
+  color: black;
   font-weight: lighter;
   backdrop-filter: blur(10px);
   /* border-radius: 21px; */
   display: flex;
   align-items: center;
   box-sizing: border-box;
- /*  box-shadow:  0px 0.4px 0.4px 0.4px rgba(11, 11, 11, 0.899); */
 }
 
 
 
 .div-figma{
   backdrop-filter: blur(10px);
-  box-sizing: border-box;
-  margin: 10px;
-  width: 200px;
-  height: 90px;
+    box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  width: 100px;
+  height: 40px;
   z-index: 19434579;
-  color: rgb(228, 225, 225);
+  color: black;
  background-image: url(../../public/media/Group\ 40.png);
     background-size:260px;
     background-attachment: fixed;
-   /*  box-shadow:  0 3px 3px 3px rgba(16, 16, 16, 0.502); */
+
 }
 
 
@@ -132,7 +117,7 @@
   height: 50px;
   
   margin-top: 77px;
-  color: rgb(255, 255, 255);
+  color: black;
   font-weight: lighter;
   backdrop-filter: blur(10px);
   /* border-radius: 21px; */
@@ -165,12 +150,10 @@
   width: 600px;
   height: 200px;
   z-index: 19434579;
-  color: rgb(228, 225, 225);
- /*  background: radial-gradient(circle, rgba(129, 8, 221, 0.712) 0%, rgb(197, 197, 197) 60%); */
- background-image: url(../../public/media/Group\ 40.png);
+  color: black;
+  border-radius: 20px;
     background-size:260px;
     background-attachment: fixed;
-   /*  box-shadow:  0 3px 3px 3px rgba(16, 16, 16, 0.502); */
     
 }
 
@@ -182,14 +165,10 @@
   width: 600px;
   height: 200px;
   z-index: 19434579;
-  color: rgb(228, 225, 225);
- /*  background: radial-gradient(circle, rgba(129, 8, 221, 0.712) 0%, rgb(197, 197, 197) 60%); */
- background-image: url(../../public/media/Group\ 40.png);
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
     background-size:260px;
     background-attachment: fixed;
-   /*  box-shadow:  0 3px 3px 3px rgba(16, 16, 16, 0.502); */
-    display: flex;
-    justify-content: center;
 }
 
 
@@ -205,6 +184,10 @@ h5{
   background-color: rgb(233, 143, 40);
   color: rgb(0, 0, 0);
   height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
 
 }.stack{
   font-size: 12px;
