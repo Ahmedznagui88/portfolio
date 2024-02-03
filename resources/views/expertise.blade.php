@@ -11,7 +11,7 @@
     <div class="container cont-figma">
         <div class="row row-prot">
             <div class="col-md-6 div-prot">
-                <h6 class="">prototyping</h6>
+                <h6 class="stack">prototyping</h6>
             </div>
         </div> 
 
@@ -21,7 +21,7 @@
             </div>
 
             <div class="col-md-6 div-figma">
-              <p>figma</p>
+              <p class="stack">figma</p>
           </div> 
         </div>
         

@@ -30,8 +30,8 @@
 
 .row-figma{
   display: flex;
-
 justify-content: center;
+align-items: center;
   justify-content: space-between;
   width: 1000px;
 }
@@ -44,6 +44,12 @@ justify-content: center;
 
   justify-content: center;
   border-radius: 20px;
+  background: rgba(233, 143, 40, 0.613);;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(172, 93, 93, 0.14);
 
 }
 
@@ -100,7 +106,7 @@ justify-content: center;
   justify-content: start;
   flex-direction: row;
 
-  
+  border-bottom: 0.3px solid #000;
 }
 
 
@@ -143,13 +149,12 @@ justify-content: center;
 }
 
 .div-expertise-2{
-  backdrop-filter: blur(10px);
+
   /* border-radius: 30px; */
   box-sizing: border-box;
   margin: 10px;
   width: 600px;
   height: 200px;
-  z-index: 19434579;
   color: black;
   border-radius: 20px;
     background-size:260px;
@@ -158,13 +163,13 @@ justify-content: center;
 }
 
 .div-expertise-3{
-  backdrop-filter: blur(10px);
+  
   /* border-radius: 30px; */
   box-sizing: border-box;
   margin: 10px;
   width: 600px;
   height: 200px;
-  z-index: 19434579;
+
   color: rgb(0, 0, 0);
   border-radius: 20px;
     background-size:260px;
@@ -188,9 +193,16 @@ h5{
   justify-content: center;
   align-items: center;
   border-radius: 20px;
+  background: rgba(233, 143, 40, 0.613);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(172, 93, 93, 0.14);
 
 }.stack{
-  font-size: 12px;
+  font-size: 19px;
+  font-weight: 100;
 }
 
 .containee{
@@ -199,5 +211,6 @@ h5{
   align-items: center;
   justify-content: center;
 height: 300px;  
+border-bottom: 0.3px solid #000;
 
 }
