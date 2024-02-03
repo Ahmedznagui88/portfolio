@@ -8,10 +8,6 @@
         </div>
     </div>
 
-    <div class="scroll-watcher">
-
-    </div>
-
     <div class="container cont-figma">
         <div class="row row-prot">
             <div class="col-md-6 div-prot">
@@ -35,19 +31,19 @@
     
                 <div class="row row-cont">
                     <div class="col-md-3">
-                        <img src="./media/Esercizio di stile 3.png" class="w-75" alt="">   
+                        <img src="./media/Esercizio di stile 3.png" class="w-100 rounded" alt="">   
                     </div> 
                     
                     <div class="col-md-3">
-                        <img src="./media/Esercizio di stile 4.png" class="w-75" alt="">   
+                        <img src="./media/Esercizio di stile 4.png" class="w-100 rounded" alt="">   
                     </div> 
 
                     <div class="col-md-3">
-                        <img src="./media/Esercizio di stile 5.png" class="w-75" alt="">   
+                        <img src="./media/Esercizio di stile 5.png" class="w-100 rounded" alt="">   
                     </div> 
 
                     <div class="col-md-3">
-                        <img src="./media/MacBook Pro 14_ - 1.png" class="w-75" alt="">   
+                        <img src="./media/MacBook Pro 14_ - 1.png" class="w-100 rounded" alt="">   
                     </div> 
                 </div>
             </div>
@@ -84,7 +80,7 @@
         </div>
 
         <div class="row row-expertise-2">
-            <div class="col-md-6 div-expertise-3 text-center d-flex align-items-center">
+            <div class="col-md-6 div-expertise-3 text-center d-flex align-items-center justify-content-center">
                 <h5>php</h5>
                 <h5>laravel</h5>
                 <h5>mySql</h5>
@@ -98,7 +94,7 @@
     </div>
 
 
-
+{{-- 
     <svg width="1425" height="150" viewBox="0 0 1728 151" fill="none" xmlns="http://www.w3.org/2000/svg">
         <ellipse cx="864" cy="320.5" rx="1260" ry="320.5" fill="url(#paint0_linear_999_30)"/>
         <defs>
@@ -110,9 +106,9 @@
         </svg>
         
             
-        <div class="min-vh-100 bg-white">
-        
-        </div> 
+        <x-music /> --}}
+
+
     
 </x-layout>
 {{-- width="1425" height="150" --}}

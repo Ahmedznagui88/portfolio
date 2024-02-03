@@ -21,17 +21,17 @@
  */
  .cont-figma{
   display: flex;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
   flex-direction: row-reverse;
-  margin-top: 140px;
+  margin-top: 60px;
  
 }
 
 .row-figma{
   display: flex;
 
-
+justify-content: center;
   justify-content: space-between;
   width: 1000px;
 }

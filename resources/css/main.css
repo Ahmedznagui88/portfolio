@@ -10,7 +10,7 @@ main{
 
 .expertise, .work, .about{
     color: black;
-    color: whitesmoke;
+   
     /* border-radius: 70px; */
     font-size: 99px;   
    /*  border-bottom: solid 0.4px; */
@@ -18,7 +18,7 @@ main{
     letter-spacing: 7px;    
     font-weight: 20;
     transition: 1s;
-    color: white;
+
 }
 
 .about{
@@ -26,7 +26,7 @@ main{
     transition: 1.4s;
     transform: translateY(0);
     transform-origin: bottom;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -37,7 +37,7 @@ html.is-animating .about{
 
 .expertise{
     color: black;
-    color: white;
+
     /* border-radius: 70px; */
     font-size: 99px;   
    /*  border-bottom: solid 0.4px; */
@@ -80,7 +80,7 @@ html.is-animating .work{
   color: whitesmoke;
     letter-spacing: 7px;    
     font-weight: 10;
-    color: white;
+    color: rgb(2, 2, 2);
 }
 html.is-animating .contact{
     opacity: 0;
@@ -110,7 +110,7 @@ html.is-animating .contact{
     animation:infinite ;
     animation: infiniteHover 3s linear infinite, changeColor 3s linear infinite;
     transform: scale(0.98);
-    
+    color: whitesmoke;
 }
 
 
