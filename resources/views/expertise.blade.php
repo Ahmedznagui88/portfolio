@@ -13,40 +13,42 @@
             <div class="col-md-6 div-prot">
                 <h6 class="stack">prototyping</h6>
             </div>
-        </div> 
+        </div>
 
         <div class="row row-figma">
             <div class="col-md-6 div-figma-2">
-                <p class="text-figma">The first step, is to study and define how the website will look, through the design and creation of a mock-up to get an idea of the visual, studying all aspects of UI and UX based on the client's needs.</p>
+                <p class="text-figma">The first step, is to study and define how the website will look, through the
+                    design and creation of a mock-up to get an idea of the visual, studying all aspects of UI and UX
+                    based on the client's needs.</p>
             </div>
 
             <div class="col-md-6 div-figma">
-              <p class="stack">figma</p>
-          </div> 
-        </div>
-        
-    </div>
-    
-            <div class="container containee">
-    
-                <div class="row row-cont">
-                    <div class="col-md-3">
-                        <img src="./media/Esercizio di stile 3.png" class="w-100 rounded" alt="">   
-                    </div> 
-                    
-                    <div class="col-md-3">
-                        <img src="./media/Esercizio di stile 4.png" class="w-100 rounded" alt="">   
-                    </div> 
-
-                    <div class="col-md-3">
-                        <img src="./media/Esercizio di stile 5.png" class="w-100 rounded" alt="">   
-                    </div> 
-
-                    <div class="col-md-3">
-                        <img src="./media/MacBook Pro 14_ - 1.png" class="w-100 rounded" alt="">   
-                    </div> 
-                </div>
+                <p class="stack">figma</p>
             </div>
+        </div>
+
+    </div>
+
+    <div class="container containee">
+
+        <div class="row row-cont">
+            <div class="col-md-3">
+                <img src="./media/Esercizio di stile 3.png" class="w-100 rounded" alt="">
+            </div>
+
+            <div class="col-md-3">
+                <img src="./media/Esercizio di stile 4.png" class="w-100 rounded" alt="">
+            </div>
+
+            <div class="col-md-3">
+                <img src="./media/Esercizio di stile 5.png" class="w-100 rounded" alt="">
+            </div>
+
+            <div class="col-md-3">
+                <img src="./media/MacBook Pro 14_ - 1.png" class="w-100 rounded" alt="">
+            </div>
+        </div>
+    </div>
 
     <div class="container cont-expertise">
         <div class="row row-expertise">
@@ -54,7 +56,7 @@
                 <p class="stack">front-end</p>
             </div>
         </div>
-        
+
 
         <div class="row row-expertise-2">
             <div class="col-md-6 div-expertise-2 text-center">
@@ -67,7 +69,9 @@
             </div>
 
             <div class="col-md-5 div-front-2">
-                <p class="text-figma text-dark">HTML structures web content, CSS styles it, and JavaScript adds interactivity. GSAP refines animations, providing a seamless user experience. React streamlines dynamic UI creation by efficiently managing components.</p>
+                <p class="text-figma text-dark">HTML structures web content, CSS styles it, and JavaScript adds
+                    interactivity. GSAP refines animations, providing a seamless user experience. React streamlines
+                    dynamic UI creation by efficiently managing components.</p>
             </div>
         </div>
     </div>
@@ -88,7 +92,9 @@
 
             <div class="col-md-5 div-front-2">
                 <p class="text-figma text-dark">
-                    PHP handles server-side logic, Laravel is a PHP framework that streamlines web development with elegant syntax and built-in tools. MySQL is a relational database management system used with PHP to store and retrieve data efficiently.</p>
+                    PHP handles server-side logic, Laravel is a PHP framework that streamlines web development with
+                    elegant syntax and built-in tools. MySQL is a relational database management system used with PHP to
+                    store and retrieve data efficiently.</p>
             </div>
         </div>
     </div>
@@ -96,24 +102,85 @@
 
 
 
-   
 
 
 
-    <svg class="" width="1425" height="150" viewBox="0 0 1728 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    {{-- <svg class="" width="1425" height="150" viewBox="0 0 1728 151" fill="none" xmlns="http://www.w3.org/2000/svg">
         <ellipse cx="864" cy="400.5" rx="1260" ry="320.5" fill="url(#paint0_linear_999_30)"/>ewrewr
         <defs>
         <linearGradient id="paint0_linear_999_30" x1="864" y1="0" x2="864" y2="150" gradientUnits="userSpaceOnUse">
         <stop stop-color="#3B2C2C"/>
-      {{--  --}}
         </linearGradient>
         </defs>
-        </svg>
-        
-        <x-music />
-        
+        </svg> --}}
+
+    {{--  <x-music /> --}}
+
+    <main class="container-fluid main-music">
+
+        <div class="container">
+            <div class="row justify-content-center">
 
 
-    
+                <div class="col-md-12">
+                    <h1 class="text-music">Music</h1>
+                </div>
+
+                {{-- <div class="col-md-5 p-music">
+                        <p class="">
+                            I've loved music since childhood, inspiring friends to create it too. Growing up, I became a skilled beat maker, turning my passion into unique sounds. Creating beats isn't just a creative outlet for me; it's a way to connect with others who love the art of sound.
+                        </p>
+                    </div> --}}
+            </div>
+
+            <div class="container-fluid cont-music">
+                <div class="row">
+                    <div class="col-md-12">
+
+
+                        <section class="carousel">
+                            <div class="row">
+
+                                @foreach ($musics as $music)
+                                    <div class="col-3">
+                                        <div class=" slides ">
+                                            <img class="slide" id="slide-1" src="{{ $music->cover }}">
+                                        </div>
+                                        <p class="text-light">{{ $music->title }}</p>
+
+                                    </div>
+                                @endforeach
+
+                            </div>
+                        </section>
+                        <audio controls="controls">
+                            @foreach ($musics as $music)
+                            <source src="{{ $music->file }}" type="audio/mpeg">
+                            
+                            @endforeach
+                            <button id="nextTrack">Next Track</button>
+                          </audio>
+                          
+                          
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+    </main>
+
+
+
 </x-layout>
 {{-- width="1425" height="150" --}}

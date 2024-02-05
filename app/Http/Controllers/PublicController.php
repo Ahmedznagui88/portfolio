@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Exception;
+use App\Models\Music;
 use App\Mail\ContactMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -14,7 +15,12 @@ class PublicController extends Controller
     }
 
     public function expertise(){
-        return view ('expertise');
+
+        $musics = Music::all();
+
+        return view ('expertise', compact('musics') );
+
+
     }
 
     public function about(){

@@ -18,19 +18,31 @@
         <div class="container-fluid cont-music">
             <div class="row">
                 <div class="col-md-12">
+
+                    
                     <section class="carousel">
+
+                        @foreach ($musics as $music)
+                            
                         <div class="slides">
-                          <img class="slide" id="slide-1" src="/media/MacBook Pro 14_ - 1.png">
-                          <img class="slide" id="slide-2" src="/media/Esercizio di stile 3.png">
-                          <img class="slide" id="slide-3" src="/img/mac12.jpg">
+
+                          <img class="slide" id="slide-1" src="">
                         </div>
-                        
-                        {{-- <nav class="navigation">
-                          <a href="#slide-1">1</a>
-                          <a href="#slide-2">2</a>
-                          <a href="#slide-3">3</a>
-                        </nav> --}}
+                        @endforeach
                       </section>
+
+                      <div class="media-player">
+                        <div class="progress-bar">
+                            <div class="played"></div>
+                        </div>
+                        <div class="controls">
+                            <button class="shuffle">Shuffle</button>
+                            <button class="previous">Previous</button>
+                            <button class="play-pause">Play/Pause</button>
+                            <button class="next">Next</button>
+                            <button class="repeat">Repeat</button>
+                        </div>
+                    </div>
                       
                 </div>
             </div>

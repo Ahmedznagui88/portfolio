@@ -13,12 +13,52 @@ class MusicSeeder extends Seeder
      */
     public function run(): void
     {
+        /* $title = [
+            'Nadine',
+        ];
+
+        $artist = [
+            'MedZnag',
+        ];
+
+        $cover = [
+            '/public/img/red_ocean.avif'
+        ];
+
+        $duration = [
+            '1.39',
+        ];
+
+        $file = [
+            '/public/media/Nadine.mp3'
+        ];
+
         DB::table('music')->insert([
-            'title' => 'Nadine',
-            'artist' => 'MedZnag',
-            'cover' => '/Users/tesla/Desktop/Aulab/myPortfolio/portfolio/public/img/red_ocean.avif',
-            'duration' => '1.39',
-            'file' => '/Users/tesla/Desktop/Aulab/myPortfolio/portfolio/public/media/Nadine.mp3',
-        ]);
+            'title' => $title,
+            'artist' => $artist ,
+            'cover' => $cover ,
+            'duration' => $duration ,
+            'file' => $file,
+        ]); */
+
+        $data = [
+            [
+                'title' => 'Nadine',
+                'artist' => 'MedZnag',
+                'cover' => '/img/red_ocean.avif',
+                'duration' => '1:39',
+                'file' => '/media/Nadine.mp3',
+            ],
+            
+            [
+                'title' => 'Parigi',
+                'artist' => 'MedZnag',
+                'cover' => '/img/reggio.JPG',
+                'duration' => '1:57',
+                'file' => '/media/Parigi.mp3',
+            ]
+        ];
+    
+        DB::table('music')->insert($data);
     }
 }

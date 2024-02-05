@@ -41,7 +41,7 @@
   }
 
   .cont-music{
-    background: #000000;
+    background: #305763;
     width: 100%;
     height: 400px;
     border-radius: 20px;
@@ -68,7 +68,7 @@
   z-index: 1;
   pointer-events: none;
 
-  --bg: rgba(15, 23, 42, 1);
+
 
   background: linear-gradient(
     to right,
@@ -80,17 +80,8 @@
 }
 
 .slides {
-  width: 100%;
-  height: 300px;
   display: flex;
-  gap: 20px;
-
-  padding: 1rem;
-  overflow-x: scroll;
-
-  scroll-behavior: smooth;
-  --tw-scroll-snap-strictness: mandatory;
-  scroll-snap-type: x var(--tw-scroll-snap-strictness);
+  flex-direction: row;
 }
 
 .navigation {
@@ -108,42 +99,64 @@
 }
 
 .slide {
-  scroll-snap-stop: always;
-  scroll-snap-align: center;
+  /* scroll-snap-stop: always;
+  scroll-snap-align: center; */
 
-  flex-grow: 0;
-  flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
 
-  width: 400px;
-  height:200px;
+
+  width: 200px;
+  height: 400px;
 
   object-fit: cover;
-  background: #1e293b;
-
+ 
   border: none;
   border-radius: 0.5rem;
 }
 
-.slides::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  border-radius: 9999px;
-  background-color: #1e293b;
+
+
+/** music player */
+
+.media-player {
+  background: linear-gradient(to bottom, #f5f5f5, #ffffff);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.slides::-webkit-scrollbar {
-  height: 6px;
+/* Progress bar */
+.progress-bar {
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
-.slides::-webkit-scrollbar-thumb {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  border-radius: 9999px;
-  background-color: #475569;
+.played {
+  height: 100%;
+  width: 50%;
+  background-color: orange;
+  border-radius: 5px;
 }
 
-.slides::-webkit-scrollbar-thumb:hover {
-  background-color: #657791;
+/* Control buttons */
+.controls {
+  display: flex;
+  justify-content: space-between;
 }
 
-.slides::-webkit-scrollbar-thumb:active {
-  background-color: #38485e;
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: black;
+  transition: color 0.3s;
+}
+
+button:hover {
+  color: #333;
 }
