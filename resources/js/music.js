@@ -1,65 +1,42 @@
+let currentPlaying = null;
 
-
-const musicPlayer = {
-    isPlaying: false,
-    progress: 0,
-};
-
-const progressBar = document.querySelector('.played');
-const playPauseButton = document.getElementById('playAndPause');
-const randomButton = document.getElementById('random');
-const previousButton = document.getElementById('previous');
-const nextButton = document.getElementById('next');
-const repeatButton = document.getElementById('repeat');
-let progressInterval;
-
-playPauseButton.addEventListener('click', () => {
-    musicPlayer.isPlaying = !musicPlayer.isPlaying;
-    updatePlayer();
+document.querySelectorAll('.play-pause-button').forEach(function(button) {
+    button.addEventListener('click', function() {
+        let audioId = 'audio_' + this.dataset.audioId;
+        let progressId = this.dataset.progressId;
+        playPause(audioId, progressId, this);
+    });
 });
 
-randomButton.addEventListener('click', () => {
-    
-});
+function playPause(audioId, progressId, button) {
+    let audio = document.getElementById(audioId);
+    let progress = document.getElementById(progressId);
 
-previousButton.addEventListener('click', () => {
-    // Handle previous logic here
-    console.log('Previous clicked');
-});
-
-nextButton.addEventListener('click', () => {
-    // Handle next logic here
-    console.log('Next clicked');
-});
-
-repeatButton.addEventListener('click', () => {
-    // Handle repeat logic here
-    console.log('Repeat clicked');
-});
-
-function updatePlayer() {
-    if (musicPlayer.isPlaying) {
-        playPauseButton.textContent = 'Pause';
-        simulateProgress();
-    } else {
-        playPauseButton.textContent = 'Play';
-        clearInterval(progressInterval);
+    if (currentPlaying && currentPlaying !== audio) {
+        currentPlaying.pause();
+        let currentProgressId = currentPlaying.id.replace('audio_', 'progress_');
+        document.getElementById(currentProgressId).value = 0;
     }
+
+    if (audio.paused) {
+        audio.play();
+        button.textContent = 'Pause';
+        currentPlaying = audio;
+    } else {
+        audio.pause();
+        button.textContent = 'Play';
+        currentPlaying = null;
+    }
+
+    audio.addEventListener('timeupdate', function() {
+        let value = (audio.currentTime / audio.duration) * 100;
+        progress.value = value;
+    });
+
+    audio.addEventListener('ended', function() {
+        progress.value = 0;
+        button.textContent = 'Play';
+        currentPlaying = null;
+    });
 }
 
-function simulateProgress() {
-    let currentTime = 0;
-    const duration = 100;
-
-    progressInterval = setInterval(() => {
-        currentTime++;
-        musicPlayer.progress = (currentTime / duration) * 100;
-        progressBar.style.width = `${musicPlayer.progress}%`;
-
-        if (currentTime >= duration) {
-            musicPlayer.isPlaying = false;
-            updatePlayer();
-            clearInterval(progressInterval);
-        }
-    }, 1000);
-}

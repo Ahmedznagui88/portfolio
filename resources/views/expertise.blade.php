@@ -118,69 +118,51 @@
     {{--  <x-music /> --}}
 
     <main class="container-fluid main-music">
-
         <div class="container">
             <div class="row justify-content-center">
-
-
                 <div class="col-md-12">
                     <h1 class="text-music">Music</h1>
                 </div>
-
                 {{-- <div class="col-md-5 p-music">
-                        <p class="">
+                        <p class="text-light">
                             I've loved music since childhood, inspiring friends to create it too. Growing up, I became a skilled beat maker, turning my passion into unique sounds. Creating beats isn't just a creative outlet for me; it's a way to connect with others who love the art of sound.
                         </p>
-                    </div> --}}
+                    </div>  --}}
             </div>
 
-            <div class="container-fluid cont-music">
+            <div class="container-fluid cont-music my-3">
                 <div class="row">
                     <div class="col-md-12">
-
-
                         <section class="carousel">
-                            <div class="row">
-
+                            <div class="row flex-column">
                                 @foreach ($musics as $music)
-                                    <div class="col-3">
-                                        <div class=" slides ">
-                                            <img class="slide" id="slide-1" src="{{ $music->cover }}">
+                                    <article class="col-3 div-img-tit">
+                                        <div class="slides">
+                                            <img class="slide" src="{{ $music->cover }}">
                                         </div>
-                                        <p class="text-light">{{ $music->title }}</p>
 
-                                    </div>
+                                        <div class="w-75 mx-5">
+                                            <p class="title-song">{{ $music->title }}</p>
+                                        </div>
+                                        <div class="mx-5">
+                                            <button class="play-pause-button" data-audio-id="{{ $music->id }}"
+                                                data-progress-id="progress_{{ $music->id }}">
+                                                Play
+                                            </button>
+                                            <audio id="audio_{{ $music->id }}" class="w-75"
+                                                src="{{ $music->file }}"></audio>
+                                        </div>
+                                        
+                                        <progress class="w-50 mx-5" id="{{ $music->file }}" value=""
+                                            max="{{ $music->duration }}"></progress> 
+                                    </article>
                                 @endforeach
-
                             </div>
                         </section>
-                        <audio controls="controls">
-                            @foreach ($musics as $music)
-                            <source src="{{ $music->file }}" type="audio/mpeg">
-                            
-                            @endforeach
-                            <button id="nextTrack">Next Track</button>
-                          </audio>
-                          
-                          
-
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
         </div>
 
-
-
-
     </main>
-
-
-
 </x-layout>
-{{-- width="1425" height="150" --}}
