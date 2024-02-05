@@ -56,7 +56,32 @@ class MusicSeeder extends Seeder
                 'cover' => '/img/reggio.JPG',
                 'duration' => '1:57',
                 'file' => '/media/Parigi.mp3',
-            ]
+            ],
+
+            [
+
+                'title' => 'Silence',
+                'artist' => 'MedZnag',
+                'cover' => '/img/silence.jpeg',
+                'duration' => '1:39',
+                'file' => '/media/Yez 1.mp3',
+            ],
+
+            [
+                'title' => 'Free',
+                'artist' => 'MedZnag',
+                'cover' => '/img/insomnia.jpeg',
+                'duration' => '1:17',
+                'file' => '/media/Almeida.mp3',
+            ],
+
+            [
+                'title' => 'Berlin',
+                'artist' => 'MedZnag',
+                'cover' => '/img/berlin.jpeg',
+                'duration' => '2:17',
+                'file' => '/media/My neck.mp3',
+            ],
         ];
     
         DB::table('music')->insert($data);

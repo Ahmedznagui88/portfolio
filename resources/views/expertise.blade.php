@@ -33,19 +33,19 @@
 
         <div class="row row-cont">
             <div class="col-md-3">
-                <img src="./media/Esercizio di stile 3.png" class="w-100 rounded" alt="">
+                <img src="./img/Esercizio di stile 3.png" class="w-100 rounded" alt="">
             </div>
 
             <div class="col-md-3">
-                <img src="./media/Esercizio di stile 4.png" class="w-100 rounded" alt="">
+                <img src="./img/Esercizio di stile 4.png" class="w-100 rounded" alt="">
             </div>
 
             <div class="col-md-3">
-                <img src="./media/Esercizio di stile 5.png" class="w-100 rounded" alt="">
+                <img src="./img/Esercizio di stile 5.png" class="w-100 rounded" alt="">
             </div>
 
             <div class="col-md-3">
-                <img src="./media/MacBook Pro 14_ - 1.png" class="w-100 rounded" alt="">
+                <img src="./img/MacBook Pro 14_ - 1.png" class="w-100 rounded" alt="">
             </div>
         </div>
     </div>

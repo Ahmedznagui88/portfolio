@@ -1,6 +1,6 @@
 .main-music{
   background: radial-gradient(circle, rgb(72, 49, 89) 0%, rgba(0,0,0,1) 62%); 
-  height: 100vh;
+  height: 110%;
 }
 
 .text-music{
@@ -42,10 +42,8 @@
   }
 
   .cont-music{
-
     background: #171717;
     width: 100%;
-    height: 400px;
     border-radius: 20px;
     background: rgba(192, 152, 152, 0.2);
     border-radius: 16px;
@@ -66,7 +64,7 @@
 }
 
 .div-img-tit{
-  margin-top: 10px;
+  margin-top: 4px;
   display: flex;
   align-items: center;
   width: 100%;
@@ -84,6 +82,7 @@
 
 .title-song{
   font-family: 'Panchang';
+  font-weight: lighter;
   font-size: 50px;
   font-weight: lighter;
   letter-spacing: 2px;
