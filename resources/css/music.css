@@ -4,7 +4,7 @@
 }
 
 .text-music{
-    font-family: 'Jura', sans-serif;
+    font-family: 'Panchang';
     text-align: center;
     font-size: 120px;
     background: linear-gradient(50deg, rgba(203,241,72,1) 11%, rgba(228,212,87,1) 22%, rgba(214,101,132,1) 41%, rgba(118,103,196,1) 66%, rgba(214,92,90,1) 84%);
@@ -83,8 +83,9 @@
 }
 
 .title-song{
-  font-family: 'Jura', sans-serif;
+  font-family: 'Panchang';
   font-size: 50px;
+  font-weight: lighter;
   letter-spacing: 2px;
   text-align: center;
 }
