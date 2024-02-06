@@ -1,61 +1,25 @@
-<main class="container-fluid main-music">
+<h1 align="center">Hi 👋🏽, I'm Ahmed</h1>
+<h3 align="center">Front-end developer 👨🏽‍💻 and Beat-maker 🎵 from Italy (Reggio Emilia)</h3>
 
-    <div class="container">
-        <div class="row justify-content-center">
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=ahmedznagui88&label=Profile%20views&color=0e75b6&style=flat" alt="ahmedznagui88" /> </p>
 
-            
-                <div class="col-md-12">
-                    <h1 class="text-music">Music</h1>
-                </div>
+<div align="center">
+  
+🔭 I’m currently working on my [Portfolio](git@github.com:Ahmedznagui88/portfolio.git)
 
-                {{-- <div class="col-md-5 p-music">
-                    <p class="">
-                        I've loved music since childhood, inspiring friends to create it too. Growing up, I became a skilled beat maker, turning my passion into unique sounds. Creating beats isn't just a creative outlet for me; it's a way to connect with others who love the art of sound.
-                    </p>
-                </div> --}}
-        </div>
+🌱 I’m currently learning **ReactJS => Angular => NodeJS**
 
-        <div class="container-fluid cont-music">
-            <div class="row">
-                <div class="col-md-12">
+📫 How to reach me **ahmed.znagui@hotmail.com**
+</div>
 
-                    
-                    <section class="carousel">
+<h3 align="center">Connect with me:</h3>
+<p align="center">
+<a href="https://linkedin.com/in/https://www.linkedin.com/in/ahmed-znagui/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/ahmed-znagui" height="30" width="40" /></a>
+</p>
 
-                        @foreach ($musics as $music)
-                            
-                        <div class="slides">
+<h3 align="center">Languages and Tools:</h3>
+<p align="center"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://laravel.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> </p>
 
-                          <img class="slide" id="slide-1" src="">
-                        </div>
-                        @endforeach
-                      </section>
+<p style="background: rgb(44, 44, 44);" ><img align="right" src="https://github-readme-stats.vercel.app/api/top-langs?username=ahmedznagui88&show_icons=true&locale=en&layout=compact" alt="ahmedznagui88" /></p>
 
-                      <div class="media-player">
-                        <div class="progress-bar">
-                            <div class="played"></div>
-                        </div>
-                        <div class="controls">
-                            <button class="shuffle">Shuffle</button>
-                            <button class="previous">Previous</button>
-                            <button class="play-pause">Play/Pause</button>
-                            <button class="next">Next</button>
-                            <button class="repeat">Repeat</button>
-                        </div>
-                    </div>
-                      
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-
-    </div>
-
-
-    
-
-</main>
+<p style="background: rgb(44, 44, 44);" >&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ahmedznagui88&show_icons=true&locale=en" alt="ahmedznagui88" /></p>

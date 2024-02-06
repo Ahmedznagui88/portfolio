@@ -106,14 +106,14 @@
 
 
 
-    {{-- <svg class="" width="1425" height="150" viewBox="0 0 1728 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg class="" width="1425" height="150" viewBox="0 0 1728 151" fill="none" xmlns="http://www.w3.org/2000/svg">
         <ellipse cx="864" cy="400.5" rx="1260" ry="320.5" fill="url(#paint0_linear_999_30)"/>ewrewr
         <defs>
         <linearGradient id="paint0_linear_999_30" x1="864" y1="0" x2="864" y2="150" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#3B2C2C"/>
+        <stop stop-color="rgba(0,0,0,1)"/>
         </linearGradient>
         </defs>
-        </svg> --}}
+        </svg> 
 
     {{--  <x-music /> --}}
 
@@ -121,7 +121,9 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-12">
-                    <h1 class="text-music">Music</h1>
+                    @foreach ($musics as $music)
+                    @endforeach
+                    <p class="text-music">{{ $music->artist }}</p>
                 </div>
                 {{-- <div class="col-md-5 p-music">
                         <p class="text-light">
@@ -130,21 +132,17 @@
                     </div>  --}}
             </div>
 
-            <div class="container-fluid cont-music my-3">
+            <div class="container-fluid cont-music">
                 <div class="row">
                     <div class="col-md-12">
                         <section class="carousel">
-                            <div class="row flex-column">
+                            <div class="row flex-column ">
                                 @foreach ($musics as $music)
                                     <article class="col-3 div-img-tit">
                                         <div class="slides">
                                             <img class="slide" src="{{ $music->cover }}">
                                         </div>
-
-                                        <div class="w-75 mx-5">
-                                            <p class="title-song">{{ $music->title }}</p>
-                                        </div>
-                                        <div class="mx-5">
+                                        <div class="">
                                             <button class="play-pause-button" data-audio-id="{{ $music->id }}"
                                                 data-progress-id="progress_{{ $music->id }}">
                                                 Play
@@ -152,9 +150,13 @@
                                             <audio id="audio_{{ $music->id }}" class="w-75"
                                                 src="{{ $music->file }}"></audio>
                                         </div>
+                                        <div class="w-75 mx-5">
+                                            <p class="title-song">{{ $music->title }}</p>
+                                        </div>
+                                       
                                         
-                                        <progress class="w-50 mx-5" id="{{ $music->file }}" value=""
-                                            max="{{ $music->duration }}"></progress> 
+                                       {{--  <progress class="w-50 mx-5" id="{{ $music->file }}" value=""
+                                            max="{{ $music->duration }}"></progress>  --}}
                                     </article>
                                 @endforeach
                             </div>

@@ -16,12 +16,14 @@ function playPause(audioId, progressId, button) {
         currentPlaying.pause();
         let currentProgressId = currentPlaying.id.replace('audio_', 'progress_');
         document.getElementById(currentProgressId).value = 0;
-    }
+        }
 
     if (audio.paused) {
         audio.play();
         button.textContent = 'Pause';
         currentPlaying = audio;
+        //difrent bg
+        
     } else {
         audio.pause();
         button.textContent = 'Play';
