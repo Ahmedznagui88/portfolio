@@ -155,7 +155,8 @@
                                         </div>
                                        
                                         
-                                       <progress class="w-50 mx-5" id="{{ $music->id }}" value="{{ $music->duration }}" max="100"></progress> 
+                                        <progress class="w-50 mx-5" id="progress_{{ $music->id }}" value="0" max="100"></progress>
+                                    
                                     </article>
                                 @endforeach
                             </div>

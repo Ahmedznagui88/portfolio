@@ -223,8 +223,6 @@ html.is-animating .text-about{
   
 .bn30:hover, .bn31:hover, .bn32:hover, .bn33:hover {
  background-image: linear-gradient(66deg, rgb(73, 59, 222) 17%, rgba(119,55,203,1) 49%, rgba(161,69,252,1) 69%, rgb(136, 42, 230) 96%);    box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
-  /* background: url(../../public/media/Frame\ 2.png); */
-   /*  background-size:800px; */
    transition: 2s;
   }
   

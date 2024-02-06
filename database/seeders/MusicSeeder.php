@@ -13,41 +13,16 @@ class MusicSeeder extends Seeder
      */
     public function run(): void
     {
-        /* $title = [
-            'Nadine',
-        ];
-
-        $artist = [
-            'MedZnag',
-        ];
-
-        $cover = [
-            '/public/img/red_ocean.avif'
-        ];
-
-        $duration = [
-            '1.39',
-        ];
-
-        $file = [
-            '/public/media/Nadine.mp3'
-        ];
-
-        DB::table('music')->insert([
-            'title' => $title,
-            'artist' => $artist ,
-            'cover' => $cover ,
-            'duration' => $duration ,
-            'file' => $file,
-        ]); */
 
         $data = [
             [
-                'title' => 'Gaza',
+                'title' => 'Json',
                 'artist' => 'MedZnag',
                 'cover' => '/img/red_ocean.avif',
                 'duration' => '1:39',
                 'file' => '/media/Nadine.mp3',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             
             [
@@ -56,6 +31,8 @@ class MusicSeeder extends Seeder
                 'cover' => '/img/reggio.JPG',
                 'duration' => '1:57',
                 'file' => '/media/Parigi.mp3',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
 
             [
@@ -65,6 +42,8 @@ class MusicSeeder extends Seeder
                 'cover' => '/img/silence.jpeg',
                 'duration' => '1:39',
                 'file' => '/media/Yez 1.mp3',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
 
             [
@@ -73,6 +52,8 @@ class MusicSeeder extends Seeder
                 'cover' => '/img/insomnia.jpeg',
                 'duration' => '1:17',
                 'file' => '/media/Almeida.mp3',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
 
             [
@@ -81,9 +62,12 @@ class MusicSeeder extends Seeder
                 'cover' => '/img/berlin.jpeg',
                 'duration' => '2:17',
                 'file' => '/media/My neck.mp3',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
         ];
     
         DB::table('music')->insert($data);
+
     }
 }
