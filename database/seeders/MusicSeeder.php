@@ -43,7 +43,7 @@ class MusicSeeder extends Seeder
 
         $data = [
             [
-                'title' => 'Nadine',
+                'title' => 'Gaza',
                 'artist' => 'MedZnag',
                 'cover' => '/img/red_ocean.avif',
                 'duration' => '1:39',
@@ -51,7 +51,7 @@ class MusicSeeder extends Seeder
             ],
             
             [
-                'title' => 'Parigi',
+                'title' => 'Res',
                 'artist' => 'MedZnag',
                 'cover' => '/img/reggio.JPG',
                 'duration' => '1:57',

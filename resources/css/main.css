@@ -11,7 +11,7 @@ main{
 .expertise, .work, .about{
     color: black;
     /* border-radius: 70px; */
-    font-size: 99px;   
+    font-size: 88px;   
    /*  border-bottom: solid 0.4px; */
     margin-top: 10px;
     letter-spacing: 7px;    
@@ -38,7 +38,7 @@ html.is-animating .about{
     color: black;
 
     /* border-radius: 70px; */
-    font-size: 99px;   
+    font-size: 88px;   
    /*  border-bottom: solid 0.4px; */
     margin-top: 10px;
     letter-spacing: 7px;    
@@ -115,7 +115,7 @@ html.is-animating .contact{
 
 @keyframes changeColor {
     0% {
-        background-image: url(../../public/media/Frame\ 1.png);
+        background-image: url(../../public/img/Frame\ 1.png);
         background-size: contain;
     
     }
@@ -137,7 +137,7 @@ html.is-animating .contact{
     }
     100% {
        
-        background-image: url(../../public/media/Frame\ 2.png);
+        background-image: url(../../public/img/Frame\ 2.png);
         background-size: cover;
 
     }
@@ -170,7 +170,7 @@ border: 1px solid rgba(172, 93, 93, 0.14);
 @media screen and (min-width: 200px) and (max-width: 765px) {
 
     main{
-        background-image: url(../../public/media/opera.png);
+        background-image: url(../../public/img/opera.png);
     background-size: cover;
     background-position: bottom;
     }

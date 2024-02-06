@@ -1,44 +1,52 @@
-let currentPlaying = null;
 
-document.querySelectorAll('.play-pause-button').forEach(function(button) {
-    button.addEventListener('click', function() {
-        let audioId = 'audio_' + this.dataset.audioId;
-        let progressId = this.dataset.progressId;
-        playPause(audioId, progressId, this);
+document.addEventListener('DOMContentLoaded', function() {
+    let currentPlaying = null;
+
+    const playPauseButtons = document.querySelectorAll('.play-pause-button');
+    playPauseButtons.forEach(button => {
+        button.addEventListener('click', (event) => {
+            event.preventDefault();
+            const audioId = `audio_${button.dataset.audioId}`;
+            const progressId = button.dataset.progressId;
+            playPause(audioId, progressId, button);
+        });
     });
-});
 
-function playPause(audioId, progressId, button) {
-    let audio = document.getElementById(audioId);
-    let progress = document.getElementById(progressId);
+    function playPause(audioId, progressId, button) {
+        const audio = document.getElementById(audioId);
+        const progress = document.getElementById(progressId);
 
-    if (currentPlaying && currentPlaying !== audio) {
-        currentPlaying.pause();
-        let currentProgressId = currentPlaying.id.replace('audio_', 'progress_');
-        document.getElementById(currentProgressId).value = 0;
+        if (currentPlaying && currentPlaying !== audio) {
+            stopAudio(currentPlaying);
         }
 
-    if (audio.paused) {
+        if (audio.paused) {
+            startAudio(audio, button, progress);
+        } else {
+            stopAudio(audio, button, progress);
+        }
+    }
+
+    function startAudio(audio, button, progress) {
         audio.play();
         button.textContent = 'Pause';
+        button.style.backgroundColor = 'rgba(204,101,000,1)'; 
         currentPlaying = audio;
-        //difrent bg
-        
-    } else {
+
+        audio.addEventListener('timeupdate', updateProgress.bind(null, audio, progress));
+        audio.addEventListener('ended', stopAudio.bind(null, audio, button, progress));
+    }
+
+    function stopAudio(audio, button, progress) {
         audio.pause();
         button.textContent = 'Play';
+        button.style.backgroundColor = ''; 
+        if (progress) progress.value = 0;
         currentPlaying = null;
     }
 
-    audio.addEventListener('timeupdate', function() {
-        let value = (audio.currentTime / audio.duration) * 100;
+    function updateProgress(audio, progress) {
+        const value = (audio.currentTime / audio.duration) * 100;
         progress.value = value;
-    });
-
-    audio.addEventListener('ended', function() {
-        progress.value = 0;
-        button.textContent = 'Play';
-        currentPlaying = null;
-    });
-}
-
+    }
+});
