@@ -1,5 +1,5 @@
 let outline = document.querySelector('.outline');
-let links = document.querySelectorAll('link, a, p, h6');
+let links = document.querySelectorAll('link, a, p, button');
 document.addEventListener('mousemove', function(e) {
     let x = e.clientX;
     let y = e.clientY;

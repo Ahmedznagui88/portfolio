@@ -1,4 +1,7 @@
 
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
     let currentPlaying = null;
 
@@ -13,19 +16,19 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     function playPause(audioId, progressId, button) {
-        const audio = document.getElementById(audioId);
-        const progress = document.getElementById(progressId);
+    const audio = document.getElementById(audioId);
+    const progress = document.getElementById(progressId);
 
-        if (currentPlaying && currentPlaying !== audio) {
-            stopAudio(currentPlaying);
-        }
-
-        if (audio.paused) {
-            startAudio(audio, button, progress);
-        } else {
-            stopAudio(audio, button, progress);
-        }
+    if (currentPlaying && currentPlaying !== audio) {
+        stopAudio(currentPlaying, button, progress);
     }
+
+    if (audio.paused) {
+        startAudio(audio, button, progress);
+    } else {
+        stopAudio(audio, button, progress);
+    }
+}
 
     function startAudio(audio, button, progress) {
         audio.play();
@@ -38,15 +41,57 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function stopAudio(audio, button, progress) {
-        audio.pause();
-        button.textContent = 'Play';
-        button.style.backgroundColor = ''; 
-        if (progress) progress.value = 0;
-        currentPlaying = null;
+    audio.pause();
+    button.textContent = 'Play';
+    button.style.backgroundColor = ''; 
+    if (progress) progress.value = 0;
+    currentPlaying = null;
+
+    const nextButton = button.nextElementSibling;
+    if (nextButton) {
+        const nextAudioId = `audio_${nextButton.dataset.audioId}`;
+        const nextProgressId = nextButton.dataset.progressId;
+        playPause(nextAudioId, nextProgressId, nextButton);
+    }
+}
+        //errore nella console
+        function updateProgress(audio, progress) {
+            if (progress) {
+                const value = (audio.currentTime / audio.duration) * 100;
+                progress.value = value;
+            }
+        }
+});
+
+
+/* function playPause(audioId, progressId, button) {
+    const audio = document.getElementById(audioId);
+    const progress = document.getElementById(progressId);
+
+    if (currentPlaying && currentPlaying !== audio) {
+        stopAudio(currentPlaying, button, progress);
     }
 
-    function updateProgress(audio, progress) {
-        const value = (audio.currentTime / audio.duration) * 100;
-        progress.value = value;
+    if (audio.paused) {
+        startAudio(audio, button, progress);
+    } else {
+        stopAudio(audio, button, progress);
     }
-});
+}
+
+function stopAudio(audio, button, progress) {
+    audio.pause();
+    button.textContent = 'Play';
+    button.style.backgroundColor = ''; 
+    if (progress) progress.value = 0;
+    currentPlaying = null;
+
+    const nextButton = button.nextElementSibling;
+    if (nextButton) {
+        const nextAudioId = `audio_${nextButton.dataset.audioId}`;
+        const nextProgressId = nextButton.dataset.progressId;
+        playPause(nextAudioId, nextProgressId, nextButton);
+    }
+} */
+
+
