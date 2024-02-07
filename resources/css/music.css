@@ -1,5 +1,5 @@
 .main-music{
-  background: radial-gradient(circle, rgb(72, 49, 89) 0%, rgba(0,0,0,1) 62%); 
+  background: radial-gradient(circle, rgb(72, 49, 89) 0%,  rgb(72, 49, 89) 0%, rgb(72, 49, 89) 0%, rgba(0,0,0,1) 72%); 
   height: 830px;
 }
 
@@ -57,10 +57,10 @@
 
 .slides {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: 2px;
   width: 100%;
-  justify-content: space-around;
+
   
 }
 
@@ -69,14 +69,16 @@
   align-items: center;
   width: 100%;
   height: 120px;
-  border-bottom: 0.3px solid #bb57145e;
+  border-bottom: 1px solid #bb57145e;
   transition: 0.85s;
+  box-sizing: border-box;
 }
 
 .div-img-tit:hover{
   width: 100%;
   background: rgba(221, 196, 196, 0.2);
   border-bottom: 0.3px solid #e0c5b35e;
+  border-radius: 15px;
   
 }
 
@@ -90,7 +92,7 @@
 .title-song{
   font-family: 'Panchang';
   font-weight: lighter;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: lighter;
   letter-spacing: 2px;
   text-align: center;
@@ -99,24 +101,59 @@
 
 .play-pause-button{
   border: none;
-  width: 230px;
-  height: 50px;
+  width: 130px;
+  height: 30px;
   border-radius: 30px;
   background:  #c89172;
   color: rgb(248, 248, 248);
   transition: 0.67s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .play-pause-button:hover{
   border: none;
-  width: 230px;
-  height: 50px;
-
+  background:  #e4cdc0;
   background:  #8e5a3c;
   color: rgb(124, 124, 124);
 }
 
-.progress-bar {
-  color: orange;
+.progress-bar-fill {
+  height: 100%; 
+  width: 0%; 
+  border-radius: 600px;
+  background: linear-gradient(50deg, rgba(255, 215, 137, 1) 22%, rgb(162, 101, 219) 84%);
+  box-shadow: 0 0 0.2px rgba(255, 215, 137, 0.8), 0 0 20px rgb(219, 140, 101);
+  
 }
+
+.custom-progress-bar{
+  border-radius: 100px;
+  background-color: rgb(233, 233, 241);
+  height: 7px;
+}
+
+
+.animated-svg rect {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40% {
+      transform: translateY(-5px);
+  }
+  60% {
+      transform: translateY(-3px);
+  }
+}
+
+/* Nascondi il SVG quando la traccia non è in riproduzione */
+#svgContainer:not(.playing) .animated-svg {
+  display: none;
+}
+
 /** music player */
