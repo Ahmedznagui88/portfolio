@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const playPauseButtons = document.querySelectorAll('.play-pause-button');
     playPauseButtons.forEach(button => {
-        button.addEventListener('click', (event) => {
-            event.preventDefault();
+        button.addEventListener('click', () => {
+            
             const audioId = `audio_${button.dataset.audioId}`;
             const progressId = button.dataset.progressId;
             playPause(audioId, progressId, button);
