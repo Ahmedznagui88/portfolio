@@ -1,17 +1,18 @@
 .main-music{
   background: radial-gradient(circle, rgb(72, 49, 89) 0%,  rgb(72, 49, 89) 0%, rgb(72, 49, 89) 0%, rgba(0,0,0,1) 72%); 
-  height: 830px;
+  height: 100vh;
 }
 
 .text-music{
   font-family: 'Panchang';   
   font-weight: lighter;
     text-align: center;
-    font-size: 80px;
+    font-size: 34px;
     background: linear-gradient(50deg, rgba(203,241,72,1) 11%, rgba(228,212,87,1) 22%, rgba(214,101,132,1) 41%, rgba(118,103,196,1) 66%, rgba(214,92,90,1) 84%);
   background-clip: text;
   -webkit-background-clip: text; 
   color: transparent;
+  margin-top: 30px;
   animation: changeColors 2s infinite alternate; 
 }
 

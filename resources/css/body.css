@@ -3,27 +3,17 @@ body{
     background-color: #A2A2A2;
   color: rgb(255, 255, 255);
   font-family: 'Panchang';
-  /* font-family: 'Lato', sans-serif; */
-  
 }
 
 .transition-fade{
-    
     opacity: 12;
     transition: 1s;
-    /* transform: translateY(0);
-    transform-origin: right;  */
-    
 }
 
 html.is-animating .transition-fade{
-    
     opacity: 0;
-    /* transform: translateY(100%); */
 }
  
-
-
 .trigger {
     height: 100vh;
   } 

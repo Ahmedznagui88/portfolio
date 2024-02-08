@@ -5,7 +5,9 @@
                 <div class="col-md-12">
                     @foreach ($musics as $music)
                     @endforeach
-                    <p class="text-music">{{ $music->artist }}</p>
+                    {{-- <p class="text-music">{{ $music->artist }}</p> --}}
+
+                    <p class="text-music">Brown Complexion</p>
                 </div>
                 {{-- <div class="col-md-5 p-music">
                         <p class="text-light">

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    let currentPlaying = null;
+    let currentPlaying = false;
 
     const playPauseButtons = document.querySelectorAll('.play-pause-button');
     playPauseButtons.forEach(button => {
