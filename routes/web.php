@@ -21,3 +21,6 @@ Route::get('/contact', [PublicController::class, 'contact'])->name('contact');
 
 /* form */
 Route::post('contact/send', [PublicController::class, 'contactSubmit'])->name('send.contact');
+
+//music route
+Route::get('/music', [PublicController::class, 'music'])->name('music');

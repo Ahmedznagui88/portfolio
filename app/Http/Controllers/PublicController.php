@@ -16,10 +16,8 @@ class PublicController extends Controller
 
     public function expertise(){
 
-        $musics = Music::all();
-
-        return view ('expertise', compact('musics') );
-
+        
+        return view('expertise');
 
     }
 
@@ -30,6 +28,13 @@ class PublicController extends Controller
 
     public function contact(){
         return view('contact');
+    }
+
+    public function music(){
+        $musics = Music::all();
+
+        return view ('music', compact('musics') );
+
     }
 
     /* Dependency-injection-php / input name,email,user message */
