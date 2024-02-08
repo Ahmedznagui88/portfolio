@@ -1,5 +1,5 @@
 <x-layout>
-        <main class="container-fluid main-music">
+    <main class="container-fluid main-music">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-12">
@@ -26,7 +26,7 @@
                                         <div class="slides">
                                             <img class="slide" src="{{ $music->cover }}">
                                         </div>
-                                        <div class="">
+                                        <div>
                                             <button class="play-pause-button" data-audio-id="{{ $music->id }}"
                                                 data-progress-id="progress_{{ $music->id }}">
                                                 <svg width="14" height="15" viewBox="0 0 15 18" fill="none"

@@ -1,12 +1,19 @@
+.about-page{
+  background-image: url(../../public/img/atv.avif);
+  
+  background-size: cover;
+  height: 100vh;
+
+}
+
 .article-about {
     position: relative;
-    background: url(../../public/media/Group\ 40.png);
     background-size:400px;
     background-attachment: fixed;
     
 }
 
-.article-about::before {
+/* .article-about::before {
     content: "";
     position: absolute;
     top: 0;
@@ -23,9 +30,9 @@
     right: 0;
     width: 50%;
     height: 100%;
-    /* background: radial-gradient(circle, rgba(129, 8, 221, 0.712) 0%,rgb(21, 20, 20) 60%); */
     
-}
+    
+} */
 
 .row-about{
     width: auto;
@@ -37,11 +44,11 @@
 }
 
 .div-about{
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(5px);
     width: 500px;
     height: 300px;
     font-size: 20px;
-    color: rgb(222, 222, 222);
+    background-color: rgba(208, 161, 135, 0.347);
     margin-right: 50px;
     display: flex;
     justify-content: center;
@@ -51,7 +58,7 @@
     transition: 1.4s;
     transform: translateY(0);
     z-index: 19434579;
-    box-shadow:  0 1px 1px 1px rgba(16, 16, 16, 0.899);
+    border-radius: 20px;
     
   }
 html.is-animating .div-about{
@@ -67,7 +74,7 @@ html.is-animating .div-about{
     transition: 2s;
     background-image: url(../../public/media/);
      z-index: 19434579;
-     color: rgb(195, 190, 190);
+     color: rgb(0, 0, 0);
 }
 
 html.is-animating .text-about{

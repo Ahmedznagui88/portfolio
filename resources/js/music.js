@@ -32,8 +32,8 @@ document.addEventListener('DOMContentLoaded', function () {
         button.style.backgroundColor = 'rgba(204,101,000,1)';
         currentPlaying = audio;
     
-        audio.addEventListener('timeupdate', updateProgress.bind(null, audio, progress));
-        audio.addEventListener('ended', stopAudio.bind(null, audio, button, progress));
+        audio.addEventListener('timeupdate', updateProgress.bind(false, audio, progress));
+        audio.addEventListener('ended', stopAudio.bind(false, audio, button, progress));
     }
 
     function stopAudio(audio, button, progress) {
