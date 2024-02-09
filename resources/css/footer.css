@@ -25,6 +25,8 @@
   }
 
   .svg-no-footer {
+
+    margin-left: 15px;
     -webkit-filter: none;
     filter: none;
     transition: 0.6s;
@@ -37,7 +39,7 @@
 }
 
 
-  .bn30, .bn31, .bn32, .bn33, .svg-no-footer  {
+  .bn30, .bn31, .bn32, .bn33, .bn34  {
     width: 180px;
     height: 50px;
     color: white;
@@ -50,34 +52,20 @@
     justify-content: center;
     border-radius: 20px;
       background: rgba(215, 207, 219, 0.2);
-      border-radius: 16px;
+      border-radius: 13px;
       box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
       backdrop-filter: blur(5px);
       -webkit-backdrop-filter: blur(5px);
+      transition: 0.5s;
   }
   
-  .bn30, .bn31, .bn32, .bn33 :hover {
+  .bn30:hover, .bn31:hover, .bn32:hover, .bn33:hover, .bn34:hover {
     font-family: 'Panchang';   
     font-weight: lighter;
-     background: linear-gradient(50deg, rgba(203,241,72,1) 11%, rgba(228,212,87,1) 22%, rgba(214,101,132,1) 41%, rgba(118,103,196,1) 66%, rgba(214,92,90,1) 84%);
-    background-clip: text;
-    -webkit-background-clip: text; 
-    animation: changeColors 2s infinite alternate; 
-  }
-  
-  @keyframes changeColors {
-      0%, 100% {
-        filter: hue-rotate(0deg);
-      }
-      25% {
-        filter: hue-rotate(45deg);
-      }
-      50% {
-        filter: hue-rotate(90deg);
-      }
-      75% {
-        filter: hue-rotate(135deg);
-      }
+   background: rgba(70, 67, 72, 0.2);
+   box-shadow: 0 4px 30px rgba(29, 98, 68, 0.1);
+
+
     }
   
 
