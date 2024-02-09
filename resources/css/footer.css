@@ -1,0 +1,83 @@
+.pages{
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    border-radius: 20px;
+      background: rgba(129, 89, 152, 0.2);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+
+  /* botton */
+  
+
+.contain-img{
+    display: flex;
+   justify-content: center;
+   align-items: center;   
+   justify-content: space-around;
+  }
+
+  .svg-no-footer {
+    -webkit-filter: none;
+    filter: none;
+    transition: 0.6s;
+
+}
+
+.svg-no-footer:hover {
+    scale: 1.2;
+
+}
+
+
+  .bn30, .bn31, .bn32, .bn33, .svg-no-footer  {
+    width: 180px;
+    height: 50px;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 0.7em 1em;
+    margin: 10px;
+    transition: 2s;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+      background: rgba(215, 207, 219, 0.2);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+  }
+  
+  .bn30, .bn31, .bn32, .bn33 :hover {
+    font-family: 'Panchang';   
+    font-weight: lighter;
+     background: linear-gradient(50deg, rgba(203,241,72,1) 11%, rgba(228,212,87,1) 22%, rgba(214,101,132,1) 41%, rgba(118,103,196,1) 66%, rgba(214,92,90,1) 84%);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    animation: changeColors 2s infinite alternate; 
+  }
+  
+  @keyframes changeColors {
+      0%, 100% {
+        filter: hue-rotate(0deg);
+      }
+      25% {
+        filter: hue-rotate(45deg);
+      }
+      50% {
+        filter: hue-rotate(90deg);
+      }
+      75% {
+        filter: hue-rotate(135deg);
+      }
+    }
+  
+

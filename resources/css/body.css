@@ -19,3 +19,7 @@ opacity: 0;
 .trigger {
     height: 100vh;
   } 
+
+  a{
+    text-decoration: none;
+  }

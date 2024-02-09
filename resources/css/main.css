@@ -6,26 +6,13 @@ main{
     text-align: center;
 }
 
-.expertise{
-    color: white;
-    font-size: 88px;    
-    font-weight: 100;
-    opacity: 1;
-    transition: 1.4s;
-    transform: translateY(0);
-    transform-origin: bottom;
-}
 
-html.is-animating .expertise{
-    opacity: 1;
-    transform: translateY(20px);
-}
 
 .work, .about, .expertise{
     color: white;
     font-size: 88px;   
     margin-top: 10px;
-    letter-spacing: 7px;    
+ 
     font-weight: lighter;
     transition: 1s;
 
@@ -67,11 +54,27 @@ html.is-animating .work{
     opacity: 1;
     font-weight: 100;
     font-size: 100px;
-    letter-spacing: 7px;    
+ 
     font-weight: lighter;
     color: white;
 }
 html.is-animating .contact{
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.expertise{
+    transition: 1.5s;
+    transform: translateY(0);
+    transform-origin: bottom;
+    opacity: 1;
+    font-weight: 100;
+    font-size: 100px;
+ 
+    font-weight: lighter;
+    color: white;
+}
+html.is-animating .expertise{
     opacity: 0;
     transform: translateY(20px);
 }
@@ -167,6 +170,7 @@ html.is-animating .contact{
     scale: 1.7;
     transform: rotate(360deg);
 }
+
 
 .text-header{
     background: rgba(172, 93, 93, 0.2);

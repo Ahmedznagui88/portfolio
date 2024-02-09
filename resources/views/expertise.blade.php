@@ -69,7 +69,7 @@
             </div>
 
             <div class="col-md-5 div-front-2">
-                <p class="text-figma text-dark">HTML structures web content, CSS styles it, and JavaScript adds
+                <p class="text-figma">HTML structures web content, CSS styles it, and JavaScript adds
                     interactivity. GSAP refines animations, providing a seamless user experience. React streamlines
                     dynamic UI creation by efficiently managing components.</p>
             </div>
@@ -91,31 +91,12 @@
             </div>
 
             <div class="col-md-5 div-front-2">
-                <p class="text-figma text-dark">
+                <p class="text-figma">
                     PHP handles server-side logic, Laravel is a PHP framework that streamlines web development with
                     elegant syntax and built-in tools. MySQL is a relational database management system used with PHP to
                     store and retrieve data efficiently.</p>
             </div>
         </div>
     </div>
-
-
-
-
-
-
-    {{-- 
-
-    <svg class="" width="1425" height="150" viewBox="0 0 1728 151" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <ellipse cx="864" cy="400.5" rx="1260" ry="320.5" fill="url(#paint0_linear_999_30)"/>ewrewr
-        <defs>
-        <linearGradient id="paint0_linear_999_30" x1="864" y1="0" x2="864" y2="150" gradientUnits="userSpaceOnUse">
-        <stop stop-color="rgba(0,0,0,1)"/>
-        </linearGradient>
-        </defs>
-        </svg>  --}}
-
-    {{--  <x-music /> --}}
-
-
+    <x-footer />
 </x-layout>

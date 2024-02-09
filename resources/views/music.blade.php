@@ -10,7 +10,7 @@
             <div class="container-fluid cont-music">
                 <div class="row">
                     <div class="col-md-12">
-                        <section class="carousel">
+                        <section>
                             <div class="row flex-column ">
                                 @foreach ($musics as $music)
                                     <article class="col-3 div-img-tit">
@@ -46,8 +46,8 @@
                 </div>
             </div>
         </div>
-
+        <x-footer />
     </main>
 
-    
+   
 </x-layout>

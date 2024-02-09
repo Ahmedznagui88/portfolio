@@ -1,6 +1,6 @@
 .main-music{
   background: radial-gradient(circle, rgb(72, 49, 89) 0%,  rgb(72, 49, 89) 0%, rgb(72, 49, 89) 0%, rgba(0,0,0,1) 72%); 
-  height: 100vh;
+
 }
 
 .text-music{
@@ -33,9 +33,9 @@
 
 
   .p-music{
+    border-radius: 8px;
  
     background: rgba(233, 218, 218, 0.57);
-    border-radius: 8px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5.1px);
     -webkit-backdrop-filter: blur(5.1px);
@@ -158,3 +158,5 @@
 }
 
 /** music player */
+
+

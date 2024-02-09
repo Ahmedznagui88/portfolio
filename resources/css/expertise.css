@@ -10,8 +10,8 @@
 
 .row-figma{
   display: flex;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
   justify-content: space-between;
   width: 1000px;
 }
@@ -29,15 +29,15 @@ align-items: center;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(172, 93, 93, 0.14);
 
 }
 
 .text-figma{
   color: white;
- letter-spacing: 1px;
- font-weight: 400;
- font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 13px;
  margin-top: 10px;
 }
 
@@ -93,57 +93,44 @@ align-items: center;
 .div-expertise{
   width: 120px;
   height: 50px;
-  
   margin-top: 77px;
   color: white;
   font-weight: lighter;
-
-  /* border-radius: 21px; */
   display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
- /*  box-shadow:  0px 0.4px 0.4px 0.4px rgba(11, 11, 11, 0.899); */
- 
-  
 }
 
 .row-expertise-2{
-
-    display: flex;
+  display: flex;
   flex-wrap: wrap;
-  /* margin: -10px; */ 
   display: flex;
   justify-content: space-evenly;
   justify-content: end;
   align-items: center;
-
 }
 
 .div-expertise-2{
-
-  /* border-radius: 30px; */
   box-sizing: border-box;
   margin: 10px;
   width: 600px;
   height: 200px;
   color: white;
   border-radius: 20px;
-    background-size:260px;
-    background-attachment: fixed;
+  background-size:260px;
+  background-attachment: fixed;
     
 }
 
 .div-expertise-3{
-  
-  /* border-radius: 30px; */
   box-sizing: border-box;
   margin: 10px;
   width: 600px;
   height: 200px;
   border-radius: 20px;
-    background-size:260px;
-    background-attachment: fixed;
+  background-size:260px;
+  background-attachment: fixed;
 }
 
 
@@ -163,7 +150,7 @@ h5{
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  background: rgba(233, 143, 40, 0.613);
+  background: rgba(233, 143, 40, 0.447);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -176,11 +163,12 @@ h5{
 }
 
 .containee{
-
   display: flex;
   align-items: center;
   justify-content: center;
-height: 300px;  
-border-bottom: 0.3px solid #bb5714e1;
-
+  height: 300px;  
+  border-bottom: 0.3px solid #bb57145e;
 }
+
+
+
