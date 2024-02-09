@@ -34,7 +34,7 @@ align-items: center;
 }
 
 .text-figma{
-  color: rgb(0, 0, 0);
+  color: white;
  letter-spacing: 1px;
  font-weight: 400;
  font-size: 13px;
@@ -52,7 +52,7 @@ align-items: center;
   height: 70px;
   display: flex;
   justify-content: center;
-  color: black;
+  color: white;
   font-weight: lighter;
   display: flex;
   align-items: center;
@@ -68,7 +68,7 @@ align-items: center;
   width: 100px;
   height: 40px;
   z-index: 19434579;
-  color: black;
+  color: white;
 }
 
 
@@ -95,7 +95,7 @@ align-items: center;
   height: 50px;
   
   margin-top: 77px;
-  color: black;
+  color: white;
   font-weight: lighter;
 
   /* border-radius: 21px; */
@@ -127,7 +127,7 @@ align-items: center;
   margin: 10px;
   width: 600px;
   height: 200px;
-  color: black;
+  color: white;
   border-radius: 20px;
     background-size:260px;
     background-attachment: fixed;
@@ -141,8 +141,6 @@ align-items: center;
   margin: 10px;
   width: 600px;
   height: 200px;
-
-  color: rgb(0, 0, 0);
   border-radius: 20px;
     background-size:260px;
     background-attachment: fixed;
@@ -159,7 +157,7 @@ h5{
 
 .div-front-2{
   background-color: rgb(233, 143, 40);
-  color: rgb(0, 0, 0);
+  color: white;
   height: 150px;
   display: flex;
   justify-content: center;

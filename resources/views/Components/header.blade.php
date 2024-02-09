@@ -21,7 +21,7 @@
             </div>
              <div id="divOpera" class="col-md-5 div-opera ">
                 <p class="text-header">Multidisciplinary, creative websites, visual experiences, and composing unique melodies.</p>
-                <div class="">
+                <div class=" h-25">
                   <a href="{{ route('music') }}">
   
                       <svg class="svg-no-grayscale" width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">

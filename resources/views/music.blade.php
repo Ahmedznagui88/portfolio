@@ -3,17 +3,8 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-12">
-                    @foreach ($musics as $music)
-                    @endforeach
-                    {{-- <p class="text-music">{{ $music->artist }}</p> --}}
-
                     <p class="text-music">Brown Complexion</p>
                 </div>
-                {{-- <div class="col-md-5 p-music">
-                        <p class="text-light">
-                            I've loved music since childhood, inspiring friends to create it too. Growing up, I became a skilled beat maker, turning my passion into unique sounds. Creating beats isn't just a creative outlet for me; it's a way to connect with others who love the art of sound.
-                        </p>
-                    </div>  --}}
             </div>
 
             <div class="container-fluid cont-music">
@@ -36,6 +27,8 @@
                                                         fill="#e4cdc0" />
                                                 </svg>
                                             </button>
+
+                                            
                                             <audio id="audio_{{ $music->id }}" class="w-75"
                                                 src="{{ $music->file }}"></audio>
                                         </div>
@@ -55,4 +48,6 @@
         </div>
 
     </main>
+
+    
 </x-layout>

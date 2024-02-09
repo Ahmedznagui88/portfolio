@@ -1,18 +1,29 @@
 main{
-   /*  background-color: #EDD8BD; */
     height: 85vh;
 }
 
 .div-par{
     text-align: center;
-   /*  border-bottom: solid 0.4px; */
 }
 
-.expertise, .work, .about{
-    color: black;
-    /* border-radius: 70px; */
+.expertise{
+    color: white;
+    font-size: 88px;    
+    font-weight: 100;
+    opacity: 1;
+    transition: 1.4s;
+    transform: translateY(0);
+    transform-origin: bottom;
+}
+
+html.is-animating .expertise{
+    opacity: 1;
+    transform: translateY(20px);
+}
+
+.work, .about, .expertise{
+    color: white;
     font-size: 88px;   
-   /*  border-bottom: solid 0.4px; */
     margin-top: 10px;
     letter-spacing: 7px;    
     font-weight: lighter;
@@ -25,7 +36,7 @@ main{
     transition: 1.4s;
     transform: translateY(0);
     transform-origin: bottom;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
 
@@ -34,26 +45,7 @@ html.is-animating .about{
     transform: translateY(20px);
 }
 
-.expertise{
-    color: black;
 
-    /* border-radius: 70px; */
-    font-size: 88px;   
-   /*  border-bottom: solid 0.4px; */
-    margin-top: 10px;
-    letter-spacing: 7px;    
-    font-weight: 100;
-    transition: 1s;
-    opacity: 1;
-    transition: 1.4s;
-    transform: translateY(0);
-    transform-origin: bottom;
-}
-
-html.is-animating .expertise{
-    opacity: 1;
-    transform: translateY(20px);
-}
 
 .work{
     opacity: 1;
@@ -64,22 +56,20 @@ html.is-animating .expertise{
 }
 
 html.is-animating .work{
-    opacity: 1;
+    opacity: 0;
     transform: translateY(20px);
 }
 
 .contact{
-    /* border-radius: 77px; */
     transition: 1.5s;
     transform: translateY(0);
     transform-origin: bottom;
     opacity: 1;
     font-weight: 100;
     font-size: 100px;
-  color: whitesmoke;
     letter-spacing: 7px;    
     font-weight: lighter;
-    color: rgb(2, 2, 2);
+    color: white;
 }
 html.is-animating .contact{
     opacity: 0;
@@ -89,8 +79,11 @@ html.is-animating .contact{
 
 .ref-1 {
     text-decoration: none;
-
 }
+
+
+
+
 
 
 @keyframes infiniteHover {
@@ -167,7 +160,7 @@ html.is-animating .contact{
     -webkit-filter: none;
     filter: none;
     transition: 0.6s;
-    margin-top: 30px;
+    margin-top: 48px;
 }
 
 .svg-no-grayscale:hover {
