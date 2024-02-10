@@ -1,6 +1,6 @@
 <x-layout>
     <main class="container-fluid main-music">
-        <div class="container">
+        
             <div class="row justify-content-center">
                 <div class="col-md-12">
                     <p class="text-music">Brown Complexion</p>
@@ -18,7 +18,7 @@
                                             <img class="slide" src="{{ $music->cover }}">
                                         </div>
                                         <div>
-                                            <button class="play-pause-button" data-audio-id="{{ $music->id }}"
+                                            <button id="play" class="play-pause-button" data-audio-id="{{ $music->id }}"
                                                 data-progress-id="progress_{{ $music->id }}">
                                                 <svg width="14" height="15" viewBox="0 0 15 18" fill="none"
                                                     xmlns="http://www.w3.org/2000/svg">
@@ -45,7 +45,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+
         <x-footer />
     </main>
 

@@ -1,5 +1,4 @@
 nav{
-
     height: 100px;
     background: #ed9f29; 
     color: rgb(32, 32, 32);
@@ -24,10 +23,8 @@ nav{
 }
 .name-text{
     font-size: 70px;
-    font-weight: 400;
-    font-family: 'Panchang';   
-    font-weight: normal;
-
+    font-weight: 200;
+    font-family: 'Panchang';
 }
 
 .row-front{

@@ -33,7 +33,7 @@
             </div> 
         </div>
 
-        
+        <x-footer />
     </article>
 </main>
 
