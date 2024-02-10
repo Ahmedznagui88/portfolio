@@ -27,8 +27,6 @@
                                                         fill="#e4cdc0" />
                                                 </svg>
                                             </button>
-
-                                            
                                             <audio id="audio_{{ $music->id }}" class="w-75"
                                                 src="{{ $music->file }}"></audio>
                                         </div>
