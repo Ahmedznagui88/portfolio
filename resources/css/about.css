@@ -75,7 +75,7 @@ html.is-animating .div-about{
     transition: 2s;
     background-image: url(../../public/media/);
      z-index: 19434579;
-     color: rgb(0, 0, 0);
+     color: white;
 }
 
 html.is-animating .text-about{
