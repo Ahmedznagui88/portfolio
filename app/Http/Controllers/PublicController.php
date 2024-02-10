@@ -48,7 +48,7 @@ class PublicController extends Controller
             Mail::to($email)->send(new ContactMail($name, $email, $user_message));
 
         } catch(Exception $error){
-            return redirect()->back()->with('emailError' ,'Request failed, please try again later');
+            return redirect()->back()->with('emailError' ,'Request failed, please try again');
             
         }
 
