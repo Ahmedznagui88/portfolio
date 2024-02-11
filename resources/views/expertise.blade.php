@@ -1,6 +1,6 @@
 <x-layout>
 
-    <div id="cardCont" class="container">
+   {{--  <div id="cardCont" class="container">
         <div class="row d-flex justify-content-start">
             <div class="div-cont col-sm-5 border-none d-flex justify-content-start align-items-start ">
                 <h2 class="expertise">expertise</h2>
@@ -11,7 +11,7 @@
     <div class="container cont-figma">
         <div class="row row-prot">
             <div class="col-md-6 div-prot">
-                <h6 class="stack">prototyping</h6>
+                <p class="stack">prototyping</p>
             </div>
         </div>
 
@@ -99,4 +99,11 @@
         </div>
     </div>
     <x-footer />
+
+ --}}
+
+<x-exp />
+
+
+
 </x-layout>

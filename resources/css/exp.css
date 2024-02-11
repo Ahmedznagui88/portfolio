@@ -1,0 +1,76 @@
+.cont-2{
+    border: solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.row-cont-2{
+    border: solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-cont-2{
+    width: 100%;
+}
+
+
+
+.expertise-2{
+    font-family: 'Panchang';   
+    font-weight: lighter;
+      text-align: center;
+      color: white;
+      font-size: 150px;   
+      transition: 1s;
+      background: linear-gradient(50deg, rgba(203,241,72,1) 11%, rgba(228,212,87,1) 22%, rgba(214,101,132,1) 41%, rgba(118,103,196,1) 66%, rgba(214,92,90,1) 84%);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent;
+    margin-top: 30px;
+    animation: changeColors 2s infinite alternate; 
+  }
+  
+  @keyframes changeColors {
+      0%, 100% {
+        filter: hue-rotate(0deg);
+      }
+      25% {
+        filter: hue-rotate(45deg);
+      }
+      50% {
+        filter: hue-rotate(90deg);
+      }
+      75% {
+        filter: hue-rotate(135deg);
+      }
+    }
+
+
+
+
+
+
+ .row-prot{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+  .stack {
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top: 800px;
+    left: 610px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  
+  

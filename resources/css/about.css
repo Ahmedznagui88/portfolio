@@ -80,7 +80,7 @@ html.is-animating .div-about{
 
 html.is-animating .text-about{
     opacity: 1;
-    transform: translateY(-40px);
+    transform: translateY(-10px);
    
 }
   
