@@ -1,5 +1,7 @@
+.exp-page{}
+
 .cont-2{
-    border: solid red;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,7 +9,7 @@
 }
 
 .row-cont-2{
-    border: solid yellow;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +18,6 @@
 .div-cont-2{
     width: 100%;
 }
-
 
 
 .expertise-2{
@@ -50,6 +51,11 @@
     }
 
 
+    html.is-animating .expertise-2{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    
 
 
 
@@ -61,16 +67,35 @@
     align-items: center;
  }
   .stack {
-    width: 200px;
-    height: 40px;
+
+    height: 80px;
     position: absolute;
     top: 800px;
-    left: 610px;
+    left: 660px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: solid red;
     
   }
   
   
-  
+  .containee{
+    overflow-y: hidden;
+  }
+
+  .row-figma{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+  }
+
+  .text-figma{
+    position: absolute;
+    top: 1379px;
+    left: 500px;
+    text-align: center;
+    width: 500px;
+    font-size: 30px;
+
+  }

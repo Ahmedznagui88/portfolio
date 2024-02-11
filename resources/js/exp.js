@@ -2,13 +2,16 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
+
+
+//*prototyping
 let tl = gsap.timeline({
     scrollTrigger:{
         trigger: ".stack",
         start:"top 730",
         end: "top 10",
         scrub: 2,
-        markers: true,
+        /* markers: true, */
     },
 });
 
@@ -17,13 +20,12 @@ tl.to(".stack",{
     x: 0,
     y: 0,
     duration: 10, 
-    scale: 3,
+    scale: 4,
 
   })
 .to(".stack",{
-    background: "linear-gradient(to right, #00ffff, #ff00ff)",
-    borderRadius: "10px",
-    duration: 3,
+    
+    duration: 6,
     markers: true,
     ease: "none",
 })
@@ -31,7 +33,42 @@ tl.to(".stack",{
     x: 0,
     y: 0,
     duration: 3,
-    scale: 1,
     opacity: 0,
 });
+//!end prototyping
 
+
+//*figma
+let tline = gsap.timeline({
+    scrollTrigger:{
+        trigger: ".text-figma",
+        pin: true,
+  start: "center center",
+  end: "+=560",
+        scrub: 2,
+        smooth: 1,
+        effects: true,
+        markers: true,
+    },
+});
+
+
+
+tline.to(".text-figma",{
+    ease: "none",
+    x: 0,
+    y: 0,
+    duration: 3, 
+    scale: 2,
+    pin: true,
+    smooth: 1,
+
+  })
+.to(".text-figma" ,{
+    x: 0,
+    y: -200,
+    duration: 3,
+    opacity: 0,
+    color: "#ed9f29",
+});
+//!end figma
