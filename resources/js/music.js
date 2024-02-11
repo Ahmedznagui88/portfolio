@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
     playPauseButtons.forEach(button => {
         button.addEventListener('click', (event) => {
             event.preventDefault();
-            event.stopPropagation();
             const audioId = `audio_${button.dataset.audioId}`;
             const progressId = button.dataset.progressId;
             playPause(audioId, progressId, button);
@@ -20,11 +19,14 @@ document.addEventListener('DOMContentLoaded', function () {
             stopAudio(currentPlaying, button, progress);
         }
 
-        if (audio.paused) {
-            startAudio(audio, button, progress);
-        } else {
-            stopAudio(audio, button, progress);
-        }
+        switch(true) {
+            case audio.paused:
+              startAudio(audio, button, progress);
+              break;
+            default:
+              stopAudio(audio, button, progress);
+          }
+        
     }
 
     function startAudio(audio, button, progress) {
@@ -43,13 +45,6 @@ document.addEventListener('DOMContentLoaded', function () {
         button.style.backgroundColor = '';
         if (progress) progress.value = 0;
         currentPlaying = false;
-
-        const nextButton = button.nextElementSibling;
-        if (nextButton) {
-            const nextAudioId = `audio_${nextButton.dataset.audioId}`;
-            const nextProgressId = nextButton.dataset.progressId;
-            playPause(nextAudioId, nextProgressId, nextButton);
-        }
     }
 
     //progress bar

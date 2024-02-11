@@ -4,11 +4,11 @@ setTimeout(function() {
     
     message.style.transform = "translateY(100px)";
     message.style.opacity = "-40";
-    message.style.transition = "3s";
+    message.style.transition = "4s";
 
     let form = document.getElementById('form');
     form.style.transition = "2.8s";
-    form.style.transform = "translateY(-74px)";
+    form.style.transform = "translateY(-50px)";
 
 
-}, 4000);
+}, 5000);
