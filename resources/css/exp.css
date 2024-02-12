@@ -1,4 +1,4 @@
-.exp-page{}
+
 
 .cont-2{
 
@@ -75,13 +75,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid red;
+    
     
   }
   
   
   .containee{
-    overflow-y: hidden;
+   
   }
 
   .row-figma{
