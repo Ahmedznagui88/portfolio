@@ -1,4 +1,5 @@
 <x-layout>
+    
     <main class="about-page">
 
         <header class="container-fluid ">

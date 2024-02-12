@@ -8,7 +8,7 @@
         </div> 
     </div>
     
-    <div class="container cont-figma">
+    <div class="container-fluid cont-figma">
         <div class="row row-prot">
     
     
@@ -42,7 +42,7 @@
 
     <div class="exp-page">
     
-    <div class="container containee">
+    <div class="container-fluid containee">
     
        {{-- <div class="row row-cont">
            <div class="col-md-3">

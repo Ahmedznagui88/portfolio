@@ -65,33 +65,3 @@ tline
         
     });
 //!end figma
-
-
-//*change color
-
-gsap.registerPlugin(ScrollTrigger);
-
-const tlo = gsap.timeline({
-  scrollTrigger: {
-    trigger: ".exp-page",
-    start: "top 10%",
-    markers: true,
- 
-    onEnter: () => {
-        
-      tlo.play(
-        
-      );
-    },
-    onLeaveBack: () => {
-      tl.reverse();
-    }
-  }
-});
-
-tlo.to(".exp-page", {
-  backgroundColor: "#fff",
-  color:"#000",
-  duration: 1,
-  ease: "power2.inOut"
-});

@@ -28,7 +28,6 @@
       text-align: center;
       color: white;
       font-size: 150px;   
-      transition: 1s;
       background: linear-gradient(50deg, rgba(203,241,72,1) 11%, rgba(228,212,87,1) 22%, rgba(214,101,132,1) 41%, rgba(118,103,196,1) 66%, rgba(214,92,90,1) 84%);
     background-clip: text;
     -webkit-background-clip: text; 

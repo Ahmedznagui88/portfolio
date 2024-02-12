@@ -13,14 +13,12 @@
 
 <body>
 
-    <div class="outline"></div>
-    <div class="cursor"></div>
     
-    <div id="swup" class="transition-fade">
+    
         <div class="min-vh-100">
             {{ $slot }}
         </div>
-    </div>
+    
 
 
     
