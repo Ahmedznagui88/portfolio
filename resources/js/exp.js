@@ -1,5 +1,6 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 gsap.registerPlugin(ScrollTrigger);
 
 //*prototyping
@@ -22,7 +23,7 @@ tl.to(".stack", {
 })
     .to(".stack", {
         duration: 6,
-        markers: true,
+        
         ease: "none",
     })
     .to(".stack", {
@@ -39,7 +40,7 @@ let tline = gsap.timeline({
         trigger: ".text-figma",
         pin: true,
         start: "center center",
-        end: "+=560",
+        end: "+=590",
         scrub: 2,
         smooth: 1,
     },
@@ -50,17 +51,47 @@ tline
         ease: "none",
         x: 0,
         y: 0,
-        duration: 3,
+        duration: 3.6,
         scale: 1.7,
         pin: true,
         smooth: 1,
     })
     .to(".text-figma", {
         x: 0,
-        y: 0,
+        y: -600,
         duration: 3,
         opacity: 0,
         color: "#ed9f29",
         
     });
 //!end figma
+
+
+//*change color
+
+gsap.registerPlugin(ScrollTrigger);
+
+const tlo = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".exp-page",
+    start: "top 10%",
+    markers: true,
+ 
+    onEnter: () => {
+        
+      tlo.play(
+        
+      );
+    },
+    onLeaveBack: () => {
+      tl.reverse();
+    }
+  }
+});
+
+tlo.to(".exp-page", {
+  backgroundColor: "#fff",
+  color:"#000",
+  duration: 1,
+  ease: "power2.inOut"
+});

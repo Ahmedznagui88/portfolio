@@ -1,9 +1,9 @@
-<div class="exp-page">
+
 
     <div id="cardCont" class="container cont-2">
        <div class="row row-cont-2 ">
             <div class="div-cont-2 col-sm-5">
-                <h2 class="expertise-2">expertise</h2>
+                <h2 class="expertise-2 h-50">expertise</h2>
             </div>
         </div> 
     </div>
@@ -39,6 +39,8 @@
         </div>
     
     </div>
+
+    <div class="exp-page">
     
     <div class="container containee">
     

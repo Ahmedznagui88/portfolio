@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
     <link rel="icon" href="/img/arrow.png " type="image/x-icon">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <title>Ahmed Znagui</title>
@@ -23,12 +24,10 @@
 
 
     
+    
 
     
-    <script type="module">
-        import Swup from 'https://unpkg.com/swup@4?module';
-        const swup = new Swup();
-    </script>
+    
 </body>
 
 </html>
