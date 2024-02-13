@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
     let currentPlaying = false;
-    console.log('sono entrato');
     const playPauseButtons = document.querySelectorAll('.play-pause-button');
     playPauseButtons.forEach(button => {
         button.addEventListener('click', (event) => {
@@ -56,5 +55,5 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    console.log('sono uscito');
+    
 });

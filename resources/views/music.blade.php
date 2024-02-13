@@ -29,6 +29,7 @@
                                             </button>
                                             <audio id="audio_{{ $music->id }}" class="w-75"
                                                 src="{{ $music->file }}"></audio>
+
                                         </div>
                                         <div class="w-75 mx-5">
                                             <p class="title-song">{{ $music->title }}</p>
@@ -44,7 +45,6 @@
                 </div>
             </div>
 
-        <x-footer />
     </main>
 
    

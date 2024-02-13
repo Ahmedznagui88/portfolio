@@ -23,8 +23,8 @@
             <div class="container">
               <div class="row">
                 <div class="col-6 ">
-                  <label for="name" class="form-label "> Name</label>
-                  <input type="text " name="name " class="form-control" id="name" placeholder="Name ">
+                  <label for="name" class="form-label"> Name</label>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Name ">
                 </div>
                 <div class="col-6 ">
                   <label for="email" class="form-label ">Email</label>
@@ -36,7 +36,6 @@
             <div class="mb-3">
               <label for="user_Message" class="form-label ">Text me</label>
               <textarea name="user_message" class="form-control" id="User_Message" cols="30" rows="4" placeholder="Your Message"></textarea>
-              
             </div>
   
             <button type="submit" class="btn-form">Send</button>
@@ -46,6 +45,6 @@
     </div>
   </section>
   
-<x-footer></x-footer>
+
 
 </x-layout>

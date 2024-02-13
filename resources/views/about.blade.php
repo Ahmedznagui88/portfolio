@@ -23,8 +23,8 @@
 
         </article>
 
-        <x-footer />   
     </main>
+    
     
 
 </x-layout>
