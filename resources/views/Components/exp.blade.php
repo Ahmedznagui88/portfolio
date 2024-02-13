@@ -1,6 +1,8 @@
+<div class="exp">
 
 
-    <div id="cardCont" class="container cont-2">
+
+    <div id="cardCont" class="container cont-2" >
        <div class="row row-cont-2 ">
             <div class="div-cont-2 col-sm-5">
                 <h2 class="expertise-2 h-50">expertise</h2>
@@ -118,3 +120,4 @@
 
 </div>    
 
+</div>

@@ -1,4 +1,4 @@
-<main class="container">
+<main id="myPage" class="container">
     <article class="article-sec container-fluid">
         <div class="row">
             <div class="col-md-7 div-par">

@@ -1,4 +1,5 @@
 body{
+    padding: 0;
     margin: 0;
     background-color: #A2A2A2;
     background: #000;
@@ -6,19 +7,8 @@ body{
   font-family: 'Panchang';
 }
 
-.transition-fade{
-    opacity: 1;
-    transition: 1s;
-    
-}
 
-html.is-animating .transition-fade{
-opacity: 0;
-}
- 
-.trigger {
-    height: 100vh;
-  } 
+
 
   a{
     text-decoration: none;
