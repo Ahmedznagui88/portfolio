@@ -112,37 +112,40 @@
   .containee{
     display: flex;
     justify-content: center;
- 
-    height: 5900px;
+    background-color: rgb(255, 255, 255);
+    height: 3100px;
   }
 
   /* img */
 
   .row-cont{
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     width: 100%;
     height: 800px;
-    border: solid red;
+  
   }
 
   .div-imgs{
     display: flex;
-    justify-content: center;
+    justify-content: end;
+    
   }
 
   .div-imgs-1{
     display: flex;
-    justify-content: center;
+    justify-content: end;
   }
   img{
     width: 1000px;
     z-index: 0;
+    margin-left: 200px;
   }
   
   .img-2{
     z-index: 1;
+    
   }
 
   .img-3{

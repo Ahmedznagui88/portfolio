@@ -106,7 +106,7 @@ const one = gsap.timeline({
     scrollTrigger: {
       trigger: ".img", // l'elemento su cui si basa il trigger
 /*       start: "top 50%", // avvia l'animazione quando il 50% dell'elemento è visibile */
-      end: "+=5400", // l'animazione durerà per 600px di scroll
+      end: "+=1400", // l'animazione durerà per 600px di scroll
       scrub: 2, // 'scrub' rende l'animazione più fluida durante lo scroll
       pin: true, // fissa l'elemento durante l'animazione
       markers: true, // mostra i marker di scroll
@@ -144,7 +144,7 @@ const tlone = gsap.timeline({
     scrollTrigger: {
       trigger: ".img-2", // l'elemento su cui si basa il trigger
 /*       start: "top 50%", // avvia l'animazione quando il 50% dell'elemento è visibile */
-      end: "+=5400", // l'animazione durerà per 600px di scroll
+      end: "+=1400", // l'animazione durerà per 600px di scroll
       scrub: 2, // 'scrub' rende l'animazione più fluida durante lo scroll
       pin: true, // fissa l'elemento durante l'animazione
       markers: true, // mostra i marker di scroll
@@ -180,7 +180,7 @@ const tlone = gsap.timeline({
     scrollTrigger: {
       trigger: ".img-3", // l'elemento su cui si basa il trigger
 /*       start: "top 50%", // avvia l'animaziimgTre quando il 50% dell'elemento è visibile */
-      end: "+=1400", // l'animaziimgTre durerà per 600px di scroll
+      end: "+=860", // l'animaziimgTre durerà per 600px di scroll
       scrub: 2, // 'scrub' rende l'animaziimgTre più fluida durante lo scroll
       pin: true, // fissa l'elemento durante l'animaziimgTre
       markers: true, // mostra i marker di scroll
@@ -216,7 +216,7 @@ const tlone = gsap.timeline({
     scrollTrigger: {
       trigger: ".img-4", // l'elemento su cui si basa il trigger
 /*       start: "top 50%", // avvia l'animazitili quando il 50% dell'elemento è visibile */
-      end: "+=2400", // l'animazitili durerà per 600px di scroll
+      end: "+=460", // l'animazitili durerà per 600px di scroll
       scrub: 2, // 'scrub' rende l'animazitili più fluida durante lo scroll
       pin: true, // fissa l'elemento durante l'animazitili
       markers: true, // mostra i marker di scroll
@@ -235,13 +235,14 @@ const tlone = gsap.timeline({
     duration: 2,
     ease: "power4.out",
     stragger: 2,
-    pin: true
+    pin: true,
+
   });
   
   // Terza animazitili
   tili.to(".img-4", {
     duration: 1,
     delay: 1,
-    
+
     
   });
