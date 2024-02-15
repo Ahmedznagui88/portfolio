@@ -119,7 +119,6 @@ main{
     background-size: cover;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-    
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -167,7 +166,6 @@ font-size: 20px;
 @media screen and (min-width: 200px) and (max-width: 765px) {
 
     main{
-        background-image: url(../../public/img/opera.png);
     background-size: cover;
     background-position: bottom;
     }

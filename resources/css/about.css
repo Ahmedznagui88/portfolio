@@ -73,7 +73,6 @@ html.is-animating .div-about{
     font-weight:100;
     font-size: 14px;
     transition: 2s;
-    background-image: url(../../public/media/);
      z-index: 19434579;
      color: white;
 }

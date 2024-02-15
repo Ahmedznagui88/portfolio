@@ -23,7 +23,6 @@ tl.to(".stack", {
 })
     .to(".stack", {
         duration: 6,
-        scale: 1,
         ease: "none",
         duration: 2,
     })
@@ -66,11 +65,11 @@ tline
 
 
 
-/* 
+
 let tmln = gsap.timeline({
     scrollTrigger: {
-        trigger: ".img",
-        start: "top 550px",
+        trigger: ".img , .img-2",
+        start: "top 150px",
         end: "top 10",
         smooth: 1,
         opacity: 0,
@@ -80,169 +79,52 @@ let tmln = gsap.timeline({
 });
 
 
-tmln.from(".img", {
+tmln.from(".img , .img-2", {
     duration: 1,
-    y: -10,
+    y: 20,
     opacity: 0,
   })
 
-  tmln.to(".img", {
+  tmln.to(".img , .img-2", {
     ease: "none",
     duration: 5,
     y: 0,
     opacity: 1,
     delay: 1,
     stagger:2,
-    pin: true,
-    x: 500,
-    y: 500,
-}) */
-
-
-
-//!img
-// Utilizzo della libreria GSAP
-const one = gsap.timeline({
-    scrollTrigger: {
-      trigger: ".img", // l'elemento su cui si basa il trigger
-/*       start: "top 50%", // avvia l'animazione quando il 50% dell'elemento è visibile */
-      end: "+=1400", // l'animazione durerà per 600px di scroll
-      scrub: 2, // 'scrub' rende l'animazione più fluida durante lo scroll
-      pin: true, // fissa l'elemento durante l'animazione
-      markers: true, // mostra i marker di scroll
-    },
-  });
-  
-  // Prima animazione
-  one.from(".img", {
-    duration: 1,
-    stragger: 2,
-    pin: true
-  });
-  
-  // Seconda animazione
-  one.to(".img", {
-    duration: 2,
-    ease: "power4.out",
-    stragger: 2,
-    pin: true
-  });
-  
-  // Terza animazione
-  one.to(".img", {
-    duration: 1,
-    delay: 1,
     
-  });
 
-  //!img-2
-// Utilizzo della libreria GSAP
+}) 
+
+let tmloi = gsap.timeline({
+  scrollTrigger: {
+      trigger: ".img-3 , .img-4",
+      start: "top 380px",
+      end: "top 10",
+      smooth: 1,
+      opacity: 0,
+      markers: true,
+      scrub: 2,
+  },
+});
 
 
+tmloi.from(".img-3 , .img-4", {
+  duration: 1,
+  y: 20,
+  opacity: 0,
+})
 
-const tlone = gsap.timeline({
-    scrollTrigger: {
-      trigger: ".img-2", // l'elemento su cui si basa il trigger
-/*       start: "top 50%", // avvia l'animazione quando il 50% dell'elemento è visibile */
-      end: "+=1400", // l'animazione durerà per 600px di scroll
-      scrub: 2, // 'scrub' rende l'animazione più fluida durante lo scroll
-      pin: true, // fissa l'elemento durante l'animazione
-      markers: true, // mostra i marker di scroll
-    },
-  });
+tmloi.to(".img-3 , .img-4", {
+  ease: "none",
+  duration: 5,
+  y: 0,
+  opacity: 1,
+  delay: 1,
+  stagger:2,
   
-  // Prima animazione
-  tlone.from(".img-2", {
-    duration: 1,
-    stragger: 2,
-    pin: true
-  });
-  
-  // Seconda animazitlone
-  tlone.to(".img-2", {
-    duration: 2,
-    ease: "power4.out",
-    stragger: 2,
-    pin: true
-  });
-  
-  // Terza animazitlone
-  tlone.to(".img-2", {
-    duration: 1,
-    delay: 1,
-    opacity: 0,
 
-  });
+}) 
 
-  //!img-3
 
-  const imgTre = gsap.timeline({
-    scrollTrigger: {
-      trigger: ".img-3", // l'elemento su cui si basa il trigger
-/*       start: "top 50%", // avvia l'animaziimgTre quando il 50% dell'elemento è visibile */
-      end: "+=860", // l'animaziimgTre durerà per 600px di scroll
-      scrub: 2, // 'scrub' rende l'animaziimgTre più fluida durante lo scroll
-      pin: true, // fissa l'elemento durante l'animaziimgTre
-      markers: true, // mostra i marker di scroll
-    },
-  });
-  
-  // Prima animaziimgTre
-  imgTre.from(".img-3", {
-    duration: 1,
-    stragger: 2,
-    pin: true
-  });
-  
-  // Seconda animaziimgTre
-  imgTre.to(".img-3", {
-    duration: 2,
-    ease: "power4.out",
-    stragger: 2,
-    pin: true
-  });
-  
-  // Terza animaziimgTre
-  imgTre.to(".img-3", {
-    duration: 1,
-    delay: 1,
-    opacity: 0,
-    
-  });
 
-  //!img-4
-
-  const tili = gsap.timeline({
-    scrollTrigger: {
-      trigger: ".img-4", // l'elemento su cui si basa il trigger
-/*       start: "top 50%", // avvia l'animazitili quando il 50% dell'elemento è visibile */
-      end: "+=460", // l'animazitili durerà per 600px di scroll
-      scrub: 2, // 'scrub' rende l'animazitili più fluida durante lo scroll
-      pin: true, // fissa l'elemento durante l'animazitili
-      markers: true, // mostra i marker di scroll
-    },
-  });
-  
-  // Prima animazitili
-  tili.from(".img-4", {
-    duration: 1,
-    stragger: 2,
-    pin: true
-  });
-  
-  // Seconda animazitili
-  tili.to(".img-4", {
-    duration: 2,
-    ease: "power4.out",
-    stragger: 2,
-    pin: true,
-
-  });
-  
-  // Terza animazitili
-  tili.to(".img-4", {
-    duration: 1,
-    delay: 1,
-
-    
-  });
