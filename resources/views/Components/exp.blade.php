@@ -42,27 +42,27 @@
     
     </div>
 
-    <div class="exp-page">
+    <div class="container-fluid exp-page">
     
     <div class="container-fluid containee">
     
-       {{-- <div class="row row-cont">
-           <div class="col-md-3">
-               <img src="./img/Esercizio di stile 3.png" class="w-100 rounded img" alt="">
+       <div class="row row-cont mt-5">
+           <div class="col-md-12 div-imgs">
+               <img src="./img/Esercizio di stile 3.png" class="w-75 rounded img" alt="">
            </div>
     
-           <div class="col-md-3">
-               <img src="./img/Esercizio di stile 4.png" class="w-100 rounded img-2" alt="">
+          <div class="col-md-12">
+               <img src="./img/Esercizio di stile 4.png" class="w-75 rounded img-2" alt="">
            </div>
     
-           <div class="col-md-3">
-               <img src="./img/Esercizio di stile 5.png" class="w-100 rounded im-3" alt="">
+           <div class="col-md-12">
+               <img src="./img/Esercizio di stile 5.png" class="w-75 rounded im-3" alt="">
            </div>
     
-           <div class="col-md-3">
-               <img src="./img/MacBook Pro 14_ - 1.png" class="w-100 rounded img-4" alt="">
-           </div>
-       </div> --}}
+           <div class="col-md-12">
+               <img src="./img/MacBook Pro 14_ - 1.png" class="w-75 rounded img-4" alt="">
+           </div> 
+       </div> 
     </div>
     <div style="height: 3000px;">
     

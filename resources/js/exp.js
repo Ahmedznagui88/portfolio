@@ -25,12 +25,13 @@ tl.to(".stack", {
         duration: 6,
         scale: 1,
         ease: "none",
+        duration: 2,
     })
     .to(".stack", {
         x: 0,
         y: 0,
-        duration: 3,
         opacity: 0,
+        duration: 2,
     });
 //!end prototyping
 
@@ -57,11 +58,50 @@ tline
         smooth: 1,
     })
     .to(".text-figma", {
-        x: 0,
-        y: -600,
-        duration: 3,
+        duration: 10,
         opacity: 0,
         color: "#ed9f29",
-        
+        delay: 10,
     });
 //!end figma
+
+let tmln = gsap.timeline({
+    scrollTrigger: {
+
+        trigger: ".img",
+        start: "top 350px",
+        end: "top 10",
+        smooth: 1,
+        opacity: 0,
+        markers: true,
+        scrub: 2,
+    },
+});
+
+tmln
+tmln.from(".img", {
+    duration: 1,
+    y: -10,
+    opacity: 0,
+    
+  })
+
+  tmln.to(".img", {
+    ease: "none",
+    duration: 1,
+    y: 0,
+    opacity: 1,
+    delay: 1,
+    pin: true,
+    
+    
+  })
+
+  tmln.to(".img-1", {
+    duration: 1,
+    y: 0,
+    opacity: 0,
+    delay: 1,
+    
+    
+  })

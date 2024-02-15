@@ -18,7 +18,7 @@
 
 .div-cont-2{
     width: 100%;
-    
+
 }
 
 
@@ -59,40 +59,80 @@
     
 
 
-
-
  .row-prot{
-
+  margin-top: 300px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    width: 100%;
+ }
+
+ .div-prot{
+  display: flex;
     justify-content: center;
     align-items: center;
  }
   .stack {
-
     height: 80px;
-    position: absolute;
-    top: 800px;
-    left: 660px;
+    width: 200px;
+   /*  left: 660px; */
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    justify-content: center;
     
   }
   
 
   .row-figma{
+    margin-top: 300px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   width: 100%;
+  }
+
+  .div-figma-2{
     display: flex;
     justify-content: center;
    align-items: center;
+
   }
 
   .text-figma{
-    position: absolute;
-    top: 1379px;
-    left: 460px;
     text-align: center;
     width: 500px;
     font-size: 20px;
+    z-index: -11111;
+  }
 
+  .containee{
+    margin-top: 200px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    background: rgb(209, 208, 207);
+background: linear-gradient(0deg, rgb(209, 208, 207) 0%, rgb(101, 100, 101) 100%);
+display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  /* img */
+
+  .row-cont{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+  }
+
+  .div-imgs{
+    display: flex;
+    justify-content: center;
   }
