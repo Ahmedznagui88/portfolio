@@ -23,7 +23,7 @@ tl.to(".stack", {
 })
     .to(".stack", {
         duration: 6,
-        
+        scale: 1,
         ease: "none",
     })
     .to(".stack", {
