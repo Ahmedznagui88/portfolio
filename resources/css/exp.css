@@ -115,10 +115,11 @@
 
   .containee{
     background-color: rgb(43, 249, 115);
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
-    align-items: center;
     background-attachment: fixed;
+    height: 950px;
   }
 
   .row-cont{
@@ -135,7 +136,8 @@
   
 
 .img, .img-2, .img-3, .img-4{
-  width: 600px;
+  width: 500px;
+  object-fit: contain;
   margin-top: 10px;
   flex: 1 0 8rem;
 
@@ -245,12 +247,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  position: absolute;
-  border: solid red;
+
 }
 
 .back{
    width: 230px;
 
+}
+
+.div-front-3{
+  margin-top: 300px;
+  height: 400px;
+  width: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-backend-2{
+  width: 500px;
 }

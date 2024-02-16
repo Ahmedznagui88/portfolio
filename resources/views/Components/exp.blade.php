@@ -64,26 +64,20 @@
             </div>
         </div>
     </div>
-    <div class="container cont-backend ">
 
+    <div class="container cont-backend ">
         <div class="row row-backend">
             <div class="col-md-12 div-backend">
                 <p class="back">back-end</p>
             </div>
-
-
-
-            {{-- <div class="col-md-12 div-front-2">
-                <p class="text-figma-2">
+             <div class="col-md-12 div-front-3">
+                <p class="text-backend-2">
                     PHP handles server-side logic, Laravel is a PHP framework that streamlines web development with
                     elegant syntax and built-in tools. MySQL is a relational database management system used with PHP to
                     store and retrieve data efficiently.</p>
-            </div> --}}
+            </div>
         </div>
     </div>
 
     
-</div>
-<div class="min-vh-100">
-
 </div>

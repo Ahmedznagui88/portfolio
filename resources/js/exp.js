@@ -22,7 +22,6 @@ tl.to(".stack", {
     ease: "none",
     x: 0,
     y: 0,
-
     duration: 10,
     scale: 4,
 })
@@ -52,7 +51,6 @@ tl.to(".stack", {
         ease: "none",
         x: 0,
         y: 0,
-    
         duration: 10,
         scale: 4,
     })
@@ -71,36 +69,36 @@ tl.to(".stack", {
         scrollTrigger: {
             trigger: ".back",
             start: "top 530",
-            end: "top 9",
-            pin: true,
-            markers: true,
+            end: "top 59",
             scrub: 2,
             opacity:0,
         },
     });
-    
+
+    //*backend eord
     back.to(".back", {
         ease: "none",
         x: 0,
         y: 0,
-    
         duration: 10,
         scale: 4,
     })
         .to(".back", {
             duration: 6,
             ease: "none",
+            y: -300,
+
             duration: 2,
         })
         .to(".back", {
             x: 0,
-            y: 0,
+            
             opacity: 0,
             duration: 2,
         });
     //!end prototyping
 
-//*figma
+
 let tline = gsap.timeline({
     scrollTrigger: {
         trigger: ".text-figma",
@@ -108,8 +106,8 @@ let tline = gsap.timeline({
         start: "center center",
         end: "+=590",
         scrub: 2,
-        smooth: 1,
         ease: "power3.out",
+        
     },
 });
 
@@ -118,9 +116,8 @@ tline
         ease: "none",
         x: 0,
         y: 0,
-        duration: 3.6,
-        scale: 1.7,
         pin: true,
+        scale: 1.7,
     })
     .to(".text-figma", {
         duration: 10,
@@ -133,32 +130,63 @@ tline
     let front = gsap.timeline({
         scrollTrigger: {
             trigger: ".text-front-2",
-            start: "top 300",
-            end: "top 6",
-            scrub: 2,
-            smooth: 1,
-            ease: "power3.out",
             pin: true,
+        start: "center center",
+        end: "+=290",
+        scrub: 2,
+        smooth: 1,
+        ease: "power3.out",
         },
     });
+
     
-    front
-        .to(".text-front-2", {
-            ease: "none",
+    front.to(".text-front-2", {
             x: 0,
-            
-            duration: 3.6,
+            y: 0,
             scale: 1.9,
-            pin: true,
         })
         .to(".text-front-2", {
-            y: -330,
+            
             duration: 10,
             opacity: 0,
             color: "#ed9f29",
             delay: 10,
         });
+
+        //*backend
+        let backend = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".text-backend-2",
+                start: "top 520",
+                end: "top 340",
+                scrub: 2,
+                ease: "power3.out",
+            },
+        });
+        
+        backend
+            .to(".text-backend-2", {
+                ease: "none",
+                x: 0,
+              
+                scale: 1.5,
+            })
+            .to(".text-backend-2", {
+                y: -200,
+            });
 //!end figma
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
