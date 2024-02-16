@@ -34,26 +34,31 @@
 
 
 <div class="container-fluid containee">
-
     <div class="row row-cont">
         <div class="col-md-6 div-imgs">
-            <img src="./img/Esercizio di stile 3.png" class="img-fluid  img " alt="">
+            <div class="parallax" data-depth="0.4">
+                <img src="./img/Esercizio di stile 3.png" class="img" alt="">
+            </div>
+            <div class="magnifier" id="magnifier"></div>
         </div>
-
         <div class="col-md-6 div-imgs">
-            <img src="./img/Esercizio di stile 4.png" class="img-fluid  img-2" alt="">
+            <div class="parallax" data-depth="0.4">
+                <img src="./img/Esercizio di stile 4.png" class="img-2" alt="">
+            </div>
         </div>
-
         <div class="col-md-6 div-imgs-1">
-            <img src="./img/MacBook Pro 14_ - 1.png" class="img-fluid  img-3" alt="">
+            <div class="parallax" data-depth="0.4">
+                <img src="./img/MacBook Pro 14_ - 1.png" class="img-3" alt="">
+            </div>
         </div>
-
         <div class="col-md-6 div-imgs-1">
-            <img src="./img/Esercizio di stile 5.png" class="img-fluid  img-4" alt="">
+            <div class="parallax" data-depth="0.4">
+                <img src="./img/Esercizio di stile 5.png" class="img-4" alt="">
+            </div>
         </div>
-
     </div>
 </div>
+
 
 
 

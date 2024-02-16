@@ -15,7 +15,8 @@ tl.from("h6 , .contact , .expertise , .work , .about ", {
   transformOrigin: "bottom left",
   stagger: 0.1,
   transformStyle: "preserve-3d", 
-  ease: "circ.out",
+  ease: "power3.out",
+  duration: 1.6,
 });
 
 // Animazione finale con opacità 1 e altri parametri
@@ -25,8 +26,7 @@ tl.to("h6 , .contact , .expertise , .work , .about", {
   stagger: 0.1, // Puoi mantenere lo stesso intervallo di stagger
   transformOrigin: "bottom left",
   transformStyle: "preserve-3d", 
-  ease: "circ.out",
-  duration: 3, // Puoi regolare la durata se necessario
+  ease:  "power3.inOut",
 });
 
 

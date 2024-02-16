@@ -11,7 +11,7 @@
     <title>Ahmed Znagui</title>
 </head>
 
-<body data-barba="wrapper">
+<body>
 
     
     
@@ -26,8 +26,7 @@
     
     
     
-        <script src="https://unpkg.com/@barba/core"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+        
 </body>
 
 </html>

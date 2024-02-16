@@ -1,5 +1,10 @@
+
+
+
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { gsap } from "gsap";
+
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -7,10 +12,9 @@ gsap.registerPlugin(ScrollTrigger);
 let tl = gsap.timeline({
     scrollTrigger: {
         trigger: ".stack",
-        start: "top 730",
-        end: "top 10",
+        start: "top 760",
+        end: "top 9",
         scrub: 2,
-        /* markers: true, */
     },
 });
 
@@ -18,6 +22,7 @@ tl.to(".stack", {
     ease: "none",
     x: 0,
     y: 0,
+
     duration: 10,
     scale: 4,
 })
@@ -69,7 +74,7 @@ tline
 let tmln = gsap.timeline({
     scrollTrigger: {
         trigger: ".img , .img-2",
-        start: "top 150px",
+        start: "top 300px",
         end: "top 10",
         smooth: 1,
         opacity: 0,
@@ -99,7 +104,7 @@ tmln.from(".img , .img-2", {
 let tmloi = gsap.timeline({
   scrollTrigger: {
       trigger: ".img-3 , .img-4",
-      start: "top 380px",
+      start: "top 540px",
       end: "top 10",
       smooth: 1,
       opacity: 0,
@@ -125,6 +130,7 @@ tmloi.to(".img-3 , .img-4", {
   
 
 }) 
+
 
 
 
