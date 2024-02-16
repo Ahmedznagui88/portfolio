@@ -174,7 +174,7 @@
   width: 200px;
   font-style: italic;
 }
-.stacks, .stack, .design {
+.stacks, .stack, .design, .back {
   text-decoration: none;
   animation:infinite ;
   animation: changeColor 2s linear infinite;
@@ -225,4 +225,32 @@
 
 .text-front-2{
   width: 430px;
+}
+
+.cont-backend{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 300px;
+}
+
+.row-backend{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-backend{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  border: solid red;
+}
+
+.back{
+   width: 230px;
+
 }

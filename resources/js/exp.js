@@ -67,7 +67,38 @@ tl.to(".stack", {
             opacity: 0,
             duration: 2,
         });
-//!end prototyping
+    let back = gsap.timeline({
+        scrollTrigger: {
+            trigger: ".back",
+            start: "top 530",
+            end: "top 9",
+            pin: true,
+            markers: true,
+            scrub: 2,
+            opacity:0,
+        },
+    });
+    
+    back.to(".back", {
+        ease: "none",
+        x: 0,
+        y: 0,
+    
+        duration: 10,
+        scale: 4,
+    })
+        .to(".back", {
+            duration: 6,
+            ease: "none",
+            duration: 2,
+        })
+        .to(".back", {
+            x: 0,
+            y: 0,
+            opacity: 0,
+            duration: 2,
+        });
+    //!end prototyping
 
 //*figma
 let tline = gsap.timeline({
@@ -78,6 +109,7 @@ let tline = gsap.timeline({
         end: "+=590",
         scrub: 2,
         smooth: 1,
+        ease: "power3.out",
     },
 });
 
@@ -101,11 +133,12 @@ tline
     let front = gsap.timeline({
         scrollTrigger: {
             trigger: ".text-front-2",
-            pin: true,
-            start: "center center",
-            end: "+=590",
+            start: "top 300",
+            end: "top 6",
             scrub: 2,
             smooth: 1,
+            ease: "power3.out",
+            pin: true,
         },
     });
     
@@ -113,12 +146,13 @@ tline
         .to(".text-front-2", {
             ease: "none",
             x: 0,
-            y: 0,
+            
             duration: 3.6,
-            scale: 1.7,
+            scale: 1.9,
             pin: true,
         })
         .to(".text-front-2", {
+            y: -330,
             duration: 10,
             opacity: 0,
             color: "#ed9f29",
@@ -136,7 +170,7 @@ let tmln = gsap.timeline({
         end: "top 10",
         smooth: 1,
         opacity: 0,
-        markers: true,
+        
         scrub: 2,
     },
 });
@@ -166,7 +200,6 @@ let tmloi = gsap.timeline({
       end: "top 10",
       smooth: 1,
       opacity: 0,
-      markers: true,
       scrub: 2,
   },
 });
