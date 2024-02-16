@@ -8,27 +8,18 @@
 
 <div class="container-fluid cont-figma">
     <div class="row row-prot">
-
-
         <div class="col-md-6 div-prot">
             <p class="stack">prototyping</p>
         </div>
-
-
     </div>
 
     <div class="row row-figma">
-
-        <div class="col-md-6 div-figma-2">
-            <p class="text-figma">The first step, is to study and define how the website will look, through the
-                design and creation of a mock-up to get an idea of the visual, studying all aspects of UI and UX
+        <div class="col-md-12 div-figma-2">
+            <p class="text-figma">Study and define how the website will look, through the
+                <span class="design">design</span> and creation of a mock-up to get an idea of the visual, studying all aspects of UI and UX
                 based on the client's needs.
             </p>
         </div>
-
-        {{--    <div class="col-md-6 div-figma">
-                <p class="stack">figma</p>
-            </div> --}}
     </div>
 </div>
 
@@ -36,25 +27,19 @@
 <div class="container-fluid containee">
     <div class="row row-cont">
         <div class="col-md-6 div-imgs">
-            <div class="parallax" data-depth="0.4">
                 <img src="./img/Esercizio di stile 3.png" class="img" alt="">
-            </div>
-            <div class="magnifier" id="magnifier"></div>
         </div>
         <div class="col-md-6 div-imgs">
-            <div class="parallax" data-depth="0.4">
+
                 <img src="./img/Esercizio di stile 4.png" class="img-2" alt="">
-            </div>
         </div>
         <div class="col-md-6 div-imgs-1">
-            <div class="parallax" data-depth="0.4">
+
                 <img src="./img/MacBook Pro 14_ - 1.png" class="img-3" alt="">
-            </div>
         </div>
         <div class="col-md-6 div-imgs-1">
-            <div class="parallax" data-depth="0.4">
+
                 <img src="./img/Esercizio di stile 5.png" class="img-4" alt="">
-            </div>
         </div>
     </div>
 </div>
@@ -66,36 +51,40 @@
 
     <div class="container cont-expertise ">
 
-        <div class="row row-expertise border">
+        <div class="row row-expertise">
             <div class="col-md-12 div-expertise">
                 <p class="stacks">front-end</p>
             </div>
         </div>
     
     
+
         <div class="row row-expertise-2">
-            <div class="col-md-6 div-expertise-2 text-center">
+          {{--   <div class="col-md-6 div-expertise-2 text-center">
                 <h5>html</h5>
                 <h5>css</h5>
                 <h5>bootstrap</h5>
                 <h5>gsap</h5>
                 <h5>javascript</h5>
                 <h5>react</h5>
-            </div>
+            </div> --}}
     
-            <div class="col-md-5 div-front-2">
-                <p class="text-figma-2">HTML structures web content, CSS styles it, and JavaScript adds
+           <div class="col-md- div-front-2">
+                <p class="text-front-2">HTML structures web content, CSS styles it, and JavaScript adds
                     interactivity. GSAP refines animations, providing a seamless user experience. React streamlines
                     dynamic UI creation by efficiently managing components.</p>
             </div>
         </div>
     </div>
     
-    <div class="container cont-expertise ">
+    <div class="min-vh-100">
+
+    </div>
+   {{--  <div class="container cont-expertise ">
     
         <div class="row row-expertise">
             <div class="col-md-6 div-expertise">
-                <p class="stack">back-end</p>
+                <p class="stacks">back-end</p>
             </div>
         </div>
     
@@ -113,6 +102,6 @@
                     store and retrieve data efficiently.</p>
             </div>
         </div>
-    </div>
+    </div> --}}
 </div>
 

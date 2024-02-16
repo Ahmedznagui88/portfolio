@@ -19,7 +19,6 @@
 
 
 .expertise-2{
-    font-family: 'Panchang';   
     font-weight: lighter;
       text-align: center;
       color: white;
@@ -71,9 +70,18 @@
     align-items: center;
  }
   .stack {
-    height: 80px;
+
     width: 200px;
-   /*  left: 660px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .stacks {
+    
+    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,10 +114,10 @@
   }
 
   .containee{
-    background-color: rgb(250, 252, 251);
-    background: radial-gradient(circle, rgb(72, 49, 89) 0%,  rgb(72, 49, 89) 0%, rgb(72, 49, 89) 0%, rgba(0,0,0,1) 72%); 
+    background-color: rgb(43, 249, 115);
     display: flex;
     justify-content: center;
+    align-items: center;
     background-attachment: fixed;
   }
 
@@ -131,4 +139,90 @@
   margin-top: 10px;
   flex: 1 0 8rem;
 
+}
+
+.section{
+  margin-top: 300px;
+}
+
+.row-expertise{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-expertise{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* 
+@keyframes infiniteHover {
+  0%, 100% {
+      background-image: linear-gradient(to right, #935b5b, #832ebf);
+
+  }
+  50% {
+      background-image: linear-gradient(to right , #ffffff, #606cc3);
+
+  }
+} */
+
+.design{
+  width: 200px;
+  font-style: italic;
+}
+.stacks, .stack, .design {
+  text-decoration: none;
+  animation:infinite ;
+  animation: changeColor 2s linear infinite;
+  transform: scale(0.98);
+  color: whitesmoke;
+  border-radius: 20px;
+  text-align: center;
+}
+
+@keyframes changeColor {
+  0% {
+      background-image: url(../../public/img/Frame\ 1.png);
+      background-size: contain;
+  }
+  25% {
+      background-image: linear-gradient(-30deg, #c9e7ea, #6f2ebf );
+      background-size: 300px;
+  }
+  55% {
+/*         background-image: linear-gradient(to left,   #2f7e55 15% , #053e2c 40% );*/        
+          background: linear-gradient(to -30deg, #353528, #6c848d, #ffc685, #44617b);
+          background-size: 900px;
+  }
+  75% {
+       background: linear-gradient(66deg, #60e6c7, #6b4df0, #7b4adb);
+       background-size: 300px;
+  }
+  100% {
+      background-image: url(../../public/img/Frame\ 2.png);
+      background-size: cover;
+  }
+}
+
+.row-expertise-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-front-2{
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.text-front-2{
+  width: 430px;
 }

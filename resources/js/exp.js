@@ -37,6 +37,36 @@ tl.to(".stack", {
         opacity: 0,
         duration: 2,
     });
+
+
+    let stacks = gsap.timeline({
+        scrollTrigger: {
+            trigger: ".stacks",
+            start: "top 760",
+            end: "top 9",
+            scrub: 2,
+        },
+    });
+    
+    stacks.to(".stacks", {
+        ease: "none",
+        x: 0,
+        y: 0,
+    
+        duration: 10,
+        scale: 4,
+    })
+        .to(".stacks", {
+            duration: 6,
+            ease: "none",
+            duration: 2,
+        })
+        .to(".stacks", {
+            x: 0,
+            y: 0,
+            opacity: 0,
+            duration: 2,
+        });
 //!end prototyping
 
 //*figma
@@ -66,6 +96,34 @@ tline
         color: "#ed9f29",
         delay: 10,
     });
+
+
+    let front = gsap.timeline({
+        scrollTrigger: {
+            trigger: ".text-front-2",
+            pin: true,
+            start: "center center",
+            end: "+=590",
+            scrub: 2,
+            smooth: 1,
+        },
+    });
+    
+    front
+        .to(".text-front-2", {
+            ease: "none",
+            x: 0,
+            y: 0,
+            duration: 3.6,
+            scale: 1.7,
+            pin: true,
+        })
+        .to(".text-front-2", {
+            duration: 10,
+            opacity: 0,
+            color: "#ed9f29",
+            delay: 10,
+        });
 //!end figma
 
 
