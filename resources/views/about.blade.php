@@ -23,9 +23,9 @@
 
         </article>
 
+        <x-footer />   
     </main>
     
     
-    <x-footer />   
 
 </x-layout>

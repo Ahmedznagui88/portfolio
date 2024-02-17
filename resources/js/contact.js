@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (form) {
             form.style.transition = "2.8s";
-            form.style.transform = "translateY(-50px)";
+            form.style.transform = "translateY(0)";
         }
     }, 4000);
 });

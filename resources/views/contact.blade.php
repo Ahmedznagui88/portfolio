@@ -5,7 +5,6 @@
     
     
     <div id="form" class="container mt-5">
-      
       @if (session('emailSent'))
       <div id="message" class="alert alert-secondary div-alert-s">
         {{ session('emailSent') }}
@@ -16,6 +15,7 @@
         {{ session('emailError') }}
       </div> 
       @endif 
+      
       <div class="row row-form">
         <div class="col-6 col-md-12 div-form">
           <form action="{{ route('send.contact') }}" method="POST" class="">
@@ -38,7 +38,7 @@
               <textarea name="user_message" class="form-control" id="User_Message" cols="30" rows="4" placeholder="Your Message"></textarea>
             </div>
   
-            <button type="submit" class="btn-form">Send</button>
+            <button type="submit" class="btn-form shadow py-3">Send</button>
           </form>
         </div>
       </div>

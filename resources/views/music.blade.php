@@ -44,12 +44,12 @@
                     </div>
                 </div>
             </div>
-            <x-load />
-
+{{--             <x-load />
+ --}}
     </main>
 
 
-  {{--   <x-footer />    --}}
+    <x-footer />   
    
 </x-layout>
 
