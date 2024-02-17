@@ -26,5 +26,6 @@
     </main>
     
     
+    <x-footer />   
 
 </x-layout>
