@@ -75,7 +75,7 @@ tl.to(".stack", {
         },
     });
 
-    //*backend eord
+    //*backend
     back.to(".back", {
         ease: "none",
         x: 0,
@@ -135,6 +135,7 @@ tline
         end: "+=290",
         scrub: 2,
         smooth: 1,
+        delay:19,
         ease: "power3.out",
         },
     });
@@ -146,11 +147,10 @@ tline
             scale: 1.9,
         })
         .to(".text-front-2", {
-            
             duration: 10,
             opacity: 0,
             color: "#ed9f29",
-            delay: 10,
+           
         });
 
         //*backend

@@ -1,14 +1,13 @@
 .main-music{
   background: radial-gradient(circle, rgb(72, 49, 89) 0%,  rgb(72, 49, 89) 0%, rgb(72, 49, 89) 0%, rgba(0,0,0,1) 72%); 
   height: 100;
-  margin-bottom: 20px;
+  margin-bottom: 39px;
 }
 
 .text-music{
-  font-family: 'Panchang';   
-  font-weight: lighter;
+  font-weight: bold;
     text-align: center;
-    font-size: 34px;
+    font-size: 38px;
     background: linear-gradient(50deg, rgba(203,241,72,1) 11%, rgba(228,212,87,1) 22%, rgba(214,101,132,1) 41%, rgba(118,103,196,1) 66%, rgba(214,92,90,1) 84%);
   background-clip: text;
   -webkit-background-clip: text; 
@@ -90,10 +89,8 @@
 }
 
 .title-song{
-  font-family: 'Panchang';
-  font-weight: lighter;
+    font-weight: lighter;
   font-size: 20px;
-  font-weight: lighter;
   letter-spacing: 2px;
   text-align: center;
 }

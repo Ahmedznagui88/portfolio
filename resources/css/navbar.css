@@ -16,15 +16,15 @@ nav{
     width: auto;
     height: 112px;
     display: flex;
-    align-items: center;
+    
     margin-right: 30px;
 
 
 }
 .name-text{
-    font-size: 70px;
-    font-weight: 200;
-    font-family: 'Panchang';
+    font-size: 80px;
+    font-weight: 500;
+    letter-spacing: 20px;
 }
 
 .row-front{

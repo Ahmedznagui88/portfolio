@@ -63,7 +63,6 @@
   }
   
   .bn30:hover, .bn31:hover, .bn32:hover, .bn33:hover, .bn34:hover {
-    font-family: 'Panchang';   
     font-weight: lighter;
    background: rgba(70, 67, 72, 0.2);
    box-shadow: 0 4px 30px rgba(29, 98, 68, 0.1);
@@ -74,7 +73,6 @@
 
 .active{
   border-radius:20px ;
-  font-family: 'Panchang';   
   font-weight: lighter;
 background: none;
  border: solid 0.6px #ed9f29;

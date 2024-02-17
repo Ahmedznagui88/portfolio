@@ -8,14 +8,15 @@
 @import 'footer';
 @import 'contact';
 @import 'load';
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,600;1,6..12,200&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
   @font-face {
-    font-family: 'Panchang-Variable';
-    src: url('../fonts/Panchang-Variable.woff2') format('woff2'),
-         url('../fonts/Panchang-Variable.woff') format('woff'),
-         url('../fonts/Panchang-Variable.ttf') format('truetype');
-         font-weight: 200 800;
+    font-family: 'Satoshi-Light';
+    src: url('../fonts/Satoshi-Light.woff2') format('woff2'),
+         url('../fonts/Satoshi-Light.woff') format('woff'),
+         url('../fonts/Satoshi-Light.ttf') format('truetype');
+         font-weight: 300;
          font-display: swap;
          font-style: normal;
   }
