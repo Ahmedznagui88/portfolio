@@ -5,7 +5,7 @@
         <header class="container-fluid ">
             <div class="row row-me">
                 <div class="col-12 about-me">
-                    <h2 class="about">about me</h2>
+                    <h2 class="about-title">about me</h2>
                 </div>
             </div>
         </header>

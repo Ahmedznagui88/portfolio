@@ -1,9 +1,20 @@
 .about-page{
   background-image: url(../../public/img/atv.avif);
-  
   background-size: cover;
   height: 100vh;
 
+}
+
+
+
+.about-title{
+    color: white;
+    font-size: 170px;   
+    font-family: 'Panchang';
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    
 }
 
 .article-about {

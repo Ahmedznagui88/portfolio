@@ -48,7 +48,7 @@
     </main>
 
 
-    <x-footer />   
-   
+    
 </x-layout>
+<x-footer />   
 
