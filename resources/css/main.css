@@ -4,6 +4,8 @@ main{
 
 .div-par{
     text-align: center;
+    color: #353528;
+    
 }
 
 
@@ -13,8 +15,8 @@ main{
     font-size: 88px;   
     margin-top: 10px;
     font-weight: lighter;
-   
-
+    font-family: 'Panchang';
+    
 }
 
 .about{
@@ -39,7 +41,7 @@ main{
 
     font-weight: 100;
     font-size: 100px;
- 
+    font-family: 'Panchang';
     font-weight: lighter;
     color: white;
 }
@@ -76,12 +78,14 @@ main{
     }
 }
 .ref-1 :hover {
+    font-family: "Panchang";
     font-style: italic;
     text-decoration: none;
     animation:infinite ;
     animation: infiniteHover 3s linear infinite, changeColor 3s linear infinite;
     transform: scale(0.98);
     color: whitesmoke;
+
 }
 
 @keyframes changeColor {
