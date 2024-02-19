@@ -28,7 +28,9 @@
     
     
     <div class="container-fluid containee">
+        <p class="figma"><span class="prototype">prototype</span> figma</p>
         <div class="row row-cont">
+            
             <div class="col-md-6 div-imgs">
                 <img src="./img/Esercizio di stile 3.png" class="img" alt="">
             </div>
