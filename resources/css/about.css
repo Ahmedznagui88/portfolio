@@ -4,17 +4,16 @@
 }
 
 .about-me{
-    background-image: url(../../public/img/atv.avif);
+    /* background-image: url(../../public/img/atv.avif);
     background-size: cover;
     background-position-y: -450px;
-    height: 200px;
+    height: 200px; */
 }
 
 .about-title{
     color: white;
     font-size: 170px;   
     font-family: 'Panchang';
-    color: black;
     font-weight: bold;
     text-align: center;
     
@@ -27,26 +26,14 @@
     
 }
 
-/* .article-about::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
+.div-my-img{
+   }
 
+.me-black{
+width: 710px;
+height: 540px;
+object-fit: cover;
 }
-
-.article-about::after {
-    content: "";
-    position: absolute;
-    top:50px;
-    right: 0;
-    width: 50%;
-    height: 100%;
-    
-    
-} */
 
 .row-about{
     width: auto;
@@ -57,38 +44,26 @@
 }
 
 .div-about{
-    backdrop-filter: blur(5px);
-    width: 500px;
-    height: 200px;
-    font-size: 20px;
-    background-color: rgba(208, 161, 135, 0.347);
-    margin-right: 50px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
    /*  border-radius: 40px; */
-    margin-top: 130px;
+   /*  margin-top: 130px;
     transition: 1.4s;
     transform: translateY(0);
     z-index: 19434579;
-    border-radius: 20px;
-    
-  }
-html.is-animating .div-about{
-    opacity: 1;
-    transform: translateY(-40px);
+    border-radius: 20px; */
     
 }
 
 .text-about{
     text-align: center;
-    line-height: 2em;
-    transform: translateY(0);
-    font-weight:100;
-    font-size: 14px;
+    /* line-height: 2em; */
+    font-size: 50px;
+    font-weight: 200;
     transition: 2s;
-     z-index: 19434579;
-     color: white;
+     color:  #eee5e5;
 }
 
   

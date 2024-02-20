@@ -7,27 +7,29 @@
                 <div class="col-12">
                     <h2 class="about-title">about me</h2>
                 </div>
-
-                
             </div>
         </header>
 
 
-        <article class="container article-about">
+        <article class="container-fluid article-about">
             <div class="row row-about">
-                <div class="col-md-12 div-about">
+                <div class="col-md-6 div-about">
                     <p class="text-about">As a creative junior front-end developer based in Italy, I am deeply passionate
                         about music and art. Exploring the fascinating world of coding has opened my eyes to the endless
                         possibilities it offers.</p>
                 </div>
 
+
+                <div class="col-md-6 col-sm-12 div-my-img">
+                    <img src="/img/me/me.jpeg" class="me-black" alt="">
+                </div>
             </div>
 
         </article>
 
-        <x-footer />   
     </main>
     
     
-
+    
 </x-layout>
+<x-footer />   
