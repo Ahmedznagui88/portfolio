@@ -15,7 +15,8 @@
 
 .div-cont-2{
   width: 100%;
-  overflow: hidden;
+  overflow-y: hidden;
+
 }
 
 
@@ -26,6 +27,8 @@
     font-family: 'Panchang';
     font-weight: bold;
     text-align: center;
+    transform: translateY(5px);
+    transition: transform .2s;
 }
 
 
