@@ -1,11 +1,14 @@
 .about-page{
-  background-image: url(../../public/img/atv.avif);
-  background-size: cover;
-  height: 100vh;
+  
 
 }
 
-
+.about-me{
+    background-image: url(../../public/img/atv.avif);
+    background-size: cover;
+    background-position-y: -450px;
+    height: 200px;
+}
 
 .about-title{
     color: white;
@@ -88,11 +91,6 @@ html.is-animating .div-about{
      color: white;
 }
 
-html.is-animating .text-about{
-    opacity: 1;
-    transform: translateY(-10px);
-   
-}
   
 .active {
     background-color: white;

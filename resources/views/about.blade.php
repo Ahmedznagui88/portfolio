@@ -3,10 +3,12 @@
     <main class="about-page">
 
         <header class="container-fluid ">
-            <div class="row row-me">
-                <div class="col-12 about-me">
+            <div class="row about-me">
+                <div class="col-12">
                     <h2 class="about-title">about me</h2>
                 </div>
+
+                
             </div>
         </header>
 

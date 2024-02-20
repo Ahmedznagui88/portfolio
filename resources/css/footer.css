@@ -1,6 +1,14 @@
-
-
 .pages{
+  width: 100%;
+    height: 100px;
+    background-color: #20201f;
+      border-radius: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+/* .pages{
     
     width: 100%;
     height: 100px;
@@ -14,7 +22,7 @@
       display: flex;
    justify-content: center;
    align-items: center;
-  }
+  } */
 
   /* botton */
   
@@ -44,6 +52,40 @@
   .bn30, .bn31, .bn32, .bn33, .bn34  {
     width: 180px;
     height: 50px;
+    color: rgb(246, 170, 6);
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 0.7em 1em;
+    margin: 10px;
+    transition: 2s;
+    display: flex;
+    justify-content: center;
+  
+      
+  }
+  
+  .bn30:hover, .bn31:hover, .bn32:hover, .bn33:hover, .bn34:hover {
+    font-weight: lighter;
+ 
+
+
+    }
+
+
+  
+
+.active{
+  border-radius:10px ;
+  font-weight: lighter;
+ border: solid 0.6px #ec0b0b;
+    color: #000000;
+    background: none;
+}
+
+
+/*  .bn30, .bn31, .bn32, .bn33, .bn34  {
+    width: 180px;
+    height: 50px;
     color: white;
     font-size: 15px;
     font-weight: lighter;
@@ -68,16 +110,4 @@
    box-shadow: 0 4px 30px rgba(29, 98, 68, 0.1);
 
 
-    }
-  
-
-.active{
-  border-radius:20px ;
-  font-weight: lighter;
-background: none;
- border: solid 0.6px #ed9f29;
-z-index: -13333333;
-   
-}
-
-
+    } */
