@@ -47,23 +47,28 @@ object-fit: cover;
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-   /*  border-radius: 40px; */
-   /*  margin-top: 130px;
-    transition: 1.4s;
-    transform: translateY(0);
-    z-index: 19434579;
-    border-radius: 20px; */
-    
+    align-items: center;    
 }
 
-.text-about{
+.text-about {
     text-align: center;
     /* line-height: 2em; */
     font-size: 50px;
     font-weight: 200;
     transition: 2s;
      color:  #eee5e5;
+    
+    
+}
+
+.line{
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100% );
+}
+
+.word{
+    transform: translateY(100px);
+    transition: transform .1s;
 }
 
   

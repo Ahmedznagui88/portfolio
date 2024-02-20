@@ -1,45 +1,19 @@
-/* import barba from '@barba/core';
-import { gsap } from 'gsap';
-
-function pageTransition() {
-  let tl = gsap.timeline();
-  tl.to(".about-page", {
-    duration: 1,
-    scaleY: 1, 
-    transformOrigin: "bottom left",
-    stagger: 0.2,
-  });
-
-  tl.to("body", {
-    duration: 1,
-    scaleY: 1, 
-    transformOrigin: "bottom left",
-    stagger: 0.1,
-    delay: 1,
-  })
-
-}
-
-
-  let tl = gsap.timeline();
-  tl.from(".about-me", {
-    duration: 1,
-    y: -150,
-    opacity: 0,
-  })
-
-  tl.to(".about-me", {
-    duration: 1,
-    y: 0,
-    opacity: 1,
-    delay: 1,
+import { gsap } from "gsap";
     
-    
-  })
+import { TextPlugin } from "gsap/TextPlugin";
 
 
+gsap.registerPlugin(TextPlugin);
+const myText = new SplitType('#my-text');
 
- */
-
-
-  
+gsap.to('.word', {
+  y: 0,
+  stagger: {
+    grid: [8,50],
+    from: "top",
+    axis: "null",
+    amount: .3,
+  },
+  duration:.9,
+  ease: "circ.out",
+})

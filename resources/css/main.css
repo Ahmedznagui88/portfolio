@@ -5,7 +5,7 @@ main{
 .div-par{
     text-align: center;
     color: #353528;
-    
+    overflow: hidden;
 }
 
 
