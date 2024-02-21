@@ -32,4 +32,7 @@
     <x-work />
     
 </x-layout>
-{{-- <x-footer />    --}}
+<div class="div-x-footer">
+
+    <x-footer /> 
+</div>  

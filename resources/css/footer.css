@@ -1,12 +1,21 @@
+.footer{
+  display: flex;
+      justify-content: center;
+}
+
+
 .pages{
   margin-top: 20px;
-  width: 900px;
+  width: 840px;
     height: 100px;
-    background-color: #161615;
+    background-color: #161615a9;
       border-radius: 16px;
       display: flex;
       justify-content: center;
       align-items: center;
+      position: fixed;
+    bottom: 0;
+   
 }
 
   

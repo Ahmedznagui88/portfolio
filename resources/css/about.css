@@ -2,8 +2,8 @@
     position: fixed;
     top: 0px;
     width: 100%;
-    z-index: -1000; /* Assicurati che lo z-index sia sufficientemente alto per sovrapporsi ad altri elementi */
-    background-color: #000000; /* Aggiungi eventuali stili di sfondo necessari */
+    z-index: -1000; 
+    background-color: #000000;
 }
 
 .about-title{
@@ -49,7 +49,7 @@ object-fit: cover;
 .text-about {
     text-align: center;
     /* line-height: 2em; */
-    font-size: 50px;
+    font-size: 42px;
     font-weight: 200;
     transition: 2s;
     color: black;

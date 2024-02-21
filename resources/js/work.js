@@ -1,19 +1,19 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-gsap.registerPlugin(ScrollTrigger);
+/* gsap.registerPlugin(ScrollTrigger);
 
  let ademi = gsap.timeline({
     scrollTrigger: {
         trigger: ".text-ademi",
         start: "top 600",
-        end: "bottom top",
+        end: "center topm top",
         scrub: true,
     },
 });
 
 ademi.from('.text-ademi', {
     x: 0,
-    y: 250,
+    y: 50,
     opacity:0
 })
 
@@ -22,40 +22,88 @@ ademi.to('.text-ademi',{
     opacity:1,
     duration:.9,
     ease: "power3.out",
-  });
+  }); */
 
-  //*img project
+  //*img project 
 
   const tl = gsap.timeline({
     scrollTrigger: {
         trigger: ".img-project",
-        markers : true,
-        start: "top 600",
-        end: "top 30",
-        scrub: true,
+        start: "top 700",
+        end: "center top0",
+        ease: "circ.out",
+        scrub: 1,
     }
   });
 
 tl.from(".img-project", {
-  opacity: 0,
+  opacity: 1,
   x:0,
-  y: 300,
-  stagger: 0.1,
-  transformStyle: "preserve-3d",
-  ease: "power3.inout",
+  y: 0,
   duration: 1.6,
 });
 
 tl.to(".img-project", {
-  opacity: 1,
+  opacity: 0,
   x:0,
-  y: -100, 
+  y: 0, 
   scale: .2,
-  stagger: 0.1, 
-  transformStyle: "preserve-3d",
-  ease: " elastic.out(1, .8)",
 });
 
-tl.to(".img-project", {
-    opacity: 0,
+
+
+
+
+
+
+let imgProject = gsap.timeline({
+  scrollTrigger: {
+      trigger: ".img-project-1",
+      start: "top 660",
+      end: "center top",
+      markers: true,
+      scrub: 2,
+  },
+});
+
+imgProject.to(".img-project-1", {
+  x: 0,
+  y: 0,
+  duration: 2,
 })
+  .to(".img-project-1", {
+    opacity:0,
+      duration: 6,
+      duration: 2,
+      scale: .2,
+  })
+
+
+let imgProject2 = gsap.timeline({
+  scrollTrigger: {
+      trigger: ".img-project-2",
+      ease: "power4.out",
+      start: "top 660",
+      end: "center top",
+      markers: true,
+      scrub: 2,
+  },
+});
+
+imgProject2.to(".img-project-2",{
+  stagger: .1,
+  ease: "power4.out",
+  x: 0,
+  y: 0,
+  duration: 2,
+})
+  .to(".img-project-2",{
+    ease: "power4.out",
+    opacity:0,
+      duration: 6,
+      duration: 2,
+      scale: .2,
+  })
+ 
+
+

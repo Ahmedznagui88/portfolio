@@ -1,17 +1,18 @@
 .work-section {
     position: absolute;
     top: 750px; /* Regola l'altezza in modo che inizi sotto l'header fisso */
-    height: 6000px;
+    height: 2890px;
     background: #000000;
 }
 
 .container-ademi{
     position: sticky;
     top: 0;
-    height: 700px;
+    height: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     
 }
 
@@ -19,18 +20,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     text-align: center;
     width: 100%;
     height: 100vh;
-    border: solid red;
+    
 
 }
 
 .div-text{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+
+    flex-direction: column;
+}
+
+.par-ademi{
+    width: 500px;
+    text-align: center;
 }
 
 .text-ademi{
@@ -38,18 +43,27 @@
     font-family: 'panchang';
     font-weight:bolder;
     transition: transform .1s;
-    z-index: -1;
+    z-index: -777771;
 }
 
-.img-ademi{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-    
-}
-
-.img-project , .img-project-1{
+.img-project, .img-project-1, .img-project-2{
     width: 56%;
     z-index: 2;
 }
+
+.img-project-1{
+    margin-top: 140px;
+}
+.img-project-2{
+    width: 56%;
+    margin-top: 140px;
+}
+
+/* .div-x-footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+} */
