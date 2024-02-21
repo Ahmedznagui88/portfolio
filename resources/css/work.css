@@ -1,0 +1,32 @@
+.work-section {
+    position: absolute;
+    top: 750px; /* Regola l'altezza in modo che inizi sotto l'header fisso */
+    height: 6000px;
+    background: #000000;
+}
+
+.container-ademi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.row-ademi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.div-ademi{
+    position: relative;
+}
+.text-ademi{
+    font-size: 230px;
+    font-family: 'panchang';
+    font-weight:bolder;
+    transition: transform .1s;
+}

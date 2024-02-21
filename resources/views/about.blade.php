@@ -2,7 +2,7 @@
     
     <main class="about-page">
 
-        <header class="container-fluid ">
+        <header class="container-fluid container-about-title">
             <div class="row about-me">
                 <div class="col-12">
                     <h2 class="about-title">about me</h2>
@@ -29,7 +29,7 @@
 
     </main>
     
-    
+    <x-work />
     
 </x-layout>
-<x-footer />   
+{{-- <x-footer />    --}}

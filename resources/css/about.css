@@ -1,4 +1,10 @@
-
+.about-page {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: -1000; /* Assicurati che lo z-index sia sufficientemente alto per sovrapporsi ad altri elementi */
+    background-color: #000000; /* Aggiungi eventuali stili di sfondo necessari */
+}
 
 .about-title{
     color: white;
