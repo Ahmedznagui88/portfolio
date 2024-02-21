@@ -5,11 +5,11 @@
                 <h1 id="ademi" class="text-ademi">Ademi</h1>
             </div>
             <div class="col-12 img-ademi">
-                <img src="/img/proj/Esercizio di stile.png" class="img-fluid w-25" alt="">
+                <img src="/img/proj/Esercizio di stile.png" class="img-fluid img-project" alt="">
             </div>
-            <div class="col-12">
-                <img src="/img/proj/prototipo 2.png" class="img-fluid w-25" alt="">
-            </div>
+            {{-- <div class="col-12">
+                <img src="/img/proj/prototipo 2.png" class="img-fluid w-25 img-project-1" alt="">
+            </div> --}}
         </div>
     </div>
 
