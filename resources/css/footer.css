@@ -8,7 +8,7 @@
   margin-top: 20px;
   width: 840px;
     height: 100px;
-    background-color: #161615a9;
+    background-color: #161615f1;
       border-radius: 16px;
       display: flex;
       justify-content: center;
@@ -24,6 +24,8 @@
    justify-content: center;
    align-items: center;   
    justify-content: space-around;
+   background-color: #0d0e0d;
+   border-radius: 16px;
   }
 
   .svg-no-footer {
@@ -59,21 +61,15 @@
   
   .bn30:hover, .bn31:hover, .bn32:hover, .bn33:hover, .bn34:hover {
     font-weight: lighter;
-    background-color: #0d0e0d;
+    background-color: #2a2a2a;
     border-radius: 10px;
 
     }
  
 
-/* .active{
-  border-radius:10px ;
-  font-weight: lighter;
-  border: solid 0.1px #ec0b0b;
-    color: #000000;
-    background: none;
-} */
 
 .active{
-  border-bottom: solid 0.2px #ec0b0b;
+
+  border-bottom: solid 0.2px #ec0e0e;
     background: none;
 }

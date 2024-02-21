@@ -13,7 +13,7 @@
                         <section>
                             <div class="row flex-column ">
                                 @foreach ($musics as $music)
-                                    <article class="col-3 div-img-tit">
+                                    <article class="col-4 div-img-tit">
                                         <div class="slides">
                                             <img class="slide" src="{{ $music->cover }}">
                                             <div class="">

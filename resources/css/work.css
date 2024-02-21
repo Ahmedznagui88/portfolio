@@ -1,7 +1,7 @@
 .work-section {
     position: absolute;
     top: 750px; /* Regola l'altezza in modo che inizi sotto l'header fisso */
-    height: 2890px;
+    height: 2700px;
     background: #000000;
 }
 
@@ -29,12 +29,20 @@
 
 .div-text{
     text-align: center;
-
     flex-direction: column;
+}
+
+.div-par-ademi{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .par-ademi{
     width: 500px;
+    font-size: 21px;
+    font-weight: 100;
     text-align: center;
 }
 

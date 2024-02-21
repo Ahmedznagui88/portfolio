@@ -5,9 +5,9 @@
                 <h1 id="ademi" class="text-ademi">Ademi</h1>
             </div>
 
-            <div class="col-12">
+            <div class="col-12 div-par-ademi">
                 <p class="par-ademi">
-                    First project, a platform designed for the upscale retail of a variety of high-end products. The featured items range from exquisite furnishings and luxurious perfumes to other premium products, catering to the discerning tastes of our clientele. Explore a curated collection that goes beyond the ordinary, reflecting sophistication and quality
+                    Welcome to my first project, a platform designed for the upscale retail of a variety of high-end products. The featured items range from exquisite furnishings and luxurious perfumes to other premium products, catering to the discerning tastes of our clientele. Explore a curated collection that goes beyond the ordinary, reflecting sophistication and quality
                 </p>
             </div>
         </div>
