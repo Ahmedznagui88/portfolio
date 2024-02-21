@@ -1,15 +1,14 @@
 import { gsap } from "gsap";
-import { TextPlugin } from "gsap/TextPlugin";
-gsap.registerPlugin(TextPlugin);
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
 
-
-let ademi = gsap.timeline({
+ let ademi = gsap.timeline({
     scrollTrigger: {
         trigger: ".text-ademi",
         start: "top 600",
         end: "bottom top",
         markers: true,
-        
+        scrub: true,
     },
 });
 
@@ -21,7 +20,6 @@ ademi.from('.text-ademi', {
 })
 
 ademi.to('.text-ademi',{
-    y: -40,
     pin: true,
     opacity:1,
     duration:.9,
