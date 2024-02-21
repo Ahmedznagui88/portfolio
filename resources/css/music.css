@@ -3,7 +3,6 @@
   background: #000;
   height: 100;
   margin-bottom: 39px;
-  overflow: hidden;
 }
 
 .text-music{
@@ -55,11 +54,13 @@
 .slides {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   margin: 2px;
-  width: 100%;
-
-  
+  width: 100%;  
 }
+
+
 
 .div-img-tit{
   display: flex;
@@ -80,16 +81,20 @@
 }
 
 .slide {
-  width: 100px;
+  width: 260px;
   height: 100px;
   object-fit: cover;
   border-radius: 0.5rem;
+  transition: .7s;
 }
 
-.title-song{
+.slide:hover{
+  scale: 0.9;
+}
+
+.title-song , .name-artist{
     font-weight: lighter;
   font-size: 20px;
-  letter-spacing: 2px;
   text-align: center;
 }
 

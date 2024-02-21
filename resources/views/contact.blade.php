@@ -4,7 +4,7 @@
     <h2 class="contact text-align-center">Contact</h2>
     
     
-    <div id="form" class="container mt-5">
+    <div  class="container mt-5">
       @if (session('emailSent'))
       <div id="message" class="alert alert-secondary div-alert-s">
         {{ session('emailSent') }}
@@ -16,7 +16,7 @@
       </div> 
       @endif 
       
-      <div class="row row-form">
+      <div id="form" class="row row-form">
         <div class="col-6 col-md-12 div-form">
           <form action="{{ route('send.contact') }}" method="POST" class="">
             @csrf

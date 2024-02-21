@@ -2,7 +2,7 @@
     <main class="container-fluid main-music">
         
             <div class="row justify-content-center">
-                <div class="col-md-12">
+                <div class="col-md-12 ">
                     <p class="text-music">Brown Complexion</p>
                 </div>
             </div>
@@ -16,7 +16,12 @@
                                     <article class="col-3 div-img-tit">
                                         <div class="slides">
                                             <img class="slide" src="{{ $music->cover }}">
+                                            <div class="">
+                                                <p class="name-artist">{{ $music->artist }}</p>
+
+                                            </div>
                                         </div>
+
                                         <div>
                                             <button id="play" class="play-pause-button" data-audio-id="{{ $music->id }}"
                                                 data-progress-id="progress_{{ $music->id }}">

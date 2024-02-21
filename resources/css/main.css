@@ -16,7 +16,6 @@ main{
     margin-top: 10px;
     font-weight: lighter;
     font-family: 'Panchang';
-    
 }
 
 .about{
@@ -37,8 +36,6 @@ main{
 
 
 .contact{
-
-
     font-weight: 100;
     font-size: 100px;
     font-family: 'Panchang';
@@ -48,10 +45,8 @@ main{
 
 
 .expertise{
-
     font-weight: 100;
     font-size: 100px;
- 
     font-weight: lighter;
     color: white;
 }
@@ -145,14 +140,14 @@ main{
 
 
 .text-header{
-    background: rgba(172, 93, 93, 0.2);
+    background: rgba(129, 234, 165, 0.398);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(172, 93, 93, 0.14);
 font-weight: 100;
-font-size: 20px;
+font-size: 30px;
 }
 
 

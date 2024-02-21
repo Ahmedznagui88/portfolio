@@ -14,9 +14,9 @@
             <a href="{{ route('expertise') }}" class="nav-link @if (Route::currentRouteName() == 'expertise') active @endif">
                 <p class="bn32">expertise</p>
             </a>
-            <a href="/" class="nav-link @if (Route::currentRouteName() == 'work') active @endif">
+            {{-- <a href="/" class="nav-link @if (Route::currentRouteName() == 'work') active @endif">
                 <p class="bn33">work</p>
-            </a>
+            </a> --}}
             <a href="{{ route('contact') }}" class="nav-link @if (Route::currentRouteName() == 'contact') active @endif">
                 <p class="bn34">contact</p>
             </a>

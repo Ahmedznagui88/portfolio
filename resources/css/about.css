@@ -32,10 +32,12 @@ object-fit: cover;
 }
 
 .div-about{
-    height: 100%;
+
     display: flex;
     justify-content: center;
     align-items: center;    
+    background-color: rgb(43, 249, 115);
+
 }
 
 .text-about {
@@ -44,7 +46,7 @@ object-fit: cover;
     font-size: 50px;
     font-weight: 200;
     transition: 2s;
-     color:  #eee5e5;
+    color: black;
     
     
 }

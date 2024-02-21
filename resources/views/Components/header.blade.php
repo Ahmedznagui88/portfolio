@@ -3,14 +3,14 @@
         <div class="row">
             <div class="col-md-7 div-par">
                 <a href="{{ route('about') }}" class="ref-1">
-                    <p class="about">about me</p>
+                    <p class="about">about</p>
                 </a>
                 <a href="{{ route('expertise') }}" class="ref-1">
                     <p class="expertise">expertise</p>
                 </a>
-                <a href="" class="ref-1">
+                {{-- <a href="" class="ref-1">
                     <p class="work">work</p>
-                </a>
+                </a> --}}
                 <a href="{{ route('contact') }}" class="ref-1">
                     <p class="contact">contact</p>
                 </a>
@@ -32,4 +32,7 @@
             </div>
         </div>
     </article>
+    
+    <x-footer />   
 </main>
+

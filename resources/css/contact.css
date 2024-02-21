@@ -7,20 +7,14 @@
     align-items: center;
     flex-direction: column;
     height: 86vh;
-    background: radial-gradient(circle, rgb(66, 49, 89) 0%, rgba(0,0,0,1) 72%); 
 }
 
 .row-form{
     height: 300px;
     align-items: center;
-    background: #171717;
+    background-color: #161615;
     border-radius: 20px;
-    background: rgba(192, 152, 152, 0.2);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    z-index: 99999999;
   }
 
  .btn-form{
@@ -33,7 +27,7 @@
     border: none;
     align-items: center;
     justify-content: center;
-      background: rgba(202, 150, 228, 0.2);
+    background-color: #35352d;
       border-radius: 13px;
       transition: 0.9s;
  }

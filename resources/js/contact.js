@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let message = document.getElementById('message');
 
         if (message) {
-            message.style.transform = "translateY(100px)";
+            message.style.transform = "translateY(-60px)";
             message.style.opacity = "0";
             message.style.transition = "3s";
         }

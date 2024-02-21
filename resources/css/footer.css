@@ -1,5 +1,6 @@
 .pages{
-  width: 100%;
+  margin-top: 20px;
+  width: 900px;
     height: 100px;
     background-color: #161615;
       border-radius: 16px;
@@ -8,25 +9,7 @@
       align-items: center;
 }
 
-/* .pages{
-    
-    width: 100%;
-    height: 100px;
-    border-radius: 20px;
-      background: rgba(129, 89, 152, 0.2);
-      border-radius: 16px;
-      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-      backdrop-filter: blur(5px);
-      -webkit-backdrop-filter: blur(5px);
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      display: flex;
-   justify-content: center;
-   align-items: center;
-  } */
-
-  /* botton */
   
-
 .contain-img{
     display: flex;
    justify-content: center;
@@ -50,64 +33,38 @@
 
 
   .bn30, .bn31, .bn32, .bn33, .bn34  {
-    width: 180px;
+    width: 150px;
     height: 50px;
     color: rgb(246, 170, 6);
-    font-size: 15px;
+    font-size: 19px;
     font-weight: lighter;
     padding: 0.7em 1em;
     margin: 10px;
-    transition: 2s;
+    transition: .7s;
     display: flex;
     justify-content: center;
-  
-      
+    align-items: center;
+    border-radius: 10px;
+
   }
   
   .bn30:hover, .bn31:hover, .bn32:hover, .bn33:hover, .bn34:hover {
     font-weight: lighter;
- 
-
+    background-color: #0d0e0d;
+    border-radius: 10px;
 
     }
+ 
 
-
-  
-
-.active{
+/* .active{
   border-radius:10px ;
   font-weight: lighter;
- border: solid 0.1px #ec0b0b;
+  border: solid 0.1px #ec0b0b;
     color: #000000;
     background: none;
+} */
+
+.active{
+  border-bottom: solid 0.2px #ec0b0b;
+    background: none;
 }
-
-
-/*  .bn30, .bn31, .bn32, .bn33, .bn34  {
-    width: 180px;
-    height: 50px;
-    color: white;
-    font-size: 15px;
-    font-weight: lighter;
-    padding: 0.7em 1em;
-    margin: 10px;
-    transition: 2s;
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
-      background: rgba(215, 207, 219, 0.2);
-      border-radius: 13px;
-      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-      backdrop-filter: blur(5px);
-      -webkit-backdrop-filter: blur(5px);
-      
-      z-index: 99999999;
-  }
-  
-  .bn30:hover, .bn31:hover, .bn32:hover, .bn33:hover, .bn34:hover {
-    font-weight: lighter;
-   background: rgba(70, 67, 72, 0.2);
-   box-shadow: 0 4px 30px rgba(29, 98, 68, 0.1);
-
-
-    } */
