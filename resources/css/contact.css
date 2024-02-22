@@ -7,6 +7,9 @@
     align-items: center;
     flex-direction: column;
     height: 86vh;
+    font-weight: 200;
+
+
 }
 
 .row-form{
@@ -22,7 +25,7 @@
     height: 50px;
     color: white;
     font-size: 15px;
-    font-weight: lighter;
+    font-weight: 200;
     display: flex;
     border: none;
     align-items: center;

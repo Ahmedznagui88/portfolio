@@ -1,6 +1,6 @@
 .work-section {
     position: absolute;
-    top: 750px; /* Regola l'altezza in modo che inizi sotto l'header fisso */
+    top: 750px;
     height: 2700px;
     background: #000000;
 }
@@ -29,15 +29,19 @@
 
 .div-text{
     text-align: center;
-    flex-direction: column;
+    
 }
 
 .div-par-ademi{
-    margin-top: 28px;
+    height: 280px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: rgb(231, 227, 227);
+}
+
+.img-ademi-5{
+    width: 510px;
 }
 
 .welcome{
@@ -48,12 +52,21 @@
     width: 520px;
     font-size: 23px;
     font-weight: 100;
-    text-align: center;
+    text-align: start;
     color: #000000;
 }
 
+.number{
+    font-family: 'panchang';
+    font-size: 200px;
+    font-weight:bolder;
+    color: #000000;
+    border-left: solid 20px  black;
+    text-align: center;
+}
+
 .text-ademi{
-    font-size: 230px;
+    font-size: 210px;
     font-family: 'panchang';
     font-weight:bolder;
     transition: transform .1s;
@@ -73,6 +86,9 @@
     width: 56%;
     margin-top: 140px;
 }
+
+
+
 
 /* .div-x-footer{
     display: flex;

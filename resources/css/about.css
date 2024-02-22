@@ -25,12 +25,12 @@
 
 .circle{
     position: absolute;
-    top: 550px;
-    left: 647px;
-    width: 140px;
-    height: 140px;
+    top: 570px;
+    left: 664px;
+    width: 100px;
+    height: 100px;
     border-radius: 100%;
-    background: #ffffff;
+    background-color: rgb(249, 187, 43);
     z-index: 1111;
     display: flex;
     justify-content: center;
@@ -39,8 +39,8 @@
 
 .div-first-project{
     background: #000;
-    width: 136px;
-    height: 136px;
+    width: 96px;
+    height: 96px;
     animation: animateCircle 2s linear infinite;
     border-radius: 100%;
     display: flex;
@@ -52,6 +52,7 @@
 .first-project{
     font-weight: 100;
     font-family: 'panchang';
+    font-size: 9px;
 }
 
 
@@ -70,18 +71,13 @@ object-fit: cover;
 }
 
 .div-about{
-
     display: flex;
     justify-content: center;
     align-items: center;    
     background-color: rgb(43, 249, 115);
-    background-color: rgb(209, 140, 76);
-
+    background-color: rgb(231, 227, 227);
 }
 
-circle{
-
-}
 
 .text-about {
     text-align: center;

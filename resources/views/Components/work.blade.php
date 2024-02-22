@@ -7,28 +7,36 @@
 
             <div class="col-12 div-par-ademi">
                 <p class="par-ademi">
-                <span class="welcome">Welcome </span> to my first project.  <br> A platform designed for the upscale retail of a variety of high-end products. <br>The featured items range from exquisite furnishings and luxurious perfumes to other premium products, catering to the discerning tastes of our clientele. Explore a curated collection that goes beyond the ordinary, reflecting sophistication and quality
+                    <span class="welcome">Welcome </span> to my first project, a platform designed for the upscale
+                    retail of a variety of high-end products.The featured items range from exquisite furnishings
+                    and luxurious perfumes to other premium products, catering to the discerning tastes of our
+                    customers. Explore a curated collection that goes beyond the ordinary, reflecting sophistication and
+                    quality
                 </p>
+                {{--<img id="carousel" src="/img/proj/prototipo 2.png" class="img-ademi-5 img-fluid" alt="">
+ --}}
+                <p class="number">88</p>
             </div>
+            {{-- <div class="col-6 proj-img-ademi">
+            </div> --}}
         </div>
-        
+
     </div>
 
     <div class="container">
         <div class="row row-ademi">
-             <div class="col-12 img-ademi">
+            <div class="col-12 img-ademi">
                 <img src="/img/proj/Esercizio di stile.png" class="img-fluid img-project" alt="">
             </div>
             <div class="col-12 img-ademi">
                 <img src="/img/proj/prototipo 2.png" class="img-fluid img-project-1" alt="">
             </div>
 
-           <div class="col-12 img-ademi">
+            <div class="col-12 img-ademi">
                 <img src="/img/proj/Ademi Sound.png" class="img-fluid img-project-2" alt="">
-            </div> 
+            </div>
         </div>
     </div>
 
-    
-</section>
 
+</section>
