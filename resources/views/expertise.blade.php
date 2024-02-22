@@ -62,8 +62,8 @@
                 </div>
     
                 <div class="col-md-12 div-front-2">
-                    <p class="text-front-2">HTML structures web content, CSS styles it, and JavaScript adds
-                        interactivity. GSAP refines animations, providing a seamless user experience. React streamlines
+                    <p class="text-front-2"> <span class="design">HTML</span> structures web content, <span class="design">CSS</span> styles it, and <span class="design">JavaScript</span> adds
+                        interactivity. <span class="design">Gsap</span> refines animations, providing a seamless user experience. <span class="design">React</span> streamlines
                         dynamic UI creation by efficiently managing components.</p>
                 </div>
             </div>

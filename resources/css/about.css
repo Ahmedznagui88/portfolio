@@ -44,8 +44,8 @@
     animation: animateCircle 2s linear infinite;
     border-radius: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
@@ -104,3 +104,19 @@ object-fit: cover;
 .active {
     background-color: white;
 }
+
+@keyframes arrowAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(5px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  #animated-arrow {
+    animation: arrowAnimation 2s infinite;
+  }

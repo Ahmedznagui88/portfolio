@@ -58,8 +58,7 @@ display: flex;
 }
 
 .stacks {
-  
-  width: 150px;
+  width: 170px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -157,18 +156,6 @@ align-items: center;
 
 }
 
-/* 
-@keyframes infiniteHover {
-0%, 100% {
-    background-image: linear-gradient(to right, #935b5b, #832ebf);
-
-}
-50% {
-    background-image: linear-gradient(to right , #ffffff, #606cc3);
-
-}
-} */
-
 .design{
   
 font-size: 20px;
@@ -176,37 +163,15 @@ font-family: 'Panchang';
 font-style: italic;
 }
 .stacks, .stack, .design, .back {
+  font-size: 20px;
+  font-family: 'panchang';
 text-decoration: none;
 animation:infinite ;
-animation: changeColor 2s linear infinite;
+font-weight: 200;
 transform: scale(0.98);
 color: whitesmoke;
 border-radius: 20px;
 text-align: center;
-}
-
-@keyframes changeColor {
-0% {
-    background-image: url(../../public/img/Frame\ 1.png);
-    background-size: contain;
-}
-25% {
-    background-image: linear-gradient(-30deg, #c9e7ea, #6f2ebf );
-    background-size: 300px;
-}
-55% {
-/*         background-image: linear-gradient(to left,   #2f7e55 15% , #053e2c 40% );*/        
-        background: linear-gradient(to -30deg, #353528, #6c848d, #ffc685, #44617b);
-        background-size: 900px;
-}
-75% {
-     background: linear-gradient(66deg, #60e6c7, #6b4df0, #7b4adb);
-     background-size: 300px;
-}
-100% {
-    background-image: url(../../public/img/Frame\ 2.png);
-    background-size: cover;
-}
 }
 
 .row-expertise-2{
@@ -266,5 +231,6 @@ align-items: center;
 
 .text-backend-2{
   font-weight: 200;
+  height: 300px;
 width: 500px;
 }

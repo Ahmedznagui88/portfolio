@@ -42,10 +42,7 @@
           </form>
         </div>
       </div>
+      <x-footer />   
     </div>
   </section>
-  
-
-  <x-footer />   
-
 </x-layout>

@@ -67,10 +67,11 @@ let imgProject = gsap.timeline({
 
 imgProject.to(".img-project-1", {
   x: 0,
-  y: 0,
+  y: -160,
   duration: 2,
 })
   .to(".img-project-1", {
+    y: -10,
     opacity:0,
       duration: 6,
       duration: 2,
@@ -81,22 +82,18 @@ imgProject.to(".img-project-1", {
 let imgProject2 = gsap.timeline({
   scrollTrigger: {
       trigger: ".img-project-2",
-      ease: "power4.out",
       start: "top 660",
       end: "top 25",
-      scrub: 1,
+      scrub: true,
   },
 });
 
 imgProject2.to(".img-project-2",{
-  stagger: .1,
-  ease: "power4.out",
   x: 0,
-  y: 0,
+  y: -260,
   duration: 2,
 })
   .to(".img-project-2",{
-    ease: "power4.out",
     y: -10,
     opacity:0,
       duration: 6,

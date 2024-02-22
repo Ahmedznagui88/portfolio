@@ -168,12 +168,10 @@ tline
             .to(".text-backend-2", {
                 ease: "none",
                 x: 0,
-              
-                scale: 1.5,
+              y: -200,
+                scale: 1.8,
             })
-            .to(".text-backend-2", {
-                y: -200,
-            });
+            
 //!end figma
 
 
