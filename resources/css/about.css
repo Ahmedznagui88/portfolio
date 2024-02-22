@@ -4,6 +4,7 @@
     width: 100%;
     z-index: -1000; 
     background-color: #000000;
+    
 }
 
 .about-title{
@@ -20,6 +21,37 @@
     background-size:400px;
     background-attachment: fixed;
     
+}
+
+.circle{
+    position: absolute;
+    top: 550px;
+    left: 647px;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    background: #ffffff;
+    z-index: 1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-first-project{
+    background: #000;
+    width: 136px;
+    height: 136px;
+    animation: animateCircle 2s linear infinite;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.first-project{
+    font-weight: 100;
+    font-family: 'panchang';
 }
 
 
@@ -43,6 +75,11 @@ object-fit: cover;
     justify-content: center;
     align-items: center;    
     background-color: rgb(43, 249, 115);
+    background-color: rgb(209, 140, 76);
+
+}
+
+circle{
 
 }
 

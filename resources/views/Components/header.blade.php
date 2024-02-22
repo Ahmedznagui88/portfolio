@@ -33,6 +33,5 @@
         </div>
     </article>
     
-    <x-footer />   
 </main>
 

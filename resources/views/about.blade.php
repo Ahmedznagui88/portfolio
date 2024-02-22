@@ -1,5 +1,5 @@
 <x-layout>
-    
+
     <main class="about-page">
 
         <header class="container-fluid container-about-title">
@@ -10,16 +10,20 @@
             </div>
         </header>
 
+        <div class="circle">
+            <div class="div-first-project">
+                <p class="first-project">my<br/> first <br/>project!</p>
+            </div>
+        </div>
 
         <article class="container-fluid article-about">
             <div class="row row-about">
                 <div class="col-md-6 div-about">
-                    <p id="my-text" class="text-about">As a creative junior front-end developer based in Italy, I am deeply passionate
+                    <p id="my-text" class="text-about">As a creative junior front-end developer based in Italy, I am
+                        deeply passionate
                         about music and art. Exploring the fascinating world of coding has opened my eyes to the endless
                         possibilities it offers.</p>
                 </div>
-
-
                 <div class="col-md-6 col-sm-12 div-my-img">
                     <img src="/img/me/med-firenze.jpeg" class="me-black" alt="">
                 </div>
@@ -28,11 +32,11 @@
         </article>
 
     </main>
-    
+
     <x-work />
-    
+
 </x-layout>
 <div class="div-x-footer">
 
-    <x-footer /> 
-</div>  
+    <x-footer />
+</div>

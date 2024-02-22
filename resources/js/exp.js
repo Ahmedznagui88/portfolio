@@ -168,6 +168,7 @@ tline
             .to(".text-backend-2", {
                 ease: "none",
                 x: 0,
+              
                 scale: 1.5,
             })
             .to(".text-backend-2", {

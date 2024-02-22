@@ -7,7 +7,7 @@
 
             <div class="col-12 div-par-ademi">
                 <p class="par-ademi">
-                    Welcome to my first project, a platform designed for the upscale retail of a variety of high-end products. The featured items range from exquisite furnishings and luxurious perfumes to other premium products, catering to the discerning tastes of our clientele. Explore a curated collection that goes beyond the ordinary, reflecting sophistication and quality
+                <span class="welcome">Welcome </span> to my first project.  <br> A platform designed for the upscale retail of a variety of high-end products. <br>The featured items range from exquisite furnishings and luxurious perfumes to other premium products, catering to the discerning tastes of our clientele. Explore a curated collection that goes beyond the ordinary, reflecting sophistication and quality
                 </p>
             </div>
         </div>

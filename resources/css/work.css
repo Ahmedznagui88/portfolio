@@ -33,17 +33,23 @@
 }
 
 .div-par-ademi{
-    margin-top: 30px;
+    margin-top: 28px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(231, 227, 227);
+}
+
+.welcome{
+    font-family: 'panchang';
 }
 
 .par-ademi{
-    width: 500px;
-    font-size: 21px;
+    width: 520px;
+    font-size: 23px;
     font-weight: 100;
     text-align: center;
+    color: #000000;
 }
 
 .text-ademi{
