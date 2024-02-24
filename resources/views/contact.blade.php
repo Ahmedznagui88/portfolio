@@ -33,12 +33,12 @@
               </div>
             </div>
             
-            <div class="mb-3">
+            <div class="mt-4">
               <label for="user_Message" class="form-label ">Text me</label>
-              <textarea name="user_message" class="form-control" id="User_Message" cols="30" rows="4" placeholder="Your Message"></textarea>
+              <textarea name="user_message" class="form-control" id="User_Message" cols="20" rows="4" placeholder="Your Message"></textarea>
             </div>
   
-            <button type="submit" class="btn-form shadow py-3">Send</button>
+            <button type="submit" class="btn-form shadow mt-4">Send</button>
           </form>
         </div>
       </div>

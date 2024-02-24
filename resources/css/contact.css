@@ -1,6 +1,11 @@
 .form-control{
-   background-color: rgba(35, 35, 35, 0.67);
+   background-color: rgba(29, 29, 29, 0.67);
+   color: #ffffff;
+   font-family: 'Supreme';
+   font-weight: 200;
 }
+
+
 
 .cont-form{
     display: flex;
@@ -13,10 +18,11 @@
 }
 
 .row-form{
-    height: 300px;
+    height: 370px;
     align-items: center;
     background-color: #161615;
-    border-radius: 20px;
+    border-radius: 6px;
+
     z-index: 99999999;
   }
 
@@ -73,12 +79,12 @@
 
  #form ::placeholder {
    color: #f8f3f3; 
-   font-family: 'panchang';
+   font-weight: 200;
  }
 
 
  #form :focus::placeholder {
-   color: transparent;
+   color: white;
    
  }
 

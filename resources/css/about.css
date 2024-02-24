@@ -23,19 +23,7 @@
     
 }
 
-.circle{
-    position: absolute;
-    top: 570px;
-    left: 664px;
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    background-color: rgb(249, 187, 43);
-    z-index: 1111;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .div-first-project{
     background: #000;
@@ -54,6 +42,29 @@
     font-family: 'panchang';
     font-size: 9px;
 }
+
+.div-my-img{
+    background-image: url(/public/img/me/med-firenze-2.jpeg);
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    position: relative;
+}
+
+.circle{
+    position: absolute;
+    top: 370px;
+    left: 664px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: rgb(249, 187, 43);
+    z-index: 1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 .me-black{
@@ -82,7 +93,7 @@ object-fit: cover;
 .text-about {
     text-align: center;
     /* line-height: 2em; */
-    font-size: 42px;
+    font-size: 38px;
     font-weight: 200;
     transition: 2s;
     color: black;

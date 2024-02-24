@@ -13,12 +13,8 @@
                     customers. Explore a curated collection that goes beyond the ordinary, reflecting sophistication and
                     quality
                 </p>
-                {{--<img id="carousel" src="/img/proj/prototipo 2.png" class="img-ademi-5 img-fluid" alt="">
- --}}
                 <p class="number">88</p>
             </div>
-            {{-- <div class="col-6 proj-img-ademi">
-            </div> --}}
         </div>
 
     </div>
