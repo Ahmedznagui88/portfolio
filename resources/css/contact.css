@@ -3,6 +3,7 @@
    color: #ffffff;
    font-family: 'Supreme';
    font-weight: 200;
+   border-radius: 2px;
 }
 
 
@@ -37,7 +38,7 @@
     align-items: center;
     justify-content: center;
     background-color: #3d3732;
-      border-radius: 13px;
+      border-radius: 3px;
       transition: 0.5s;
  }
  .btn-form:hover{   

@@ -24,7 +24,7 @@
               <div class="row">
                 <div class="col-6 ">
                   <label for="name" class="form-label"> Name</label>
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Name ">
+                  <input type="text" name="name" class="form-control " id="name" placeholder="Name">
                 </div>
                 <div class="col-6 ">
                   <label for="email" class="form-label ">Email</label>
