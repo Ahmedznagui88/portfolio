@@ -1,7 +1,7 @@
 <x-layout>
   
   <section class="cont-form">
-    <h2 class="contact text-align-center">Contact</h2>
+    {{-- <h2 class="contact text-align-center">Contact</h2> --}}
     
     
     <div  class="container mt-5">
@@ -42,6 +42,19 @@
           </form>
         </div>
       </div>
+
+      
+        <div class="link-social ">
+          <a class="link-git" href="https://github.com/Ahmedznagui88" target="_blank">
+            <img class="git-hub" src="/img/github-mark.png" alt="">
+          </a>
+         
+          <a class="link-linkedin" href="https://www.linkedin.com/in/ahmed-znagui/" target="_blank">
+            <img class="linkedin" src="/img/icons8-linkedin-100.png" alt="">
+          </a>
+        </div>
+      
+
       <x-footer />   
     </div>
   </section>

@@ -8,9 +8,6 @@
                 <a href="{{ route('expertise') }}" class="ref-1">
                     <p class="expertise">expertise</p>
                 </a>
-                {{-- <a href="" class="ref-1">
-                    <p class="work">work</p>
-                </a> --}}
                 <a href="{{ route('contact') }}" class="ref-1">
                     <p class="contact">contact</p>
                 </a>
@@ -19,7 +16,7 @@
                 <p class="text-header">Multidisciplinary, creative websites, visual experiences, and composing unique
                     melodies.</p>
                 <div class=" h-25">
-                    <a href="{{ route('music') }}">
+                    <a href="{{ route('music') }}" target="_blank">
                         <svg class="svg-no-grayscale" width="59" height="59" viewBox="0 0 59 59" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <circle cx="29.5" cy="29.5" r="29.5" fill=" #ed9f29" />

@@ -48,7 +48,7 @@
     height: 50px;
     color: rgb(246, 170, 6);
     font-size: 19px;
-    font-weight: lighter;
+    font-weight: 100;
     padding: 0.7em 1em;
     margin: 10px;
     transition: .7s;
@@ -114,6 +114,38 @@
 
 .active{
 
-  border-bottom: solid 0.2px #ec0e0e;
+  border-bottom: solid 0.2px #f12424;
     background: none;
 }
+
+.link-social{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  height: 90px;
+}
+
+.link-linkedin, .link-git{
+  margin-left: 20px;
+  background-color: #1d1c1c;
+  border-radius: 50px;
+  width: 65px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .6s;
+}
+
+.link-git:hover, .link-linkedin:hover {
+/*   background-color: #f32020;
+border: solid 0.5px #f32020; */  
+ box-shadow: 0 0 12px #f32020;
+
+}
+
+.linkedin, .git-hub{
+  width: 50px;
+  
+}
+
