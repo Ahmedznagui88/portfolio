@@ -12,14 +12,14 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 86vh;
+    height: 90vh;
     font-weight: 200;
 
 
 }
 
 .row-form{
-    height: 370px;
+    height: 490px;
     align-items: center;
     background-color: #161615;
     border-radius: 6px;

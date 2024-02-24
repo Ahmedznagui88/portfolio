@@ -41,18 +41,31 @@
             <button type="submit" class="btn-form shadow mt-4">Send</button>
           </form>
         </div>
-      </div>
-
-      
+        
         <div class="link-social ">
           <a class="link-git" href="https://github.com/Ahmedznagui88" target="_blank">
             <img class="git-hub" src="/img/github-mark.png" alt="">
+            <h6 class="links-pages">
+              GitHub
+            </h6>
           </a>
          
           <a class="link-linkedin" href="https://www.linkedin.com/in/ahmed-znagui/" target="_blank">
             <img class="linkedin" src="/img/icons8-linkedin-100.png" alt="">
+            <h6 class="links-pages">
+              LinkedIn
+            </h6>
+          </a>
+          <a class="link-linkedin" href="/media/Ahmed Znagui.pdf" download="Ahmed Znagui.pdf">
+            <img class="linkedin" src="/img/curriculum-vitae-100.png" alt="">
+            <h6 class="links-pages">
+              Resume
+            </h6>
           </a>
         </div>
+      </div>
+
+      
       
 
       <x-footer />   

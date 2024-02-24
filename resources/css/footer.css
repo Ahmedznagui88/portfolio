@@ -1,6 +1,7 @@
 .footer{
   display: flex;
       justify-content: center;
+      
 }
 
 
@@ -15,7 +16,7 @@
       align-items: center;
       position: fixed;
     bottom: 0;
-   
+    margin-bottom: 20px;
 }
 
   
@@ -46,7 +47,7 @@
   .bn30, .bn31, .bn32, .bn33, .bn34  {
     width: 150px;
     height: 50px;
-    color: rgb(246, 245, 245);
+    color: rgb(240, 118, 25);
     font-size: 19px;
     font-weight: 200;
     padding: 0.7em 1em;
@@ -119,21 +120,29 @@
 }
 
 .link-social{
+  width: 100%;
   margin-top: 20px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
   height: 90px;
+}
+
+.links-pages{
+  color: #000;
 }
 
 .link-linkedin, .link-git{
   margin-left: 20px;
-  background-color: #1d1c1c;
+  background-color: #323131;
   border-radius: 50px;
-  width: 65px;
-  height: 65px;
+  width: 95px;
+  height: 95px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   transition: .6s;
 }
 
