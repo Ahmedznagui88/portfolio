@@ -58,14 +58,12 @@
     width: 100px;
     height: 100px;
     border-radius: 100%;
-    background-color: rgb(249, 187, 43);
+    background-color: rgb(255, 255, 255);
     z-index: 1111;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
 
 .me-black{
 width: 710px;

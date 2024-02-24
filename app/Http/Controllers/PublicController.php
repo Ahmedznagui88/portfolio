@@ -15,8 +15,6 @@ class PublicController extends Controller
     }
 
     public function expertise(){
-
-        
         return view('expertise');
 
     }

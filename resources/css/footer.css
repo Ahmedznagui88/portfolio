@@ -46,9 +46,9 @@
   .bn30, .bn31, .bn32, .bn33, .bn34  {
     width: 150px;
     height: 50px;
-    color: rgb(246, 170, 6);
+    color: rgb(246, 245, 245);
     font-size: 19px;
-    font-weight: 100;
+    font-weight: 200;
     padding: 0.7em 1em;
     margin: 10px;
     transition: .7s;
