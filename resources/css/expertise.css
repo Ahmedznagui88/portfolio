@@ -48,7 +48,6 @@ display: flex;
   align-items: center;
 }
 .stack {
-
   width: 200px;
   display: flex;
   justify-content: center;
@@ -108,7 +107,8 @@ display: flex;
 
 .figma{ 
 color: black;
-font-size: 240px;
+font-family: 'panchang' ;
+font-size: 160px;
 font-weight: 500;
 position: absolute;
 

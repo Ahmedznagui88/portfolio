@@ -92,3 +92,7 @@
  #form :-webkit-input-placeholder {
    color: #f8f3f3; 
  }
+
+ .mail-svg{
+  width: 230px;
+ }

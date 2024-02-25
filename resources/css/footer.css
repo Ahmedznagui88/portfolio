@@ -137,8 +137,8 @@
   margin-left: 20px;
   background-color: #323131;
   border-radius: 50px;
-  width: 95px;
-  height: 95px;
+  width: 100px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -154,6 +154,7 @@ border: solid 0.5px #f32020; */
 }
 
 .linkedin, .git-hub{
+  margin-top: 10px;
   width: 50px;
   
 }
