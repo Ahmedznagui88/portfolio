@@ -2,8 +2,7 @@
     <div class="container main-cont">
         <div class="row ">
             <div class="col-6 div-name">
-                <h1 class="name-text ">Ahmed Znagui</h1>
-                
+                <h1 class="name-text ">Ahmed Znagui</h1>    
             </div>
 
             
@@ -16,4 +15,4 @@
         </div>
     </div>
 </nav>
-{{--  #16160e, #6c848d, #ffc685, #44617b --}}
+˝

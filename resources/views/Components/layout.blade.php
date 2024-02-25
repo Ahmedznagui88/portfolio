@@ -8,23 +8,14 @@
     <link rel="icon" href="/img/arrow.png " type="image/x-icon">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <title>Ahmed Znagui</title>
-
 </head>
 
 <body>
+    <div class="min-vh-100">
+        {{ $slot }}
 
-    
-    
-        <div class="min-vh-100">
-            {{ $slot }}
-
-        </div>
-    
-
-
-    
-    
-        <script src="https://unpkg.com/split-type"></script>
+    </div>
+    <script src="https://unpkg.com/split-type"></script>
 </body>
 
 </html>

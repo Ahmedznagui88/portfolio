@@ -29,6 +29,5 @@
             </div>
         </div>
     </article>
-    
-</main>
 
+</main>

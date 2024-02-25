@@ -6,4 +6,4 @@ import './contact';
 import './exp';
 import './work';
 import './transition';
-import './caousel'
+import './caousel';

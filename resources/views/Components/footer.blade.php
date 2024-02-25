@@ -1,4 +1,3 @@
-
 <section class="footer">
     <div class="container pages">
         <div class="row">
@@ -19,7 +18,7 @@
                     <p class="bn34">contact</p>
                 </a>
             </div>
-            
+
             <a href="{{ route('music') }}" class="nav-link col-2  @if (Route::currentRouteName() == 'music') active-1 @endif">
                 {{-- <svg class="svg-no-footer" width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="29.5" cy="29.5" r="29.5" fill="#FE9739" fill-opacity="0.92"/>
@@ -27,10 +26,9 @@
                 </svg> --}}
                 <p class="bn35">experience</p>
             </a>
-            
-    
+
+
         </div>
-    </div>            
+    </div>
 
 </section>
-

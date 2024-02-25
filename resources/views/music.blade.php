@@ -1,5 +1,5 @@
 <x-layout >
-    <main class="container-fluid main-music" >
+    <main class="container-fluid main-music">
         
            {{--  <div class="row justify-content-center">
                 <div class="col-md-12 ">
@@ -7,7 +7,7 @@
                 </div>
             </div> --}}
 
-            <div class="container-fluid cont-music">
+            <div id="page1" class="container-fluid cont-music">
                 <div class="row">
                     <div class="col-md-12">
                         <section>
