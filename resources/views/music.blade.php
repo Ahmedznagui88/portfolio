@@ -1,11 +1,11 @@
-<x-layout>
-    <main class="container-fluid main-music">
+<x-layout >
+    <main class="container-fluid main-music" >
         
-            <div class="row justify-content-center">
+           {{--  <div class="row justify-content-center">
                 <div class="col-md-12 ">
                     <p class="text-music">Brown Complexion</p>
                 </div>
-            </div>
+            </div> --}}
 
             <div class="container-fluid cont-music">
                 <div class="row">

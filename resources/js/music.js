@@ -1,3 +1,8 @@
+
+      import Swup from 'https://unpkg.com/swup@4?module';
+            const swup = new Swup();
+
+
 let currentPlaying = false;
 const playPauseButtons = document.querySelectorAll('.play-pause-button');
 
@@ -53,3 +58,4 @@ function updateProgress(audio, progress) {
         progress.querySelector('.progress-bar-fill').style.width = value + '%';
     }
 }
+

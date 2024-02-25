@@ -8,6 +8,7 @@
     <link rel="icon" href="/img/arrow.png " type="image/x-icon">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <title>Ahmed Znagui</title>
+
 </head>
 
 <body>
@@ -21,7 +22,6 @@
     
 
 
-    
     
     
         <script src="https://unpkg.com/split-type"></script>

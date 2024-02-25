@@ -1,15 +1,15 @@
 <x-layout>
-
+   
     <main class="about-page">
 
-        <header class="container-fluid container-about-title">
+       {{--  <header class="container-fluid container-about-title">
             <div class="row about-me">
                 <div class="col-12">
                     <h2 class="about-title">about me</h2>
                 </div>
             </div>
         </header>
-
+ --}}
        
 
         <article class="container-fluid article-about">
@@ -40,4 +40,6 @@
 <div class="div-x-footer">
 
     <x-footer />
+
 </div>
+

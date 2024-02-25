@@ -1,5 +1,5 @@
 <x-layout>
-
+  <div id="swup" class="transition-fade">
     <section class="cont-form">
         {{-- <h2 class="contact text-align-center">Contact</h2> --}}
       
@@ -77,4 +77,6 @@
             <x-footer />
         </div>
     </section>
+
+  </div>
 </x-layout>
