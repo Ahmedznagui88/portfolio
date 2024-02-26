@@ -25,7 +25,7 @@ nav{
     font-size: 51px;
     font-weight: 200;
     font-family: 'Panchang';
-    letter-spacing: 20px;
+    
 }
 
 .row-front{
@@ -57,7 +57,6 @@ nav{
     }
     
     .main-cont{
-
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -69,25 +68,16 @@ nav{
         display: flex;
         justify-content: center;
         width: 100%;
-
-        
     }
     .name-text{
-        font-size: 35px;
+        font-size: 28px;
         
     }
     
     .row-front{
-        display: flex;
-        justify-content: center;
         
     }
     
-    .div-front{
-
-        width: 310px;
-        height: 55px;
-    }
     .front-end{
      font-weight: lighter;
      font-size: 13px;

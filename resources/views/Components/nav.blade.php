@@ -8,8 +8,8 @@
             
         </div>
 
-        <div class="row row-front">
-            <div class="col-10 div-front">
+        <div class="row row-front ">
+            <div class="col-md-10 col-sm-12 div-front">
                 <h6 class="front-end">Web Developer</h6>
             </div>
         </div>

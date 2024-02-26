@@ -8,8 +8,6 @@ main{
     overflow: hidden;
 }
 
-
-
 .contact, .about, .expertise{
     color: white;
     font-size: 110px;   
@@ -27,22 +25,12 @@ main{
 }
 
 
-
 .work{
     opacity: 1;
     transform: translateY(0);
-    transform-origin: bottom;
-    
+    transform-origin: bottom; 
 }
 
-/* 
-.contact{
-    font-weight: 100;
-    font-size: 100px;
-    font-family: 'Panchang';
-    font-weight: lighter;
-    color: white;
-} */
 
 
 .expertise{
@@ -51,15 +39,6 @@ main{
     font-weight: lighter;
     color: white;
 }
-
-
-
-.ref-1 {
-    text-decoration: none;
-}
-
-
-
 
 
 
@@ -156,28 +135,14 @@ font-size: 30px;
 
 
 
-@media screen and (min-width: 200px) and (max-width: 765px) {
+@media screen and (max-width: 765px) {
 
-    main{
-    background-size: cover;
-    background-position: bottom;
-    }
     .expertise, .work, .about, .contact{
         color: whitesmoke;
         font-size: 50px;   
         transition: 1s;
-        background-color: #0000009a;
-        border-radius: 50px;
-        margin-top: 44px;
-    }
-
-    .ref-1 :hover {
-        animation:none ;
-        animation: none;
-        
     }
     
-
 
 }
 
