@@ -10,7 +10,7 @@
     
     <div class="container-fluid cont-figma">
         <div class="row row-prot">
-            <div class="col-md-6 div-prot">
+            <div class="col-md-6 div-prot ">
                 <p class="stack">prototyping</p>
             </div>
         </div>
@@ -52,9 +52,9 @@
     
     
     
-    <div class="section">
+    <div class="section ">
     
-        <div class="container cont-expertise ">
+        <div class="container cont-expertise">
     
             <div class="row row-expertise">
                 <div class="col-md-12 div-expertise">
@@ -69,7 +69,7 @@
             </div>
         </div>
     
-        <div class="container cont-backend ">
+        <div class="container cont-backend">
             <div class="row row-backend">
                 <div class="col-md-12 div-backend">
                     <p class="back">back-end</p>
@@ -89,6 +89,6 @@
     
 
     </div>
-    <x-footer />   
+{{--     <x-footer />    --}}
 
 </x-layout>

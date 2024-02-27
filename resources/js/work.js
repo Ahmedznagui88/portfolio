@@ -47,7 +47,6 @@ imgProject.to(".img-project-1", {
   duration: 2,
 })
   .to(".img-project-1", {
-    y: -10,
     opacity:0,
       duration: 6,
       duration: 2,
@@ -66,16 +65,16 @@ let imgProject2 = gsap.timeline({
 
 imgProject2.to(".img-project-2",{
   x: 0,
-  y: -260,
+  y: 260,
   duration: 2,
 })
   .to(".img-project-2",{
-    y: -10,
+    y: 200,
     opacity:0,
       duration: 6,
       duration: 2,
       scale: .7,
-  })
+  }) 
  
 
 

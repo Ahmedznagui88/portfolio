@@ -234,3 +234,95 @@ align-items: center;
   height: 300px;
 width: 500px;
 }
+
+
+
+@media screen and (min-width: 200px) and (max-width: 767px) {
+
+  .cont-figma{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+  .stack, .stacks, .back{
+    text-align: center;
+    font-size: 6px;
+    width: 90px;
+  }
+
+  .containee{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+
+  .text-figma{
+    font-size: 20px;
+  }
+
+  .figma{
+    font-size: 20px;
+  }
+
+  .section{
+    background-image: none;
+background-repeat: none;
+background-size: none;
+
+  }
+
+
+  .div-front-3{
+
+    width: 360px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1299px){
+
+  .cont-figma{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+  .stack, .stacks, .back{
+    text-align: center;
+    font-size: 6px;
+    width: 90px;
+  }
+
+  .containee{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+
+  .text-figma{
+    font-size: 20px;
+  }
+
+  .figma{
+    font-size: 20px;
+  }
+
+  .section{
+    background-image: none;
+background-repeat: none;
+background-size: none;
+
+  }
+
+
+  .div-front-3{
+
+    width: 360px;
+  }  
+}

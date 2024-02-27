@@ -11,7 +11,7 @@
                     retail of a variety of high-end products.The featured items range from exquisite furnishings
                     and luxurious perfumes to other premium products, catering to the discerning tastes of our
                     customers. Explore a curated collection that goes beyond the ordinary, reflecting sophistication and
-                    quality
+                    quality.
                 </p>
                 <p class="number">88</p>
             </div>
