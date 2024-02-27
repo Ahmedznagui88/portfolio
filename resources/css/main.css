@@ -8,6 +8,7 @@ main{
     overflow: hidden;
 }
 
+
 .contact, .about, .expertise{
     color: white;
     font-size: 110px;   
@@ -23,15 +24,6 @@ main{
     color: white;
     
 }
-
-
-.work{
-    opacity: 1;
-    transform: translateY(0);
-    transform-origin: bottom; 
-}
-
-
 
 .expertise{
     font-weight: 100;
