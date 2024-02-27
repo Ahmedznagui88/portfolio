@@ -1,4 +1,5 @@
 .about-page {
+    margin-top: 30px;
     position: fixed;
     top: 0px;
     width: 100%;
@@ -83,7 +84,6 @@ object-fit: cover;
     display: flex;
     justify-content: center;
     align-items: center;    
-    background-color: rgb(43, 249, 115);
     background-color: rgb(231, 227, 227);
 }
 
@@ -129,3 +129,28 @@ object-fit: cover;
   #animated-arrow {
     animation: arrowAnimation 2s infinite;
   }
+
+
+  @media screen and (min-width: 200px) and (max-width: 767px) {
+
+    .div-about{
+        border: solid rgb(207, 38, 38);
+        height: 300px;
+    }
+
+    .text-about{
+        font-size: 16px;
+    }
+   
+    .div-my-img{
+        height: 300px;
+    }
+      
+}
+
+@media screen and (max-width: 1299px){
+  
+  
+
+    
+}

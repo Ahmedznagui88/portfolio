@@ -10,7 +10,7 @@ nav{
 .main-cont{
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 .div-name{
     width: auto;
@@ -38,7 +38,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 25px;
+
 
 }
 .front-end{
@@ -48,7 +48,7 @@ nav{
     font-family: 'Panchang';
 }
 
-@media screen and (min-width: 200px) and (max-width: 765px) {
+@media screen and (min-width: 200px) and (max-width: 767px) {
     nav{
         display: flex;
         justify-content: center;
@@ -59,15 +59,14 @@ nav{
     .main-cont{
         display: flex;
         justify-content: center;
+        align-items: center;
         flex-direction: column;
-        height: 200px;
-
-    
     }
     .div-name{
         display: flex;
         justify-content: center;
         width: 100%;
+        height: 34px;
     }
     .name-text{
         font-size: 28px;
@@ -75,7 +74,7 @@ nav{
     }
     
     .row-front{
-        
+        width: 100%;
     }
     
     .front-end{
@@ -84,9 +83,41 @@ nav{
     }
 }
 
-@media screen and (min-width: 766px)  and (max-width: 999px){
+@media screen and (max-width: 1299px){
   
+    nav{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
 
+    }
+    
+    .main-cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+/*         border: solid red;
+ */    }
+    .div-name{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 34px;
+        
+    }
+    .name-text{
+        font-size: 28px;
+        width: 300px;
+    }
+    
+    .row-front{
+        width: 100%;
+    }
+
+    .front-end{
+     font-weight: lighter;
+     font-size: 13px;
+    }
 
     
 }

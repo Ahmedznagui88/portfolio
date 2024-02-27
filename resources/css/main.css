@@ -127,21 +127,39 @@ font-size: 30px;
 
 
 
-@media screen and (max-width: 765px) {
+@media screen and (min-width: 200px) and (max-width: 765px) {
 
-    .expertise, .work, .about, .contact{
+    .expertise, .about, .contact{
         color: whitesmoke;
-        font-size: 50px;   
-        transition: 1s;
+        font-size: 36px;   
+    }
+
+    .div-opera{
+        height: 400px;
+        filter: none;
     }
     
-
+    .svg-music{
+        display: none;
+    }
 }
 
-    
-    @media screen and (min-width: 766px)  and (max-width: 999px){
+    @media screen and (min-width: 765px) and (max-width: 1299px){
       
     
     
+        .expertise, .about, .contact{
+            color: whitesmoke;
+            font-size: 60px;   
+        }
+
+        .div-opera{
+            height: 400px;
+            filter: none;
+        }
+        
+        .svg-music{
+            display: none;
+        }
         
     }

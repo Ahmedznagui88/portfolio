@@ -1,11 +1,11 @@
 <section class="container-fluid work-section">
     <div class="container container-ademi">
-        <div class="row ">
-            <div class="col-12 div-text">
+        <div class="row row-div-text">
+            <div class="col-md-12 div-text">
                 <h1 id="ademi" class="text-ademi">Ademi</h1>
             </div>
 
-            <div class="col-12 div-par-ademi">
+            <div class="col-md-12 col-sm-4 div-par-ademi">
                 <p class="par-ademi">
                     <span class="welcome">Welcome </span> to my first project, a platform designed for the upscale
                     retail of a variety of high-end products.The featured items range from exquisite furnishings
@@ -19,7 +19,7 @@
 
     </div>
 
-    <div class="container">
+    <div class="container container-ademi">
         <div class="row row-ademi">
             <div class="col-12 img-ademi">
                 <img src="/img/proj/Esercizio di stile.png" class="img-fluid img-project" alt="">

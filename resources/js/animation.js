@@ -9,7 +9,7 @@ gsap.registerPlugin(EaselPlugin,TextPlugin);
 const tl = gsap.timeline({});
 
 // Animazione iniziale con opacità 0 e spostamento verso l'alto
-tl.from("h6 , .contact , .expertise , .work , .about ", {
+tl.from(".contact , .expertise , .work , .about ", {
   opacity: 0,
   y: -90,
   transformOrigin: "bottom left",
@@ -20,7 +20,7 @@ tl.from("h6 , .contact , .expertise , .work , .about ", {
 });
 
 // Animazione finale con opacità 1 e altri parametri
-tl.to("h6 , .contact , .expertise , .work , .about", {
+tl.to(" .contact , .expertise , .work , .about", {
   opacity: 1,
   y: 0, // Spostamento verso la posizione originale (se necessario)
   stagger: 0.1, // Puoi mantenere lo stesso intervallo di stagger

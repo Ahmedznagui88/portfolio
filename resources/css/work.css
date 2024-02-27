@@ -88,12 +88,53 @@
 }
 
 
+@media screen and (min-width: 200px) and (max-width: 767px) {
+    .container-ademi{
+        width: 100%;
+    }
+    .row-div-text{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .div-text{
+        width: 400px;
+        display: flex;
+        justify-content: center;
+    }
+    .text-ademi{
+        font-size: 50px;
+        justify-content: center;
+        text-align: center;
+    }
 
+    .div-par-ademi{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        
+    }
+    .welcome{
+        font-size: 11px;
+    }
+    .par-ademi{
+        font-size: 19px;
+        width: 100%
+    }
 
-/* .div-x-footer{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-} */
+    .number{
+        display: none;
+    }
+
+    .container-ademi{
+
+    }
+}
+
+@media screen and (max-width: 1299px){
+  
+    
+
+    
+}
