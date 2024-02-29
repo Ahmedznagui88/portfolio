@@ -10,7 +10,7 @@ playPauseButtons.forEach(button => {
     });
 });
 
-// play audio
+//* play audio
 
 function playPause(audioId, progressId, button) {
     const audio = document.getElementById(audioId);
@@ -29,7 +29,7 @@ function playPause(audioId, progressId, button) {
     }
 }
 
-// start audio
+//* start audio
 function startAudio(audio, button, progress) {
     audio.play();
     button.innerHTML = '<svg width="8" height="13" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="5" width="3" height="16" rx="1" fill="#e4cdc0"/><rect width="3" height="16" rx="1" fill="#e4cdc0"/></svg>';

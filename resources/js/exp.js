@@ -2,10 +2,9 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { gsap } from "gsap";
 gsap.registerPlugin(ScrollTrigger);
 
-// Media Query per dispositivi da 300px in su
+
 const mediaQuery = window.matchMedia("(max-width: 1000px)");
 
-// Controlla se il dispositivo è uno smartphone o un tablet
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
 // Prototyping
