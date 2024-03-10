@@ -15,10 +15,10 @@
   height: 100vh;
   font-weight: 200;
   flex-direction: column;
-  background: 
+  /* background: 
   radial-gradient(circle at 10% 20%, rgba(222, 84, 190, 0.563) 0%, rgba(0, 0, 0, 0) 33%),
-  radial-gradient(circle at 100% 0%, rgba(105, 180, 166, 0.439) 2%, rgba(0, 0, 255, 0) 30%),
-  radial-gradient(circle at 40% 110%, rgba(249, 213, 158, 0.5) 10%, rgba(255, 255, 0, 0) 40%);
+  radial-gradient(circle at 100% 0%, rgba(137, 105, 180, 0.439) 2%, rgba(0, 0, 255, 0) 30%),
+  radial-gradient(circle at 40% 110%, rgba(226, 249, 158, 0.5) 10%, rgba(255, 255, 0, 0) 40%); */
 }
 
 .container-form{
@@ -157,4 +157,38 @@ border: solid 0.5px #f32020; */
   margin-top: 10px;
   width: 50px;
   
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 767px){
+  .container-form{
+    display: flex;
+    justify-content: center;
+  }
+
+  .link-social{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+ 
+
+  .link-linkedin, .link-git{
+    margin-top: 45px;
+    width: 60px;
+    height: 60px;
+    transition: .6s;
+    
+  }
+
+  .linkedin, .git-hub{
+    margin-top: 10px;
+    width: 30px;
+    
+  }
+  .links-pages{
+    font-size: 10px;
+    color: #f8f3f3;
+  }
 }

@@ -108,8 +108,8 @@ display: flex;
 .figma{ 
 color: black;
 font-family: 'panchang' ;
-font-size: 160px;
-font-weight: 500;
+font-size: 190px;
+font-weight: bolder;
 position: absolute;
 
 
@@ -279,6 +279,10 @@ background-size: none;
   .div-front-3{
 
     width: 360px;
+  }
+
+  .img, .img-2, .img-3, .img-4 {
+    width: 70px;
   }
 }
 
