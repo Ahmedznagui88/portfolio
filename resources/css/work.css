@@ -71,13 +71,12 @@
 
 
 .img-project, .img-project-1, .img-project-2{
-    width: 56%;
+    width: 46%;
     z-index: 2;
 }
 
 .img-project-2{
-    width: 56%;
-    display: none;
+    width: 46%;
 }
 
 

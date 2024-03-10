@@ -62,6 +62,10 @@ imgProject.to(".img-project-1", {
         scrub: 2,
     },
   });
+
+  imgProject2.from(".img-project-2",{
+    opacity: 0,
+  })
   
   imgProject2.to(".img-project-2", {
     x: 0,

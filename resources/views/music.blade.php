@@ -1,11 +1,5 @@
 <x-layout >
     <main class="container-fluid main-music">
-        
-           {{--  <div class="row justify-content-center">
-                <div class="col-md-12 ">
-                    <p class="text-music">Brown Complexion</p>
-                </div>
-            </div> --}}
 
             <div id="page1" class="container-fluid cont-music">
                 <div class="row">
@@ -21,7 +15,6 @@
 
                                             </div>
                                         </div>
-
                                         <div>
                                             <button id="play" class="play-pause-button" data-audio-id="{{ $music->id }}"
                                                 data-progress-id="progress_{{ $music->id }}">
@@ -50,9 +43,21 @@
                 </div>
             </div>
 
-    </main>
+        </main>
+        
+        <article class="container container-img-mac">
+    
+            <div class="row row-img-mac">
+                <div class="col-12">
+                    <img src="/img/mac book pro.avif" class="img-fluid img-mac-book" alt="">
+                </div>
+                <h6 class="text-center text-laptop">
+                    Play music in your laptop
+                </h6>
+            </div>
+        </article>
 
-
+    
     
 </x-layout>
 

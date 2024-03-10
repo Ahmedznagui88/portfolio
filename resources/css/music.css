@@ -159,6 +159,33 @@
   display: none;
 }
 
+.container-img-mac{
+  display: none;
+}
+
 /** music player */
 
 
+@media only screen and (max-width: 950px) {
+
+  .main-music{
+    display: none;
+  }
+
+  .container-img-mac{
+    display: block;
+    display: flex;
+    align-items: center;
+  }
+
+  .text-laptop{
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'panchang';
+    color: #ed9f29; 
+  }
+  
+  .bn35{
+    display: none;
+  }
+}

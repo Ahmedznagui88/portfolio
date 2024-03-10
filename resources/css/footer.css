@@ -150,9 +150,7 @@
     transition: .7s;
   }
 
-  .bn35{
-    display: none;
-  }
+  
 
   .active{
 
@@ -161,4 +159,10 @@
     background: none;
   }
 
+}
+
+@media only screen and (max-width: 950px) {
+  .bn35{
+    display: none;
+  }
 }

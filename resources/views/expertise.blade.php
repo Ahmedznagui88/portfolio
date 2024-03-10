@@ -36,7 +36,7 @@
             </div>
             <div class="col-md-6 div-imgs">
     
-                <img src="./img/Esercizio di stile 4.png" class="img-2" alt="">
+                <img src="./img/proj/Bento Grid.png" class="img-2" alt="">
             </div>
             <div class="col-md-6 div-imgs-1">
     

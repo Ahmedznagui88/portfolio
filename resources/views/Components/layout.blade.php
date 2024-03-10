@@ -13,7 +13,6 @@
 <body>
     <div class="min-vh-100">
         {{ $slot }}
-
     </div>
     <script src="https://unpkg.com/split-type"></script>
 </body>
