@@ -4,7 +4,6 @@
             <div id="form" class="row row-form">
                 <div class="col-md-6 div-form">
                     <div class="div-alert-message w-100 d-flex justify-content-center">
-
                         @if (session('emailSent'))
                             <div id="message" class="alert alert-secondary div-alert-s">
                                 {{ session('emailSent') }}

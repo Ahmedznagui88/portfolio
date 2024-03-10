@@ -8,13 +8,13 @@
 .pages{
   margin-top: 20px;
   width: 880px;
-    height: 100px;
-    background-color: #161615f1;
-      border-radius: 6px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: fixed;
+  height: 100px;
+  background-color: #161615f1;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
     bottom: 0;
     margin-bottom: 20px;
 }
@@ -121,3 +121,35 @@
 
 
 
+@media screen and (min-width: 200px) and (max-width: 767px) {
+  .pages{
+    
+    width: 440px;
+    height: 90px;
+    background-color: #161615f1;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+      bottom: 0;
+      margin-bottom: 20px;
+  }
+
+  .bn30, .bn31, .bn32, .bn33, .bn34  {
+    width: 70px;
+    height: 30px;
+    color: rgb(240, 118, 25);
+    font-size: 19px;
+    font-weight: 200;
+    padding: 0.7em 1em;
+    margin: 10px;
+    transition: .7s;
+
+
+  }
+
+  .bn35{
+    display: none;
+  }
+}
