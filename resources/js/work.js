@@ -65,7 +65,7 @@ imgProject.to(".img-project-1", {
   
   imgProject2.to(".img-project-2", {
     x: 0,
-    y: -480,
+    y: -580,
     duration: 2,
   })
     .to(".img-project-2", {

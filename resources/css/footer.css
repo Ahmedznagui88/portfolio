@@ -123,8 +123,7 @@
 
 @media screen and (min-width: 200px) and (max-width: 767px) {
   .pages{
-    
-    width: 440px;
+    width: 360px;
     height: 90px;
     background-color: #161615f1;
     border-radius: 6px;
@@ -136,20 +135,30 @@
       margin-bottom: 20px;
   }
 
+  .nav-links{
+    width: 350px;
+  }
+
   .bn30, .bn31, .bn32, .bn33, .bn34  {
     width: 70px;
     height: 30px;
     color: rgb(240, 118, 25);
-    font-size: 19px;
+    font-size: 14px;
     font-weight: 200;
     padding: 0.7em 1em;
     margin: 10px;
     transition: .7s;
-
-
   }
 
   .bn35{
     display: none;
   }
+
+  .active{
+
+    border: solid 0.2px rgb(240, 118, 25);
+    border-radius: 10px;
+    background: none;
+  }
+
 }

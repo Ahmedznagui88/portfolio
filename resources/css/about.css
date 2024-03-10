@@ -134,7 +134,7 @@ object-fit: cover;
   @media screen and (min-width: 200px) and (max-width: 767px) {
 
     .div-about{
-        border: solid rgb(207, 38, 38);
+
         height: 300px;
     }
 
