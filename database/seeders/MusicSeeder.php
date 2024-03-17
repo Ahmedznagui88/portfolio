@@ -24,6 +24,57 @@ class MusicSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
+
+            [
+
+                'title' => 'N127',
+                'artist' => 'GroundBeat',
+                'cover' => '/img/black ocean.avif',
+                'duration' => '4:06',
+                'file' => '/media/N127.mp3',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ], 
+
+            [
+                'title' => 'Fort greene',
+                'artist' => 'GroundBeat',
+                'cover' => '/img/jazz street.avif',
+                'duration' => '1:27',
+                'file' => '/media/Ground Beat - Fort greene_MASTER_KS_44.1kHz_16bit.mp3',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+
+            [
+                'title' => 'Gaza',
+                'artist' => 'MedZnag',
+                'cover' => '/img/gaza.png',
+                'duration' => '2:24',
+                'file' => '/media/Gaza.mp3',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+
+            [
+                'title' => 'Broda',
+                'artist' => 'GroundBeat',
+                'cover' => '/img/Los Angeles 1.jpg',
+                'duration' => '2:14',
+                'file' => '/media/GroundBeat - Broda_MASTER_KS_44.1kHz_16bit.mp3',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+
+            [
+                'title' => 'Zina Blue',
+                'artist' => 'MedZnag',
+                'cover' => '/img/zina blue.avif',
+                'duration' => '2:24',
+                'file' => '/media/Medzang - Zina Blue _MASTEr_KS_44.1KHz_16bit.mp3',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
             
             [
                 'title' => 'Res',
