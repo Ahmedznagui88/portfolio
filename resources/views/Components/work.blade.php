@@ -24,13 +24,13 @@
             <div class="col-12 img-ademi">
                 <img src="/img/proj/Esercizio di stile.png" class="img-fluid img-project" alt="">
             </div>
-            <div class="col-12 img-ademi">
+            {{-- <div class="col-12 img-ademi">
                 <img src="/img/proj/prototipo 2.png" class="img-fluid img-project-1" alt="">
             </div>
 
             <div class="col-12 img-ademi">
                 <img src="/img/proj/Ademi Sound.png" class="img-fluid img-project-2" alt="">
-            </div>
+            </div> --}}
         </div>
     </div>
 

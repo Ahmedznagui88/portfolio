@@ -122,7 +122,7 @@ position: absolute;
   flex-wrap: wrap;
 }
 .img, .img-2, .img-3, .img-4{
-width: 200px;
+width: 300px;
 object-fit: contain;
 margin-top: 10px;
 flex: 1 0 8rem;
