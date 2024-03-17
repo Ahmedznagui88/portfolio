@@ -7,13 +7,9 @@
                         <section>
                             <div class="row flex-column ">
                                 @foreach ($musics as $music)
-                                    <article class="col-6 div-img-tit">
-                                        <div class="slides">
-                                            <img class="slide" src="{{ $music->cover }}">
-                                            <div class="">
-                                                <p class="name-artist">{{ $music->artist }}</p>
-
-                                            </div>
+                                    <article class="col-6 player">
+                                        <div class="div-img-song">
+                                            <img class="img-song" src="{{ $music->cover }}">
                                         </div>
                                         <div>
                                             <button id="play" class="play-pause-button" data-audio-id="{{ $music->id }}"
@@ -31,6 +27,7 @@
                                         </div>
                                         <div class="w-75 mx-5">
                                             <p class="title-song">{{ $music->title }}</p>
+                                            <p class="name-artist">{{ $music->artist }}</p>
                                         </div>
                                         <div class="custom-progress-bar w-50 mx-5" id="progress_{{ $music->id }}">
                                             <div class="progress-bar-fill"></div>
