@@ -1,6 +1,6 @@
 .work-section {
     position: absolute;
-    top: 750px;
+    top: 710px;
     height: 2700px;
     background: #000000;
 }
@@ -8,7 +8,7 @@
 .container-ademi{
     position: sticky;
     top: 0;
-    height: 800px;
+    height: 760px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,9 +19,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
     text-align: center;
     width: 100%;
     height: 100vh;
+}
+
+.img-project, .img-project-1, .img-project-2{
+    width: 89%;
+    z-index: 2;
+}
+
+.img-project-2{
+    width: 89%;
 }
 
 .div-text{
@@ -70,14 +80,7 @@
 }
 
 
-.img-project, .img-project-1, .img-project-2{
-    width: 46%;
-    z-index: 2;
-}
 
-.img-project-2{
-    width: 46%;
-}
 
 
 @media screen and (min-width: 200px) and (max-width: 767px) {
@@ -117,6 +120,10 @@
 
     .number{
         display: none;
+    }
+
+    .img-project, .img-project-1, .img-project-2{
+        width: 300px;
     }
 }
 
