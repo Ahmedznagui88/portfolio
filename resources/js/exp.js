@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 gsap.registerPlugin(ScrollTrigger);
 
 
-const mediaQuery = window.matchMedia("(max-width: 1000px)");
+const mediaQuery = window.matchMedia("(max-width: 700px)");
 
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
@@ -95,9 +95,6 @@ back.to(".back", {
 
 
 if (mediaQuery.matches && !isMobile) {
-    // Aggiungi qui le animazioni o le regole specifiche per dispositivi da 300px in su
-
-    // Esempio: Nuova animazione solo per dispositivi da 300px in su
     let newAnimation = gsap.timeline({
         scrollTrigger: {
             trigger: ".new-element",
@@ -116,7 +113,6 @@ if (mediaQuery.matches && !isMobile) {
     });
 }
 
-// Altre animazioni e timeline (non influenzate dalla condizione)
 let tmln = gsap.timeline({
     scrollTrigger: {
         trigger: ".img , .img-2",

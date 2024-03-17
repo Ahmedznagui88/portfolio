@@ -107,8 +107,8 @@ display: flex;
 
 .figma{ 
 color: black;
-font-family: 'panchang' ;
-font-size: 190px;
+/* font-family: 'panchang' ; */
+font-size: 320px;
 font-weight: bolder;
 position: absolute;
 
