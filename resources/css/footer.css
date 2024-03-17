@@ -64,7 +64,7 @@
     width: 110px;
     height: 50px;
     color: rgb(255, 255, 255);
-    background-color: #972a2a;
+    background-color: #f20e0e;
     font-size: 11px;
     font-family: 'panchang';
     font-weight: 300;
@@ -115,7 +115,7 @@
 
 .active{
 
-  border-bottom: solid 0.2px #f12424;
+  border-bottom: solid 0.2px #f00909;
     background: none;
 }
 
