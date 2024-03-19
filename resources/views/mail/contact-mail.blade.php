@@ -7,8 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Thank you for reaching out to us.</h1>
-    <h2>We will respond to you as soon as possible.</h2>
-    <h3>You can explore the magazine in the artists section.</h3>
+    <h1>Thank you for reaching out to me.</h1>
+    <h2>i'll respond to you as soon as possible.</h2>
 </body>
 </html>
