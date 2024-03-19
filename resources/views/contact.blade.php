@@ -1,4 +1,9 @@
 <x-layout>
+
+    <x-hello />
+
+    
+
     <section class="cont-form">
         <div class="container container-form mt-5">
             <div id="form" class="row row-form">
