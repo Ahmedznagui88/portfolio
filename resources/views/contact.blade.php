@@ -2,13 +2,21 @@
 
     <x-hello />
 
-
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="lets-talk">
+                    l<span class="letters">e</span>t's t<span class="letters">a</span>lk!
+                </h1>
+            </div>
+        </div>
+    </div>
 
     <section class="cont-form">
-        <div class="container container-form mt-5">
+        <div class="container container-form">
             <div id="form" class="row row-form">
-                <div class="col-md-6 div-form">
-                    <div class="div-alert-message w-100 d-flex justify-content-center">
+                <div class="col-md-12 div-form">
+                   {{--  <div class="div-alert-message w-100 d-flex justify-content-center">
                         @if (session('emailSent'))
                             <div id="message" class="alert alert-secondary div-alert-s">
                                 {{ session('emailSent') }}
@@ -18,15 +26,15 @@
                                 {{ session('emailError') }}
                             </div>
                         @endif
-                    </div>
+                    </div> --}}
                     <form action="{{ route('send.contact') }}" method="POST" class="w-100">
                         @csrf
                         <div class="container">
                             <div class="row ">
                                 <div class="col-md-6">
-                                    <label for="name" class="form-label"> Name</label>
+                                    <label for="name" class="form-label">Full Name</label>
                                     <input type="text" name="name" class="form-control " id="name"
-                                        placeholder="Name">
+                                        placeholder="Full Name">
                                 </div>
                                 <div class="col-md-6">
                                     <label for="email" class="form-label ">Email</label>
@@ -35,7 +43,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-12 ">
+                        <div class="col-md-12 mt-4">
                             <label for="user_Message" class="form-label ">Text me</label>
                             <textarea name="user_message" class="form-control" id="User_Message" cols="30" rows="5"
                                 placeholder="Your Message"></textarea>
@@ -43,28 +51,8 @@
                         <button type="submit" class="btn-form shadow mt-4">Send</button>
                     </form>
                 </div>
-                {{-- <div class="col-md-6 link-social ">
-                    <a class="link-git" href="https://github.com/Ahmedznagui88" target="_blank">
-                        <img class="git-hub" src="/img/github-mark.png" alt="">
-                        <p class="links-pages">
-                            GitHub
-                        </p>
-                    </a>
-                    <a class="link-linkedin" href="https://www.linkedin.com/in/ahmed-znagui/" target="_blank">
-                        <img class="linkedin " src="/img/icons8-linkedin-100.png" alt="">
-                        <p class="links-pages">
-                            LinkedIn
-                        </p>
-                    </a>
-                    <a class="link-linkedin" href="/media/Ahmed Znagui.pdf" download="Ahmed Znagui.pdf">
-                        <img class="linkedin" src="/img/curriculum-vitae-100.png" alt="">
-                        <p class="links-pages">
-                            Resume
-                        </p>
-                    </a>
-                </div> --}}
             </div>
         </div>
-        {{-- <x-footer /> --}}
+        <x-footer />
     </section>
 </x-layout>

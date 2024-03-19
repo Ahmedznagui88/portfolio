@@ -1,13 +1,17 @@
 
-
+.lets-talk{
+  text-align: center;
+    font-weight: 1000;
+    font-size: 220px;
+}
 
 
 .form-control{
-   background-color: rgba(29, 29, 29, 0.67);
+   background-color: rgba(0, 0, 0, 0.67);
    color: #ffffff;
    font-family: 'Supreme';
    font-weight: 200;
-   border-radius: 10px;
+   border-radius: 0;
    
 }
 
@@ -19,7 +23,7 @@
   justify-content: baseline;
  justify-content: space-between;
   font-weight: 200;
-  height: 100vh;
+  height: 70vh;
   flex-direction: column;
 }
 
@@ -40,11 +44,11 @@
     
   }
   .div-form{
-    background-color: #16161565;
+/*     background-color: #16161565;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(172, 93, 93, 0.14);
+border: 1px solid rgba(172, 93, 93, 0.14); */
     border-radius: 10px;
     height: 400px;
     display: flex;
@@ -53,21 +57,21 @@ border: 1px solid rgba(172, 93, 93, 0.14);
     flex-direction: column;
   }
  .btn-form{
-    width: 100%;
+    
     height: 50px;
-    color: white;
-    font-size: 15px;
+    color: rgb(28, 243, 93);
+    font-size: 55px;
     font-weight: 200;
     display: flex;
     border: none;
     align-items: center;
     justify-content: center;
-    background-color: #3d3732;
-      border-radius: 13px;
-      transition: 0.5s;
+    background-color: black;
+      transition: 0.8s;
  }
  .btn-form:hover{   
-   background-color: #1f1d1b;
+  background-color:rgb(28, 243, 93);
+  color: black;
  }
 
  .div-alert{
@@ -118,44 +122,6 @@ border: 1px solid rgba(172, 93, 93, 0.14);
    color: #f8f3f3; 
  }
 
-
- /* .link-social{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
-.links-pages{
-  color: #000;
-}
-
-.link-linkedin, .link-git{
-  margin-left: 20px;
-  background-color: #323131;
-  border-radius: 50px;
-  width: 100px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  transition: .6s;
-  margin-top: 15px;
-} */
-
-/* .link-git:hover, .link-linkedin:hover {
- box-shadow: 0 0 12px #f32020;
-
-}
-
-.linkedin, .git-hub{
-  margin-top: 10px;
-  width: 50px;
-  
-}
- */
 
 @media screen and (min-width: 200px) and (max-width: 767px){
   .container-form{
