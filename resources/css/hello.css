@@ -1,0 +1,58 @@
+.container-hello{
+    background-color: rgb(231, 227, 227);
+    
+    height: 100vh;
+  }
+  
+  .container-links{
+    border-top: solid 0.5px black;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .hello{
+    color: #000;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 220px;
+  }
+  
+  .letters{
+    font-family: "Panchang";
+    font-size: 200px;
+  }
+  
+  .discover{
+    font-weight: 200;
+    color: #000;
+    font-size: 25px;
+  }
+
+  .link-social{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .link-git, .link-linkedin, .resume{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  .git-hub, .linkedin{
+    width: 30px;
+    height: 30px;
+    margin-right: 40px;
+  }
+
+  .links-page{
+    font-weight: 200;
+    font-size: large;
+    color: #000;
+    width: 70px;
+   transition: 0.5s;
+    }

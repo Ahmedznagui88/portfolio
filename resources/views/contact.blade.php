@@ -2,7 +2,7 @@
 
     <x-hello />
 
-    
+
 
     <section class="cont-form">
         <div class="container container-form mt-5">
@@ -43,7 +43,7 @@
                         <button type="submit" class="btn-form shadow mt-4">Send</button>
                     </form>
                 </div>
-                <div class="col-md-6 link-social ">
+                {{-- <div class="col-md-6 link-social ">
                     <a class="link-git" href="https://github.com/Ahmedznagui88" target="_blank">
                         <img class="git-hub" src="/img/github-mark.png" alt="">
                         <p class="links-pages">
@@ -62,9 +62,9 @@
                             Resume
                         </p>
                     </a>
-                </div>
+                </div> --}}
             </div>
         </div>
-      <x-footer />   
+        {{-- <x-footer /> --}}
     </section>
 </x-layout>

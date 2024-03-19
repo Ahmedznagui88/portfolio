@@ -1,22 +1,3 @@
-.container-hello{
-  background-color: rgb(231, 227, 227);
-  z-index: -22222;  
-  height: 600px;
-}
-
-
-
-.hello{
-  color: #000;
-  text-align: center;
-  font-weight: 1000;
-  font-size: 220px;
-}
-
-.letters{
-  font-family: "Panchang";
-  font-size: 200px;
-}
 
 
 
@@ -35,12 +16,11 @@
 .cont-form {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: baseline;
+ justify-content: space-between;
   font-weight: 200;
-  flex-direction: column;
-  position: sticky;
-  top: 0;
   height: 100vh;
+  flex-direction: column;
 }
 
 .container-form{
@@ -138,11 +118,8 @@ border: 1px solid rgba(172, 93, 93, 0.14);
    color: #f8f3f3; 
  }
 
- .mail-svg{
-  width: 230px;
- }
 
- .link-social{
+ /* .link-social{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -166,11 +143,9 @@ border: 1px solid rgba(172, 93, 93, 0.14);
   flex-direction: column;
   transition: .6s;
   margin-top: 15px;
-}
+} */
 
-.link-git:hover, .link-linkedin:hover {
-/*   background-color: #f32020;
-border: solid 0.5px #f32020; */  
+/* .link-git:hover, .link-linkedin:hover {
  box-shadow: 0 0 12px #f32020;
 
 }
@@ -180,7 +155,7 @@ border: solid 0.5px #f32020; */
   width: 50px;
   
 }
-
+ */
 
 @media screen and (min-width: 200px) and (max-width: 767px){
   .container-form{
