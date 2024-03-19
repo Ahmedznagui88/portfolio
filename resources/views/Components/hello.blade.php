@@ -44,8 +44,7 @@
 
                 <div class="col-md-6">
                     <p class="discover">
-                        Embracing the joy of encountering new individuals, uncovering novel possibilities, and delving
-                        into diverse business realms is what drives us. Reach out; we're eager to forge connections!
+                        I enjoy meeting new people, learning about fresh opportunities, and understanding various types of businesses. Feel free to reach out—I'd love to connect!
                     </p>
                 </div>
             </div>

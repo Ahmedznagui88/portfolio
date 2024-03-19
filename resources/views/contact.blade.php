@@ -48,7 +48,7 @@
                             <textarea name="user_message" class="form-control" id="User_Message" cols="30" rows="5"
                                 placeholder="Your Message"></textarea>
                         </div>
-                        <button type="submit" class="btn-form shadow mt-4">Send</button>
+                        <button type="submit" class="btn-form mt-4">Send</button>
                     </form>
                 </div>
             </div>
