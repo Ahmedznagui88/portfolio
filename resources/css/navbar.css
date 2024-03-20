@@ -1,8 +1,9 @@
 nav{
-    height: 100px;
+    width: 100%;
     background: #ed9f29; 
+    background-color: rgb(231, 227, 227);
     color: rgb(32, 32, 32);
-    margin-bottom: 10px;
+
 }
 
 
@@ -10,23 +11,23 @@ nav{
 .main-cont{
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
 }
-.div-name{
-    width: auto;
-    height: 112px;
+
+.name-text{
+    font-size: 110px;
+    font-weight: bolder;
+    font-family: 'Panchang';
+   
+}
+
+.div-svg-identity{
     display: flex;
     align-items: center;
-    margin-right: 30px;
+}
 
 
-}
-.name-text{
-    font-size: 51px;
-    font-weight: 200;
-    font-family: 'Panchang';
-    
-}
 
 .row-front{
     display: flex;    
@@ -41,11 +42,40 @@ nav{
 
 
 }
+
+
 .front-end{
  font-weight: lighter;
  font-size: 23px;
  margin-top: 14px;
     font-family: 'Panchang';
+}
+
+.rotate {
+    -webkit-animation: rotate 5s normal linear infinite;
+    animation: rotate 5s normal linear infinite;
+}
+@keyframes rotate{
+    0% {
+        -webkit-transform: rotate3d(0, 0, 1, 0deg);
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+    25% {
+        -webkit-transform: rotate3d(0, 0, 1, 90deg);
+        transform: rotate3d(0, 0, 1, 90deg);
+    }
+    50% {
+        -webkit-transform: rotate3d(0, 0, 1, 180deg);
+        transform: rotate3d(0, 0, 1, 180deg);
+    }
+    75% {
+        -webkit-transform: rotate3d(0, 0, 1, 270deg);
+        transform: rotate3d(0, 0, 1, 270deg);
+    }
+    100% {
+        -webkit-transform: rotate3d(0, 0, 1, 360deg);
+        transform: rotate3d(0, 0, 1, 360deg);
+    }
 }
 
 @media screen and (min-width: 200px) and (max-width: 767px) {
@@ -80,6 +110,17 @@ nav{
     .front-end{
      font-weight: lighter;
      font-size: 13px;
+    }
+
+    .div-svg-identity{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .svg-rotate-media-q{
+        width: 50px;
+        height: 50px;
     }
 }
 
