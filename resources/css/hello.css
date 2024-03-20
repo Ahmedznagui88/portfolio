@@ -32,7 +32,7 @@
   .link-social{
     display: flex;
     flex-direction: column;
-
+    
   }
 
   .link-git, .link-linkedin, .resume{
@@ -58,6 +58,10 @@
     
 
     @media screen and (min-width: 200px) and (max-width: 767px){
+
+      .container-hello{
+        height: 430px;
+      }
       .hello{
         font-size: 40px;
       }
@@ -101,11 +105,20 @@
       .div-discover{
         display: flex;
         align-items: center;
-        border: solid red;
       }
 
       .lets-talk{
         font-size: 40px;
       }
+
+      .div-discover{
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+      }
+      
+      .discover{
+        font-size: 16px;
+    }
 
     }

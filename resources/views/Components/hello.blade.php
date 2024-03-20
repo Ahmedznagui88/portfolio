@@ -20,8 +20,7 @@
         </div>
         
         <div class="container container-links">
-            <div class="row">
-
+            <div class="row mt-5">
                 <div class="col-md-6 link-social">
                     <a class="link-git" href="https://github.com/Ahmedznagui88" target="_blank">
                          <img class="git-hub" src="/img/github-mark.png" alt="">

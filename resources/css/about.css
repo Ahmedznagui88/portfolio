@@ -150,7 +150,7 @@ object-fit: cover;
 
 @media screen and (min-width: 768px) and (max-width: 1299px){
   
-    .text-about{
+    .text-about, .discover{
         font-size: 26px;
     }
 
