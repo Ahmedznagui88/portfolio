@@ -55,3 +55,57 @@
     width: 70px;
    transition: 0.5s;
     }
+    
+
+    @media screen and (min-width: 200px) and (max-width: 767px){
+      .hello{
+        font-size: 40px;
+      }
+
+      .letters{
+        font-family: "Panchang";
+        font-size: 40px;
+      }
+
+      .container-links{
+        margin-top: 30px;
+      }
+
+      .link-social{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 20px;
+        padding: 0;
+      }
+
+
+      .link-git, .link-linkedin, .resume{
+        width: 90px;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .git-hub, .linkedin{
+        display: none;
+      }
+
+      .discover{
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      .div-discover{
+        display: flex;
+        align-items: center;
+        border: solid red;
+      }
+
+      .lets-talk{
+        font-size: 40px;
+      }
+
+    }

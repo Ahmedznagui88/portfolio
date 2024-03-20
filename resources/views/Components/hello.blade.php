@@ -18,31 +18,32 @@
                 S<span class="letters">A</span>Y HELL<span class="letters">O</span>!
             </h1>
         </div>
+        
         <div class="container container-links">
-            <div class="row mt-5">
+            <div class="row">
 
                 <div class="col-md-6 link-social">
                     <a class="link-git" href="https://github.com/Ahmedznagui88" target="_blank">
-                        <img class="git-hub" src="/img/github-mark.png" alt="">
+                         <img class="git-hub" src="/img/github-mark.png" alt="">
                         <p class="links-page">
                             GitHub
                         </p>
                     </a>
                     <a class="link-linkedin" href="https://www.linkedin.com/in/ahmed-znagui/" target="_blank">
-                        <img class="linkedin " src="/img/icons8-linkedin-100.png" alt="">
+                         <img class="linkedin " src="/img/icons8-linkedin-100.png" alt="">
                         <p class="links-page">
                             LinkedIn
                         </p>
                     </a>
                     <a class="resume" href="/media/Ahmed Znagui.pdf" download="Ahmed Znagui.pdf">
-                        <img class="linkedin" src="/img/curriculum-vitae-100.png" alt="">
+                         <img class="linkedin" src="/img/curriculum-vitae-100.png" alt="">
                         <p class="links-page">
                             Resume
                         </p>
                     </a>
                 </div>
-
-                <div class="col-md-6">
+ 
+                <div class="col-md-6 div-discover">
                     <p class="discover">
                         I enjoy meeting new people, learning about fresh opportunities, and understanding various types of businesses. Feel free to reach out—I'd love to connect!
                     </p>

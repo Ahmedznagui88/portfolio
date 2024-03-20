@@ -45,7 +45,7 @@
 }
 
 .div-my-img{
-    background-image: url(/public/img/me/med-firenze-2.jpeg);
+    background-image: url(/public/img/me/med-firenze.jpeg);
     background-size: cover;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
