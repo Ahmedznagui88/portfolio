@@ -25,12 +25,13 @@
   font-weight: 200;
   height: 70vh;
   flex-direction: column;
+
+  
 }
 
 .container-form{
   display: flex;
   align-items: center;
-  
   height: 85%;
 }
 

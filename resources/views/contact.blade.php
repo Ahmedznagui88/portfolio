@@ -16,17 +16,6 @@
         <div class="container container-form">
             <div id="form" class="row row-form">
                 <div class="col-md-12 div-form">
-                   {{--  <div class="div-alert-message w-100 d-flex justify-content-center">
-                        @if (session('emailSent'))
-                            <div id="message" class="alert alert-secondary div-alert-s">
-                                {{ session('emailSent') }}
-                            </div>
-                        @elseif (session('emailError'))
-                            <div id="message" class="fst-italic div-alert">
-                                {{ session('emailError') }}
-                            </div>
-                        @endif
-                    </div> --}}
                     <form action="{{ route('send.contact') }}" method="POST" class="w-100">
                         @csrf
                         <div class="container">
