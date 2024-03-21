@@ -12,7 +12,7 @@ let imgProject = gsap.timeline ({
       end: "top 100",
       scrub: true,
       duration: 20,
-      ease: "back.out(1.7)"
+      ease: "back.out(1.7)",
   },
 });
 
@@ -20,13 +20,14 @@ imgProject.to(".img-project, .img-project-1", {
   x: 0,
   y: 0,
   duration: 20,
-  ease: "back.out(1.7)", // Aggiunta dell'uscita smooth
+  ease: "back.out(1.7)",
+  
 })
 .to(".img-project, .img-project-1", {
   y: 0,
   opacity: 0,
   duration: 20,
-  ease: "back.out(1.7)", // Aggiunta dell'uscita smooth
+  ease: "back.out(1.7)",
 });
 
 

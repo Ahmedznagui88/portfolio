@@ -21,6 +21,7 @@
   .letters{
     font-family: "Panchang";
     font-size: 200px;
+    font-weight: 400;
   }
   
   .discover{
@@ -109,6 +110,72 @@
 
       .lets-talk{
         font-size: 40px;
+      }
+
+      .div-discover{
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+      }
+      
+      .discover{
+        font-size: 16px;
+    }
+
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1200px){
+
+      .container-hello{
+        height: 430px;
+      }
+      .hello{
+        font-size: 70px;
+      }
+
+      .letters{
+        font-family: "Panchang";
+        font-size: 70px;
+      }
+
+      .container-links{
+        margin-top: 30px;
+      }
+
+      .link-social{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 20px;
+        padding: 0;
+      }
+
+
+      .link-git, .link-linkedin, .resume{
+        width: 90px;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .git-hub, .linkedin{
+        display: none;
+      }
+
+      .discover{
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      .div-discover{
+        display: flex;
+        align-items: center;
+      }
+
+      .lets-talk{
+        font-size: 70px;
       }
 
       .div-discover{

@@ -123,7 +123,7 @@
 
 @media screen and (min-width: 200px) and (max-width: 767px) {
   .pages{
-    width: 360px;
+    width: 760px;
     height: 90px;
     background-color: #161615f1;
     border-radius: 6px;
@@ -136,7 +136,7 @@
   }
 
   .nav-links{
-    width: 350px;
+    width: 450px;
   }
 
   .bn30, .bn31, .bn32, .bn33, .bn34  {
@@ -161,7 +161,22 @@
 }
 
 @media only screen and (max-width: 950px) {
+
+  .nav-links{
+    width: 700px;
+  }
+
   .bn35{
     display: none;
+  }
+
+  .active{
+
+    border-bottom: solid 0.2px #f00909;
+      background: none;
+  }
+
+  .pages{
+    width: 800px;
   }
 }
