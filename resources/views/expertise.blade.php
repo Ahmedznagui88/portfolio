@@ -1,12 +1,4 @@
 <x-layout>
-
-  {{--   <div id="cardCont" class="container cont-2">
-        <div class="row row-cont-2 ">
-            <div class="div-cont-2 col-sm-5">
-                <h2 class="expertise-2 h-50">expertise</h2>
-            </div>
-        </div>
-    </div>  --}}
     
     <div class="container-fluid cont-figma">
         <div class="row row-prot">
@@ -76,8 +68,8 @@
                 </div>
                  <div class="col-md-12 div-front-3">
                     <p class="text-backend-2">
-                        PHP handles server-side logic, Laravel is a PHP framework that streamlines web development with
-                        elegant syntax and built-in tools. MySQL is a relational database management system used with PHP to
+                        <span class="design">PHP </span> handles server-side logic, <span class="design">Laravel</span> is a <span class="design">PHP </span> framework that streamlines web development with
+                        elegant syntax and built-in tools. <span class="design">MySQL</span> is a relational database management system used with PHP to
                         store and retrieve data efficiently.</p>
                 </div>
             </div>
