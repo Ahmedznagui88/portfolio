@@ -10,9 +10,9 @@
 
 .about-title{
     color: white;
-    font-size: 130px;   
+    font-size: 100px;   
     font-family: 'Panchang';
-    font-weight: bold;
+    font-weight: 400;
     text-align: center;
     
 }
@@ -90,9 +90,8 @@ object-fit: cover;
 
 .text-about {
     text-align: center;
-    /* line-height: 2em; */
-    font-size: 38px;
-    font-weight: 200;
+    font-size: 25px;
+    font-weight: 100;
     transition: 2s;
     color: black;
     

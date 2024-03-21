@@ -4,9 +4,7 @@
             <div class="row row-about">
                 <div class="col-md-6 div-about">
                     <p id="my-text" class="text-about">
-                        As an enthusiastic junior front-end developer located in Italy, my profound passion for music
-                        and art fuels my creativity. Delving into the captivating realm of coding has not only broadened
-                        my perspective but also revealed the boundless opportunities it presents.</p>
+                        <span class="welcome">Hi</span> there! I'm a junior front-end developer living in Italy, and my love for music and art really gets my creative juices flowing. Getting into coding has opened up a whole new world for me and shown me all sorts of cool opportunities.</p>
                 </div>
                 <div class="col-md-6 div-my-img">
                 </div>
