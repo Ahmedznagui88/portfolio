@@ -123,7 +123,7 @@
 
 @media screen and (min-width: 200px) and (max-width: 767px) {
   .pages{
-    width: 760px;
+    width: 390px;
     height: 90px;
     background-color: #161615f1;
     border-radius: 6px;
@@ -136,7 +136,8 @@
   }
 
   .nav-links{
-    width: 450px;
+    width: 364px;
+    text-align: center;
   }
 
   .bn30, .bn31, .bn32, .bn33, .bn34  {
@@ -148,22 +149,7 @@
     padding: 0.7em 1em;
     margin: 10px;
     transition: .7s;
-  }
-
-  
-
-  .active{
-    border: solid 0.2px rgb(240, 118, 25);
-    border-radius: 10px;
-    background: none;
-  }
-
-}
-
-@media only screen and (max-width: 950px) {
-
-  .nav-links{
-    width: 700px;
+    
   }
 
   .bn35{
@@ -171,12 +157,30 @@
   }
 
   .active{
-
+ 
     border-bottom: solid 0.2px #f00909;
-      background: none;
+    background: none;
   }
 
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
   .pages{
     width: 800px;
   }
+
+  .nav-links{
+    width: 683px;
+  }
+
+  .bn35{
+    display: none;
+  }
+
+  .active{
+ 
+    border-bottom: solid 0.2px #f00909;
+    background: none;
+  }
 }
+

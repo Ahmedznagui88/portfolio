@@ -1,7 +1,7 @@
 .main-music{
   background: radial-gradient(circle, rgb(72, 49, 89) 0%,  rgb(72, 49, 89) 0%, rgb(72, 49, 89) 0%, rgba(0,0,0,1) 72%); 
   background: #000;
-  height: 1200px;
+  height: 100vh;
   margin-top: 50px ;
 
 }
@@ -88,7 +88,7 @@
 
 
 .title-song{
-    font-weight: 600;
+    font-weight: 400;
   font-size: 20px;
   text-align: center;
   font-family: 'Panchang';
