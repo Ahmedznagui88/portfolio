@@ -69,7 +69,7 @@
                  <div class="col-md-12 div-front-3">
                     <p class="text-backend-2">
                         <span class="design">PHP </span> handles server-side logic, <span class="design">Laravel</span> is a <span class="design">PHP </span> framework that streamlines web development with
-                        elegant syntax and built-in tools. <span class="design">MySQL</span> is a relational database management system used with PHP to
+                        elegant syntax and built-in tools. <span class="design">MySQL</span> is a relational database management system used with <span class="design">PHP </span> to
                         store and retrieve data efficiently.</p>
                 </div>
             </div>
