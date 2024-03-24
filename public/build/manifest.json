@@ -1,0 +1,24 @@
+{
+  "public/img/bg.png": {
+    "file": "assets/bg-7cf2c822.png",
+    "src": "public/img/bg.png"
+  },
+  "public/img/me/med-firenze.jpeg": {
+    "file": "assets/med-firenze-472145f5.jpeg",
+    "src": "public/img/me/med-firenze.jpeg"
+  },
+  "public/img/me2.jpeg": {
+    "file": "assets/me2-e2b82067.jpeg",
+    "src": "public/img/me2.jpeg"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-d0cda12c.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-720409db.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}
