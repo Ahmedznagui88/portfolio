@@ -13,7 +13,7 @@
                 </a>
             </div>
             <div id="divOpera" class="col-md-5 div-opera ">
-                <p class="text-header">Multidisciplinary, creative websites, visual experiences, and composing unique
+                <p class="text-header"><span class="welcome"> Multidisciplinary</span>, creative websites, visual experiences, and composing unique
                     melodies.</p>
             </div>
         </div>

@@ -3,13 +3,13 @@
     <div class="container-fluid cont-figma">
         <div class="row row-prot">
             <div class="col-md-6 div-prot ">
-                <p class="stack">prototyping</p>
+                <p class="stack">Prototyping</p>
             </div>
         </div>
     
         <div class="row row-figma">
             <div class="col-md-12 div-figma-2">
-                <p class="text-figma">Study and define how the website will look, through the
+                <p class="text-figma"> <span class="welcome">Study</span> and define how the website will look, through the
                     <span class="design">design</span> and creation of a mock-up to get an idea of the visual, studying all
                     aspects of UI and UX
                     based on the client's needs.
@@ -50,11 +50,11 @@
     
             <div class="row row-expertise">
                 <div class="col-md-12 div-expertise">
-                    <p class="stacks">front-end</p>
+                    <p class="stacks">Front-end</p>
                 </div>
     
                 <div class="col-md-12 div-front-2">
-                    <p class="text-front-2"> <span class="design">HTML</span> structures web content, <span class="design">CSS</span> styles it, and <span class="design">JavaScript</span> adds
+                    <p class="text-front-2"> <span class="welcome">HTML</span> structures web content, <span class="design">CSS</span> styles it, and <span class="design">JavaScript</span> adds
                         interactivity. <span class="design">Gsap</span> refines animations, providing a seamless user experience. <span class="design">React</span> streamlines
                         dynamic UI creation by efficiently managing components.</p>
                 </div>
@@ -64,16 +64,15 @@
         <div class="container cont-backend">
             <div class="row row-backend">
                 <div class="col-md-12 div-backend">
-                    <p class="back">back-end</p>
+                    <p class="back">Back-end</p>
                 </div>
                  <div class="col-md-12 div-front-3">
                     <p class="text-backend-2">
-                        <span class="design">PHP </span> handles server-side logic, <span class="design">Laravel</span> is a <span class="design">PHP </span> framework that streamlines web development with
-                        elegant syntax and built-in tools. <span class="design">MySQL</span> is a relational database management system used with <span class="design">PHP </span> to
-                        store and retrieve data efficiently.</p>
+                        <span class="welcome">Server-side</span> operations are handled by PHP, while Laravel, a framework constructed within it, simplifies web development with its elegant syntax and integrated tools. MySQL, a relational database management system, is used alongside PHP to efficiently store and retrieve data
+                    </p>
                 </div>
             </div>
-        </div>
+        </div>x
     </div>
 <x-footer />
 

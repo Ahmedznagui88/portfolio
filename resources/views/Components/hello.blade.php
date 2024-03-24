@@ -44,7 +44,7 @@
  
                 <div class="col-md-6 div-discover">
                     <p class="discover">
-                        I enjoy meeting new people, learning about fresh opportunities, and understanding various types of businesses. Feel free to reach out—I'd love to connect!
+                        <span class="welcome">I</span> enjoy meeting new people, learning about fresh opportunities, and understanding various types of businesses. Feel free to reach out—I'd love to connect!
                     </p>
                 </div>
             </div>

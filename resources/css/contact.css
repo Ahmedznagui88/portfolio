@@ -5,6 +5,16 @@
     font-size: 220px;
 }
 
+.text-email{
+  font-weight: 700;
+}
+
+.form-control-name, .form-control-email{
+  background-color: rgba(0, 0, 0, 0.67);
+  border-radius: 0;
+  height: 120px;
+
+}
 
 .form-control{
    background-color: rgba(0, 0, 0, 0.67);
@@ -12,7 +22,7 @@
    font-family: 'Supreme';
    font-weight: 200;
    border-radius: 0;
-   
+  font-size: 20px;
 }
 
 

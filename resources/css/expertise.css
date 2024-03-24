@@ -192,6 +192,7 @@ width: 100%;
 .text-front-2{
 width: 430px;
 font-weight: 200;
+font-size: 20px;
 }
 
 .cont-backend{
@@ -221,18 +222,20 @@ align-items: center;
 }
 
 .div-front-3{
-margin-top: 200px;
+margin-top: 160px;
 height: 400px;
 width: 430px;
 display: flex;
 justify-content: center;
 align-items: center;
+
 }
 
 .text-backend-2{
+  font-size: 20px;
   font-weight: 200;
   height: 300px;
-width: 500px;
+width: 600px;
 }
 
 

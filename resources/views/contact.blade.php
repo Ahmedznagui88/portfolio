@@ -22,18 +22,18 @@
                             <div class="row ">
                                 <div class="col-md-6">
                                     <label for="name" class="form-label">Full Name</label>
-                                    <input type="text" name="name" class="form-control " id="name"
+                                    <input type="text" name="name" class="form-control form-control-name" id="name"
                                         placeholder="Full Name">
                                 </div>
                                 <div class="col-md-6">
-                                    <label for="email" class="form-label ">Email</label>
-                                    <input type="email" name="email" class="form-control" id="email"
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" name="email" class="form-control form-control-email" id="email"
                                         placeholder="Email address">
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-12 mt-4">
-                            <label for="user_Message" class="form-label ">Text me</label>
+                            <label for="user_Message" class="form-label">Text me</label>
                             <textarea name="user_message" class="form-control" id="User_Message" cols="30" rows="5"
                                 placeholder="Your Message"></textarea>
                         </div>
