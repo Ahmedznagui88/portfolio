@@ -157,7 +157,6 @@
   }
 }
 
-/* Nascondi il SVG quando la traccia non è in riproduzione */
 #svgContainer:not(.playing) .animated-svg {
   display: none;
 }

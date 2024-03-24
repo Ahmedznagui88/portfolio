@@ -28,27 +28,6 @@ nav{
 }
 
 
-
-/* .row-front{
-    display: flex;    
-    justify-content: center;
-    width: 540px;
-}
-
-.div-front{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.front-end{
- font-weight: lighter;
- font-size: 23px;
- margin-top: 14px;
-    font-family: 'Panchang';
-} */
-
 .rotate {
     -webkit-animation: rotate 5s normal linear infinite;
     animation: rotate 5s normal linear infinite;
