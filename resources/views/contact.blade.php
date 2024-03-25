@@ -1,6 +1,7 @@
 <x-layout>
 
-    <x-hello />
+    <x-hello>
+    </x-hello> 
 
     <div class="container">
         <div class="row">
@@ -42,6 +43,8 @@
                 </div>
             </div>
         </div>
-        <x-footer />
+        <x-footer>
+    
+        </x-footer>
     </section>
 </x-layout>

@@ -14,5 +14,7 @@
     <x-work />
 </x-layout>
 <div class="div-x-footer">
-    <x-footer />
+    <x-footer>
+    
+    </x-footer>
 </div>
