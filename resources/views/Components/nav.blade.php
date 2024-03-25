@@ -36,6 +36,4 @@
                 <h1 class="name-text ">Ahmed Znagui</h1>
             </div>
         </div>
-
-
 </nav>
