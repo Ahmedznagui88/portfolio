@@ -1,4 +1,4 @@
-<x-layout >
+<x-layout>
     <main class="container-fluid main-music">
 
             <div id="page1" class="container-fluid cont-music">
