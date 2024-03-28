@@ -44,7 +44,7 @@
     
     
     
-    <div class="section ">
+    <div class="section">
     
         <div class="container cont-expertise">
     
@@ -72,7 +72,7 @@
                     </p>
                 </div>
             </div>
-        </div>x
+        </div>
     </div>
 <x-footer>
     
