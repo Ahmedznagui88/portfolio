@@ -22,3 +22,4 @@ tml.to(".name-text, .expertise-2, .div-svg-identity, .hello ", {
     stagger: 0.1,
     ease: "circ.out",
 });
+

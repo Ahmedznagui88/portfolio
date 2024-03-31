@@ -68,7 +68,7 @@
                 </div>
                  <div class="col-md-12 div-front-3">
                     <p class="text-backend-2">
-                        <span class="welcome">Server-side</span> operations are handled by PHP, while Laravel, a framework constructed within it, simplifies web development with its elegant syntax and integrated tools. MySQL, a relational database management system, is used alongside PHP to efficiently store and retrieve data
+                        <span class="welcome">Server-side</span> operations are handled by PHP, while Laravel, a framework constructed within it, simplifies web development with its elegant syntax and integrated tools. MySQL, a relational database management system, is used alongside PHP to efficiently store and retrieve data.
                     </p>
                 </div>
             </div>
