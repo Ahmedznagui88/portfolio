@@ -1,12 +1,10 @@
-<x-components.layout>
-    {{-- <x-nav>
-    </x-nav>  --}}
+<x-layout>
 
-    <x-components.nav>
+    <x-nav>
 
-    </x-components.nav>
+    </x-nav>
     
-    <x-components.header>
-    </x-components.header>
-</x-components.layout>
+    <x-header>
+    </x-header>
+</x-layout>
 
