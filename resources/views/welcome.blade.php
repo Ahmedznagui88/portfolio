@@ -1,8 +1,12 @@
-<x-layout>
-    <x-nav>
-    </x-nav> 
+<x-components.layout>
+    {{-- <x-nav>
+    </x-nav>  --}}
+
+    <x-components.nav>
+
+    </x-components.nav>
     
-    <x-header>
-    </x-header>
-</x-layout>
+    <x-components.header>
+    </x-components.header>
+</x-components.layout>
 
