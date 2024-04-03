@@ -21,6 +21,6 @@ class layout extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('layout');
+        return view('components.layout');
     }
 }
