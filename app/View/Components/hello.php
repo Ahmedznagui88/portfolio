@@ -21,6 +21,6 @@ class hello extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('hello');
+        return view('components.hello');
     }
 }
