@@ -45,7 +45,7 @@
                 <img src="/img/mac book pro.avif" class="img-fluid img-mac-book" alt="">
             </div>
             <h6 class="text-center text-laptop">
-                Play music in your laptop
+                Play music in your laptop.
             </h6>
         </div>
     </article>
