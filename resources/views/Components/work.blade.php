@@ -31,7 +31,7 @@
                    <img src="/img/proj/Ademi Sound.png" class="img-fluid img-project-2" alt="">
                </div> 
               <div class="col-6 img-ademi mt-5">
-                   <img src="/img/proj/Ademi time.png" class="img-fluid img-project-2" alt="">
+                   <img src="/img/proj/AdemiTime.png" class="img-fluid img-project-2" alt="">
                </div>  
                
             </div>

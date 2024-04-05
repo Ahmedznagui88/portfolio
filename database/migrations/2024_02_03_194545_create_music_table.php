@@ -15,7 +15,6 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->string('artist');
-            //table per immagine
             $table->string('cover');
             $table->time('duration');
             $table->string('file');
