@@ -86,7 +86,7 @@ display: flex;
 .text-figma{
   text-align: center;
   width: 500px;
-  font-size: 20px;
+  font-size: 17px;
   z-index: -11111;
   font-weight: 200;
 }
@@ -159,12 +159,12 @@ align-items: center;
 
 .design{
   
-font-size: 20px;
+font-size: 17px;
 font-family: 'Panchang';
 font-style: italic;
 }
 .stacks, .stack, .design, .back {
-  font-size: 20px;
+  font-size: 17px;
   font-family: 'panchang';
 text-decoration: none;
 animation:infinite ;
@@ -193,8 +193,8 @@ width: 100%;
 .text-front-2{
 width: 430px;
 font-weight: 200;
-font-size: 20px;
-font-family: 'Satoshi';
+font-size: 17px;
+font-family: 'Supreme';
 }
 
 .cont-backend{
@@ -234,11 +234,11 @@ align-items: center;
 }
 
 .text-backend-2{
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 200;
   height: 300px;
 width: 600px;
-font-family: 'Satoshi';
+font-family: 'Supreme';
 }
 
 
@@ -267,11 +267,11 @@ font-family: 'Satoshi';
   }
 
   .text-figma{
-    font-size: 20px;
+    font-size: 17px;
   }
 
   .figma{
-    font-size: 20px;
+    font-size: 17px;
   }
 
   .section{
@@ -316,11 +316,11 @@ background-size: none;
   }
 
   .text-figma{
-    font-size: 20px;
+    font-size: 17px;
   }
 
   .figma{
-    font-size: 20px;
+    font-size: 17px;
   }
 
   .section{
