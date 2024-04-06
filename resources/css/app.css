@@ -12,17 +12,17 @@
 @import 'outline';
 
   @font-face {
-    font-family: 'Supreme-Variable';
-    src: url('../../public/fonts/Supreme-Variable.woff2') format('woff2'),
-         url('../../public/fonts/Supreme-Variable.woff') format('woff'),
-         url('../../public/fonts/Supreme-Variable.ttf') format('truetype');
+    font-family: 'Panchang';
+    src: url('../../public/fonts/Panchang-Bold.woff2') format('woff2'),
+         url('../../public/fonts/Panchang-Bold.woff') format('woff'),
+         url('../../public/fonts/Panchang-Bold.woff') format('truetype');
          font-weight: 100 800;
          font-display: swap;
          font-style: normal;
   }
 
   @font-face {
-    font-family: 'Panchang-Variable';
+    font-family: 'Panchang';
     src: url('../../public/fonts/Panchang-Variable.woff2') format('woff2'),
          url('../../public/fonts/Panchang-Variable.woff') format('woff'),
          url('../../public/fonts/Panchang-Variable.ttf') format('truetype');
@@ -33,7 +33,7 @@
   
   
   @font-face {
-    font-family: 'Panchang-Extralight';
+    font-family: 'Panchang';
     src: url('../../public/fonts/Panchang-Extralight.woff2') format('woff2'),
          url('../../public/fonts/Panchang-Extralight.woff') format('woff'),
          url('../../public/fonts/Panchang-Extralight.ttf') format('truetype');
@@ -44,7 +44,7 @@
   
   
   @font-face {
-    font-family: 'Panchang-Light';
+    font-family: 'Panchang';
     src: url('../../public/fonts/Panchang-Light.woff2') format('woff2'),
          url('../../public/fonts/Panchang-Light.woff') format('woff'),
          url('../../public/fonts/Panchang-Light.ttf') format('truetype');
@@ -55,7 +55,7 @@
   
   
   @font-face {
-    font-family: 'Panchang-Regular';
+    font-family: 'Panchang';
     src: url('../../public/fonts/Panchang-Regular.woff2') format('woff2'),
          url('../../public/fonts/Panchang-Regular.woff') format('woff'),
          url('../../public/fonts/Panchang-Regular.ttf') format('truetype');
@@ -66,7 +66,7 @@
   
   
   @font-face {
-    font-family: 'Panchang-Medium';
+    font-family: 'Panchang';
     src: url('../../public/fonts/Panchang-Medium.woff2') format('woff2'),
          url('../../public/fonts/Panchang-Medium.woff') format('woff'),
          url('../../public/fonts/Panchang-Medium.ttf') format('truetype');
@@ -77,7 +77,7 @@
   
   
   @font-face {
-    font-family: 'Panchang-Semibold';
+    font-family: 'Panchang';
     src: url('../../public/fonts/Panchang-Semibold.woff2') format('woff2'),
          url('../../public/fonts/Panchang-Semibold.woff') format('woff'),
          url('../../public/fonts/Panchang-Semibold.ttf') format('truetype');
@@ -99,7 +99,7 @@
   
   
   @font-face {
-    font-family: 'Panchang-Extrabold';
+    font-family: 'Panchang';
     src: url('../../public/fonts/Panchang-Extrabold.woff2') format('woff2'),
          url('../../public/fonts/Panchang-Extrabold.woff') format('woff'),
          url('../../public/fonts/Panchang-Extrabold.ttf') format('truetype');
@@ -109,7 +109,7 @@
   }
   
   @font-face {
-    font-family: 'Satoshi-Variable';
+    font-family: 'Satoshi';
     src: url('../../public/fonts/Satoshi-Variable.woff2') format('woff2'),
          url('../../public/fonts/Satoshi-Variable.woff') format('woff'),
          url('../../public/fonts/Satoshi-Variable.ttf') format('truetype');
@@ -121,7 +121,7 @@
   
 
   @font-face {
-    font-family: 'Satoshi-VariableItalic';
+    font-family: 'Satoshi';
     src: url('../../public/fonts/Satoshi-VariableItalic.woff2') format('woff2'),
          url('../../public/fonts/Satoshi-VariableItalic.woff') format('woff'),
          url('../../public/fonts/Satoshi-VariableItalic.ttf') format('truetype');
@@ -132,7 +132,7 @@
   
   
   @font-face {
-    font-family: 'Satoshi-Light';
+    font-family: 'Satoshi';
     src: url('../../public/fonts/Satoshi-Light.woff2') format('woff2'),
          url('../../public/fonts/Satoshi-Light.woff') format('woff'),
          url('../../public/fonts/Satoshi-Light.ttf') format('truetype');
@@ -141,20 +141,11 @@
          font-style: normal;
   }
   
-  
-  @font-face {
-    font-family: 'Satoshi-LightItalic';
-    src: url('../../public/fonts/Satoshi-LightItalic.woff2') format('woff2'),
-         url('../../public/fonts/Satoshi-LightItalic.woff') format('woff'),
-         url('../../public/fonts/Satoshi-LightItalic.ttf') format('truetype');
-         font-weight: 300;
-         font-display: swap;
-         font-style: italic;
-  }
+
   
   
   @font-face {
-    font-family: 'Satoshi-Regular';
+    font-family: 'Satoshi';
     src: url('../../public/fonts/Satoshi-Regular.woff2') format('woff2'),
          url('../../public/fonts/Satoshi-Regular.woff') format('woff'),
          url('../../public/fonts/Satoshi-Regular.ttf') format('truetype');
@@ -164,19 +155,9 @@
   }
   
   
-  @font-face {
-    font-family: 'Satoshi-Italic';
-    src: url('../../public/fonts/Satoshi-Italic.woff2') format('woff2'),
-         url('../../public/fonts/Satoshi-Italic.woff') format('woff'),
-         url('../../public/fonts/Satoshi-Italic.ttf') format('truetype');
-         font-weight: 400;
-         font-display: swap;
-         font-style: italic;
-  }
-  
   
   @font-face {
-    font-family: 'Satoshi-Medium';
+    font-family: 'Satoshi';
     src: url('../../public/fonts/Satoshi-Medium.woff2') format('woff2'),
          url('../../public/fonts/Satoshi-Medium.woff') format('woff'),
          url('../../public/fonts/Satoshi-Medium.ttf') format('truetype');
@@ -186,19 +167,9 @@
   }
   
   
-  @font-face {
-    font-family: 'Satoshi-MediumItalic';
-    src: url('../../public/fonts/Satoshi-MediumItalic.woff2') format('woff2'),
-         url('../../public/fonts/Satoshi-MediumItalic.woff') format('woff'),
-         url('../../public/fonts/Satoshi-MediumItalic.ttf') format('truetype');
-         font-weight: 500;
-         font-display: swap;
-         font-style: italic;
-  }
-  
   
   @font-face {
-    font-family: 'Satoshi-Bold';
+    font-family: 'Satoshi';
     src: url('../../public/fonts/Satoshi-Bold.woff2') format('woff2'),
          url('../../public/fonts/Satoshi-Bold.woff') format('woff'),
          url('../../public/fonts/Satoshi-Bold.ttf') format('truetype');
@@ -209,7 +180,7 @@
   
   
   @font-face {
-    font-family: 'Satoshi-BoldItalic';
+    font-family: 'Satoshi';
     src: url('../../public/fonts/Satoshi-BoldItalic.woff2') format('woff2'),
          url('../../public/fonts/Satoshi-BoldItalic.woff') format('woff'),
          url('../../public/fonts/Satoshi-BoldItalic.ttf') format('truetype');
@@ -220,7 +191,7 @@
   
   
   @font-face {
-    font-family: 'Satoshi-Black';
+    font-family: 'Satoshi';
     src: url('../../public/fonts/Satoshi-Black.woff2') format('woff2'),
          url('../../public/fonts/Satoshi-Black.woff') format('woff'),
          url('../../public/fonts/Satoshi-Black.ttf') format('truetype');

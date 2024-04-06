@@ -13,8 +13,7 @@ main{
     color: white;
     font-size: 110px;   
     margin-top: 44px;
-    font-weight: lighter;
-    /* font-family: 'Panchang'; */
+    font-weight: 200;
 }
 
 .about{
@@ -26,9 +25,8 @@ main{
 }
 
 .expertise{
-    font-weight: 100;
+    font-weight: 200;
     font-size: 100px;
-    font-weight: lighter;
     color: white;
 }
 
