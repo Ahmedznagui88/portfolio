@@ -18,12 +18,12 @@
                         @csrf
                         <div class="container">
                             <div class="row ">
-                                <div class="col-md-6">
+                                <div class="col-md-6 mt-4">
                                     <label for="name" class="form-label">Full Name</label>
                                     <input type="text" name="name" class="form-control form-control-name"
                                         id="name" placeholder="Full Name">
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 mt-4">
                                     <label for="email" class="form-label">Email</label>
                                     <input type="email" name="email" class="form-control form-control-email"
                                         id="email" placeholder="Email address">
@@ -35,7 +35,7 @@
                             <textarea name="user_message" class="form-control" id="User_Message" cols="30" rows="5"
                                 placeholder="Your Message"></textarea>
                         </div>
-                        <button type="submit" class="btn-form mt-4">Send</button>
+                        <button type="submit" class="btn-form ">Send</button>
                     </form>
                 </div>
             </div>

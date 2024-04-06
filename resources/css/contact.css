@@ -138,7 +138,6 @@
 @media screen and (min-width: 200px) and (max-width: 767px){
   .cont-form{
     height: 600px;
-    margin-top: 40px;
   }
   .container-form{
     display: flex;
@@ -152,6 +151,10 @@
 
   .div-alert, .div-alert-s{
     font-size: 10px;
+  }
+
+  .form-control-name, .form-control-email{
+    height: 40px;
   }
 
 }
