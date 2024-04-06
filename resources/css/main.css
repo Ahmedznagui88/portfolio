@@ -73,7 +73,7 @@ main{
          background-size: 300px;
     }
     100% {
-        background-image: url(/public/img/Frame2.png);
+        background-image: url(../../public/img/Frame2.png);
         background-size: cover;
     }
 }

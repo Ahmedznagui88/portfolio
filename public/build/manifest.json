@@ -1,4 +1,160 @@
 {
+  "public/fonts/Panchang-Bold.woff": {
+    "file": "assets/Panchang-Bold-21c60a31.woff",
+    "src": "public/fonts/Panchang-Bold.woff"
+  },
+  "public/fonts/Panchang-Bold.woff2": {
+    "file": "assets/Panchang-Bold-0a11d038.woff2",
+    "src": "public/fonts/Panchang-Bold.woff2"
+  },
+  "public/fonts/Panchang-Extrabold.woff": {
+    "file": "assets/Panchang-Extrabold-82c8c14f.woff",
+    "src": "public/fonts/Panchang-Extrabold.woff"
+  },
+  "public/fonts/Panchang-Extrabold.woff2": {
+    "file": "assets/Panchang-Extrabold-7fb9916f.woff2",
+    "src": "public/fonts/Panchang-Extrabold.woff2"
+  },
+  "public/fonts/Panchang-Extralight.woff": {
+    "file": "assets/Panchang-Extralight-72587ecb.woff",
+    "src": "public/fonts/Panchang-Extralight.woff"
+  },
+  "public/fonts/Panchang-Extralight.woff2": {
+    "file": "assets/Panchang-Extralight-c108e58c.woff2",
+    "src": "public/fonts/Panchang-Extralight.woff2"
+  },
+  "public/fonts/Panchang-Light.woff": {
+    "file": "assets/Panchang-Light-5ab23c83.woff",
+    "src": "public/fonts/Panchang-Light.woff"
+  },
+  "public/fonts/Panchang-Light.woff2": {
+    "file": "assets/Panchang-Light-fe6d8380.woff2",
+    "src": "public/fonts/Panchang-Light.woff2"
+  },
+  "public/fonts/Panchang-Medium.woff": {
+    "file": "assets/Panchang-Medium-4c525f07.woff",
+    "src": "public/fonts/Panchang-Medium.woff"
+  },
+  "public/fonts/Panchang-Medium.woff2": {
+    "file": "assets/Panchang-Medium-2fdb1554.woff2",
+    "src": "public/fonts/Panchang-Medium.woff2"
+  },
+  "public/fonts/Panchang-Regular.woff": {
+    "file": "assets/Panchang-Regular-bbac6c60.woff",
+    "src": "public/fonts/Panchang-Regular.woff"
+  },
+  "public/fonts/Panchang-Regular.woff2": {
+    "file": "assets/Panchang-Regular-ba70d104.woff2",
+    "src": "public/fonts/Panchang-Regular.woff2"
+  },
+  "public/fonts/Panchang-Semibold.woff": {
+    "file": "assets/Panchang-Semibold-fdba9ef0.woff",
+    "src": "public/fonts/Panchang-Semibold.woff"
+  },
+  "public/fonts/Panchang-Semibold.woff2": {
+    "file": "assets/Panchang-Semibold-47b8dc87.woff2",
+    "src": "public/fonts/Panchang-Semibold.woff2"
+  },
+  "public/fonts/Panchang-Variable.woff": {
+    "file": "assets/Panchang-Variable-62924b45.woff",
+    "src": "public/fonts/Panchang-Variable.woff"
+  },
+  "public/fonts/Panchang-Variable.woff2": {
+    "file": "assets/Panchang-Variable-85ac3844.woff2",
+    "src": "public/fonts/Panchang-Variable.woff2"
+  },
+  "public/fonts/Satoshi-Black.woff": {
+    "file": "assets/Satoshi-Black-a849a7b7.woff",
+    "src": "public/fonts/Satoshi-Black.woff"
+  },
+  "public/fonts/Satoshi-Black.woff2": {
+    "file": "assets/Satoshi-Black-bd11b582.woff2",
+    "src": "public/fonts/Satoshi-Black.woff2"
+  },
+  "public/fonts/Satoshi-Bold.woff": {
+    "file": "assets/Satoshi-Bold-1789917c.woff",
+    "src": "public/fonts/Satoshi-Bold.woff"
+  },
+  "public/fonts/Satoshi-Bold.woff2": {
+    "file": "assets/Satoshi-Bold-353a7fbf.woff2",
+    "src": "public/fonts/Satoshi-Bold.woff2"
+  },
+  "public/fonts/Satoshi-BoldItalic.woff": {
+    "file": "assets/Satoshi-BoldItalic-5d73878e.woff",
+    "src": "public/fonts/Satoshi-BoldItalic.woff"
+  },
+  "public/fonts/Satoshi-BoldItalic.woff2": {
+    "file": "assets/Satoshi-BoldItalic-52bfd9e8.woff2",
+    "src": "public/fonts/Satoshi-BoldItalic.woff2"
+  },
+  "public/fonts/Satoshi-Italic.woff": {
+    "file": "assets/Satoshi-Italic-a6df1710.woff",
+    "src": "public/fonts/Satoshi-Italic.woff"
+  },
+  "public/fonts/Satoshi-Italic.woff2": {
+    "file": "assets/Satoshi-Italic-dbcb8c32.woff2",
+    "src": "public/fonts/Satoshi-Italic.woff2"
+  },
+  "public/fonts/Satoshi-Light.woff": {
+    "file": "assets/Satoshi-Light-dd42e743.woff",
+    "src": "public/fonts/Satoshi-Light.woff"
+  },
+  "public/fonts/Satoshi-Light.woff2": {
+    "file": "assets/Satoshi-Light-8a24f395.woff2",
+    "src": "public/fonts/Satoshi-Light.woff2"
+  },
+  "public/fonts/Satoshi-LightItalic.woff": {
+    "file": "assets/Satoshi-LightItalic-2f9c5264.woff",
+    "src": "public/fonts/Satoshi-LightItalic.woff"
+  },
+  "public/fonts/Satoshi-LightItalic.woff2": {
+    "file": "assets/Satoshi-LightItalic-9690a557.woff2",
+    "src": "public/fonts/Satoshi-LightItalic.woff2"
+  },
+  "public/fonts/Satoshi-Medium.woff": {
+    "file": "assets/Satoshi-Medium-7aeaf037.woff",
+    "src": "public/fonts/Satoshi-Medium.woff"
+  },
+  "public/fonts/Satoshi-Medium.woff2": {
+    "file": "assets/Satoshi-Medium-af02a722.woff2",
+    "src": "public/fonts/Satoshi-Medium.woff2"
+  },
+  "public/fonts/Satoshi-MediumItalic.woff": {
+    "file": "assets/Satoshi-MediumItalic-cf98a3ed.woff",
+    "src": "public/fonts/Satoshi-MediumItalic.woff"
+  },
+  "public/fonts/Satoshi-MediumItalic.woff2": {
+    "file": "assets/Satoshi-MediumItalic-beb15382.woff2",
+    "src": "public/fonts/Satoshi-MediumItalic.woff2"
+  },
+  "public/fonts/Satoshi-Regular.woff": {
+    "file": "assets/Satoshi-Regular-9fbc41c9.woff",
+    "src": "public/fonts/Satoshi-Regular.woff"
+  },
+  "public/fonts/Satoshi-Regular.woff2": {
+    "file": "assets/Satoshi-Regular-50dca57f.woff2",
+    "src": "public/fonts/Satoshi-Regular.woff2"
+  },
+  "public/fonts/Satoshi-Variable.woff": {
+    "file": "assets/Satoshi-Variable-9cdbec9e.woff",
+    "src": "public/fonts/Satoshi-Variable.woff"
+  },
+  "public/fonts/Satoshi-Variable.woff2": {
+    "file": "assets/Satoshi-Variable-e739aff9.woff2",
+    "src": "public/fonts/Satoshi-Variable.woff2"
+  },
+  "public/fonts/Satoshi-VariableItalic.woff": {
+    "file": "assets/Satoshi-VariableItalic-787e19b1.woff",
+    "src": "public/fonts/Satoshi-VariableItalic.woff"
+  },
+  "public/img/Frame1.png": {
+    "file": "assets/Frame1-acb1eea3.png",
+    "src": "public/img/Frame1.png"
+  },
+  "public/img/Frame2.png": {
+    "file": "assets/Frame2-f5f27962.png",
+    "src": "public/img/Frame2.png"
+  },
   "public/img/bg.png": {
     "file": "assets/bg-7cf2c822.png",
     "src": "public/img/bg.png"
@@ -12,7 +168,7 @@
     "src": "public/img/me2.jpeg"
   },
   "resources/css/app.css": {
-    "file": "assets/app-07124a68.css",
+    "file": "assets/app-3b7cab07.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
