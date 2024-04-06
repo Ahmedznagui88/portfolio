@@ -51,7 +51,7 @@
 }
 
 .welcome{
-    font-family: 'panchang';
+    /* font-family: 'panchang'; */
     font-weight: 700;
 }
 
@@ -64,7 +64,7 @@
 }
 
 .number{
-    font-family: 'panchang';
+    /* font-family: 'panchang'; */
     font-size: 200px;
     font-weight:bolder;
     color: #000000;
@@ -74,7 +74,7 @@
 
 .text-ademi{
     font-size: 210px;
-    font-family: 'panchang';
+    /* font-family: 'panchang'; */
     font-weight:bolder;
     transition: transform .1s;
     z-index: -777771;

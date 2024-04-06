@@ -21,6 +21,9 @@
 
   
 .nav-links{
+  width: 800px;
+    /* aggiunta dopo */
+
     display: flex;
    justify-content: center;
    align-items: center;   
@@ -66,7 +69,7 @@
     color: rgb(255, 255, 255);
     background-color: #f20e0e;
     font-size: 11px;
-    font-family: 'panchang';
+    /* font-family: 'panchang'; */
     font-weight: 300;
     margin: 10px;
     transition: .7s;
@@ -78,7 +81,7 @@
   }
 
 .bn35:hover {
-    font-family: "Panchang";
+    /* font-family: "Panchang"; */
     font-style: italic;
     text-decoration: none;
     animation:infinite ;
@@ -156,11 +159,11 @@
     display: none;
   }
 
-  .active{
+ /*  .active{
  
     border-bottom: solid 0.2px #f00909;
     background: none;
-  }
+  } */
 
 }
 

@@ -7,11 +7,11 @@
 @import 'music';
 @import 'footer';
 @import 'contact';
-@import 'load';
 @import 'work';
 @import 'hello';
 @import 'outline';
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,600;1,6..12,200&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,600;1,6..12,200&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
   @font-face {
     font-family: 'Supreme-Variable';
@@ -22,7 +22,7 @@
          font-display: swap;
          font-style: normal;
   }
-
+  @import url('panchang.css');
   @font-face {
     font-family: 'Panchang-Variable';
     src: url('../fonts/Panchang-Variable.woff2') format('woff2'),
@@ -109,5 +109,4 @@
          font-display: swap;
          font-style: normal;
   }
-  
   

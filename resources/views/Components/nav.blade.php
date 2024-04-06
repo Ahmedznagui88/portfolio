@@ -33,7 +33,7 @@
                     
             </div>
             <div class="col-md-10 div-name">
-                <h1 class="name-text ">Ahmed Znagui</h1>
+                <h1 class="name-text text-center">Ahmed Znagui</h1>
             </div>
         </div>
 </nav>

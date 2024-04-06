@@ -19,7 +19,7 @@
 .form-control{
    background-color: rgba(0, 0, 0, 0.67);
    color: #ffffff;
-   font-family: 'Supreme';
+   /* font-family: 'Supreme'; */
    font-weight: 200;
    border-radius: 0;
   font-size: 20px;
