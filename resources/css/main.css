@@ -84,6 +84,7 @@ main{
     filter: grayscale(100%);
     display: flex;
     align-items: center;
+    font-family: 'Satoshi';
     flex-direction: column;
     font-size: 35px;
     text-align: center;

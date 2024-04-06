@@ -22,8 +22,6 @@
   
 .nav-links{
   width: 800px;
-    /* aggiunta dopo */
-
     display: flex;
    justify-content: center;
    align-items: center;   
@@ -52,6 +50,7 @@
     height: 50px;
     color: rgb(240, 118, 25);
     font-size: 19px;
+    font-family: 'Satoshi';
     font-weight: 200;
     padding: 0.7em 1em;
     margin: 10px;
