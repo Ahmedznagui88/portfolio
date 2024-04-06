@@ -57,7 +57,7 @@ main{
 
 @keyframes changeColor {
     0% {
-        background-image: url(../../public/img/Frame\ 1.png);
+        background-image: url(../../public/img/Frame1.png);
         background-size: contain;
     }
     25% {
@@ -73,7 +73,7 @@ main{
          background-size: 300px;
     }
     100% {
-        background-image: url(../../public/img/Frame\ 2.png);
+        background-image: url(/public/img/Frame2.png);
         background-size: cover;
     }
 }

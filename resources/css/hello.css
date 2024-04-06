@@ -16,17 +16,18 @@
     text-align: center;
     font-weight: 1000;
     font-size: 220px;
-    
+    font-family: 'Satoshi';
   }
   
   .letters{
-    /* font-family: "Panchang"; */
+    font-family: "Panchang";
     font-size: 200px;
     font-weight: 400;
   }
   
   .discover{
     font-weight: 200;
+    font-family: 'Satoshi';
     color: #000;
     font-size: 25px;
   }
