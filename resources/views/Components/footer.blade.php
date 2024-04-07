@@ -17,7 +17,6 @@
             </div>
 
            <a href="{{ route('music') }}" class="nav-link col-2   @if (Route::currentRouteName() == 'music') active-1 @endif" target="_blank">
-
                 <p class="bn35">experience</p>
             </a>
         </div>
