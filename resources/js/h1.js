@@ -10,7 +10,7 @@ tml.from(
     ".name-text, .expertise-2, .about-title, .text-music, .div-svg-identity",
     {
         opacity: 0,
-        y: 90,
+        y: 30,
         duration: 1,
         transformOrigin: "bottom left",
         stagger: 0.1,

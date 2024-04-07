@@ -144,12 +144,12 @@
     "src": "public/img/me2.jpeg"
   },
   "resources/css/app.css": {
-    "file": "assets/app-8c75b6c4.css",
+    "file": "assets/app-67e89f6f.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
   "resources/js/app.js": {
-    "file": "assets/app-93760cc2.js",
+    "file": "assets/app-175a2321.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   }
