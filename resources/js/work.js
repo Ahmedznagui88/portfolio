@@ -26,7 +26,6 @@ imgProject.to(".img-project, .img-project-1", {
 .to(".img-project, .img-project-1", {
   y: 0,
   opacity: 0,
-  duration: 20,
   ease: "back.out(1.7)",
 });
 
@@ -40,7 +39,7 @@ imgProject.to(".img-project, .img-project-1", {
           start: "top 520",
           end: "top 200",
           scrub: true,
-
+          ease: "slow(0.7,0.7,false)",
       },
     });
     
@@ -48,13 +47,10 @@ imgProject.to(".img-project, .img-project-1", {
       x: 0,
       y: -200,
       duration: 16,
+      ease: "slow(0.7,0.7,false)",
     })
       .to(".img-project-2", {
-        duration: 16,
-
         opacity:0,
-         
-          
-          
+        ease: "slow(0.7,0.7,false)",
       }) 
 
