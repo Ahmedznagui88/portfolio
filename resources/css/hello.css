@@ -35,10 +35,9 @@
   .link-social{
     display: flex;
     flex-direction: column;
-    
   }
 
-  .link-git, .link-linkedin, .resume{
+  .link-git, .link-linkedin, .resume, .email{
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -90,7 +89,7 @@
       }
 
 
-      .link-git, .link-linkedin, .resume{
+      .link-git, .link-linkedin, .resume, .email{
         width: 90px;
         height: 50px;
         display: flex;
