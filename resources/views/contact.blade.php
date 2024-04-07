@@ -10,29 +10,7 @@
             </div>
 
             <div class="col-12 div-mail">
-                <svg class="svg-mail" width="160" height="80" viewBox="0 0 535 285" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M51 20C51 8.9543 59.9543 0 71 0L463.5 0C474.546 0 483.5 8.95431 483.5 20V265C483.5 276.046 474.546 285 463.5 285H71C59.9543 285 51 276.046 51 265L51 20Z" fill="white"/>
-                    <path d="M51 20C51 8.9543 59.9543 0 71 0L463.5 0C474.546 0 483.5 8.95431 483.5 20V265C483.5 276.046 474.546 285 463.5 285H71C59.9543 285 51 276.046 51 265L51 20Z" fill="url(#paint0_linear_270_32)" fill-opacity="0.5"/>
-                    <g filter="url(#filter0_d_270_32)">
-                    <path d="M256.552 157.582C262.963 161.52 271.041 161.527 277.459 157.6L474.44 37.0593C491.663 26.5195 484.193 0 464 0L70.7738 0C50.5985 0 43.1148 26.4825 60.3061 37.0419L256.552 157.582Z" fill="white"/>
-                    </g>
-                    <defs>
-                    <filter id="filter0_d_270_32" x="50.7383" y="0" width="433.297" height="164.541" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                    <feOffset dy="4"/>
-                    <feComposite in2="hardAlpha" operator="out"/>
-                    <feColorMatrix type="matrix" values="0 0 0 0 0.912932 0 0 0 0 0.495742 0 0 0 0 0.495742 0 0 0 1 0"/>
-                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_270_32"/>
-                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_270_32" result="shape"/>
-                    </filter>
-                    <linearGradient id="paint0_linear_270_32" x1="299" y1="357" x2="292.5" y2="116" gradientUnits="userSpaceOnUse">
-                    <stop offset="0.18" stop-color="white"/>
-                    <stop offset="1" stop-opacity="0"/>
-                    </linearGradient>
-                    </defs>
-                </svg>
-                    
+                <img class="posta" src="/img/icons8-posta-96.png" alt="">
                 <h3 class="mail">
                     ahmed.znagui@hotmail.com
                 </h3>

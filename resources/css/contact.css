@@ -6,8 +6,8 @@
     font-family: 'Satoshi';
 }
 
-.svg-mail{
-  width: 140px;
+.posta{
+  width: 40px;
 
 }
 
@@ -173,19 +173,20 @@
     height: 40px;
   }
 
-  .svg-mail{
-    width: 20px;
-  
-  }
   
   .div-mail{
+    margin-top: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     justify-content: space-around;
     align-items: center;
     height: 100px;
   }
+  .posta{
+    margin-top: 20px;
+    width: 40px;
+  }  
   
   .mail{
     font-family: 'Panchang';
