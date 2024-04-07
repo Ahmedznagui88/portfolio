@@ -173,12 +173,10 @@
     height: 40px;
   }
 
-  .svg-mail{
-    width: 40px;
-  
-  }
+
   
   .div-mail{
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -186,10 +184,16 @@
     align-items: center;
     height: 100px;
   }
+
+  .svg-mail{
+    margin-top: 20px;
+    width: 40px;
+  
+  }
   
   .mail{
     font-family: 'Panchang';
-     font-weight: 200;
+     font-weight: 300;
      font-size: 12px;
   }
 

@@ -33,7 +33,7 @@
 
 
 .row-prot{
-margin-top: 300px;
+margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -168,7 +168,7 @@ font-style: italic;
   font-family: 'panchang';
 text-decoration: none;
 animation:infinite ;
-font-weight: 200;
+font-weight: 300;
 transform: scale(0.98);
 color: whitesmoke;
 border-radius: 20px;
@@ -256,6 +256,7 @@ font-family: 'Satoshi';
     text-align: center;
     font-size: 6px;
     width: 90px;
+    font-weight: 300;
   }
 
   .containee{
@@ -272,6 +273,7 @@ font-family: 'Satoshi';
 
   .figma{
     font-size: 17px;
+    font-weight: 300;
   }
 
   .section{

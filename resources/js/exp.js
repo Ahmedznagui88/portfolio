@@ -89,7 +89,6 @@ back.to(".back", {
 })
 .to(".back", {
     x: 0,
-    opacity: 0,
     duration: 2,
 });
 
