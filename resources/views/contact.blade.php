@@ -10,7 +10,7 @@
             </div>
 
             <div class="col-12 div-mail">
-                <svg class="svg-mail" width="535" height="285" viewBox="0 0 535 285" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg  width="160" height="80" viewBox="0 0 535 285" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M51 20C51 8.9543 59.9543 0 71 0L463.5 0C474.546 0 483.5 8.95431 483.5 20V265C483.5 276.046 474.546 285 463.5 285H71C59.9543 285 51 276.046 51 265L51 20Z" fill="white"/>
                     <path d="M51 20C51 8.9543 59.9543 0 71 0L463.5 0C474.546 0 483.5 8.95431 483.5 20V265C483.5 276.046 474.546 285 463.5 285H71C59.9543 285 51 276.046 51 265L51 20Z" fill="url(#paint0_linear_270_32)" fill-opacity="0.5"/>
                     <g filter="url(#filter0_d_270_32)">
