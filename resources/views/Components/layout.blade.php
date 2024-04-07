@@ -12,14 +12,9 @@
 
 <body>
     <div class="outline"></div>
-    <div class="cursor"></div>
-    <div id="smooth-wrapper">
-        <div id="smooth-content">
-
-            <div class="min-vh-100">
-                {{ $slot }}
-            </div>
-        </div>
+    
+    <div class="min-vh-100">
+        {{ $slot }}
     </div>
     <script src="https://unpkg.com/split-type"></script>
 </body>
