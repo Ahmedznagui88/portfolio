@@ -18,7 +18,7 @@
 	zoom: 70px;
 }
 
-@media screen and (min-width: 200px) and (max-width: 1000px){
+@media screen and (min-width: 200px) and (max-width: 800px){
 	.outline{
 		display: none;
 	}
