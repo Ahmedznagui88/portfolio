@@ -34,16 +34,7 @@ main{
 
 
 
-@keyframes infiniteHover {
-    0%, 100% {
-        background-image: linear-gradient(to right, #935b5b, #832ebf);
 
-    }
-    50% {
-        background-image: linear-gradient(to right , #ffffff, #606cc3);
-
-    }
-}
 .ref-1 :hover {
     font-family: "Panchang";
     font-style: italic;
@@ -55,7 +46,7 @@ main{
 
 }
 
-@keyframes changeColor {
+/* @keyframes changeColor {
     0% {
         background-image: url(../../public/img/Frame1.png);
         background-size: contain;
@@ -76,7 +67,7 @@ main{
         background-image: url(../../public/img/Frame2.png);
         background-size: cover;
     }
-}
+} */
 .div-opera {
     background-image: url(/public/img/me2.jpeg);
     background-size: cover;
