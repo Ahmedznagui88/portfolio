@@ -2,7 +2,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
   //*img project 
 
-
+gsap.registerPlugin(ScrollTrigger);
 //? img 0
 
 let imgProject = gsap.timeline ({
@@ -13,6 +13,7 @@ let imgProject = gsap.timeline ({
       scrub: true,
       duration: 20,
       ease: "back.out(1.7)",
+      markers: true,
   },
 });
 

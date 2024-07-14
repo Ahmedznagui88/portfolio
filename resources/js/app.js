@@ -7,3 +7,4 @@ import './exp';
 import './work';
 import './transition';
 import './cursor';
+import './tpage';

@@ -10,7 +10,7 @@
     <title>Ahmed Znagui</title>
 </head>
 
-<body>
+<body data-barba="wrapper" >
     <div class="outline"></div>
     <div class="cursor"></div>
     <div class="min-vh-100">
